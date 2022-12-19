@@ -31,12 +31,12 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className='p-2'>
+          <div className='pl-1'>
             <h2 className='text-7xl py-2 font-poppins font-thin'>Hi,</h2>
             <h1 className='text-6xl font-poppins font-bold underline decoration-blue tracking-tight'>I'm Eric Xie</h1>
             <h3 className='text-2xl font-poppins font-light py-2'>Software Developer</h3>
           </div>
-          <div className='text-2xl flex justify-start gap-1 px-2 py-1'>
+          <div className='text-2xl flex justify-start gap-1 pl-1 py-1'>
             <a class href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
             <a href="https://github.com/ericcxie"><AiFillGithub/></a>
             <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
