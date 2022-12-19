@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import { BsMoonFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube } from 'react-icons/ai';
+import Image from 'next/image';
+import arrow from '../public/components/Arrow 2.svg'
+import amafind from '../public/img/amafind.png'
+import { FiMenu } from 'react-icons/fi';
 
 
 export default function Home() {
@@ -20,7 +24,11 @@ export default function Home() {
               <li>
                 <BsMoonFill className='cursor-pointer text-2xl'/>
               </li> 
-              <li><a className='bg-blue text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+              <li className='pl-3 pt-1'>
+                <button>
+                  <FiMenu className='text-4xl text-blue'/>
+                </button>
+              </li>
             </ul>
           </nav>
           <div className='p-2'>
@@ -28,12 +36,29 @@ export default function Home() {
             <h1 className='text-6xl font-poppins font-bold underline decoration-blue tracking-tight'>I'm Eric Xie</h1>
             <h3 className='text-2xl font-poppins font-light py-2'>Software Developer</h3>
           </div>
-          <nav className='py-3 px-2 mb-12 flex justify-left space-x-2 w-50 h-50'>
-            <a class href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin size={20}/></a>
-            <a href="https://github.com/ericcxie"><AiFillGithub size={20}/></a>
-            <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram size={20}/></a>
-            <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube size={20}/></a>
-          </nav>
+          <div className='text-2xl flex justify-start gap-1 px-2 py-1'>
+            <a class href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+            <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+            <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+            <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+          </div>
+          <div className='relative mx-auto py-20'>
+            <Image className='mx-auto' src={arrow}/>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl font-poppins font-semibold'>Projects</h3>
+          </div>
+          <div>
+            <div className='shadow-lg p-10 rounded-xl my-10'>
+
+              <h3 className='text-xl font-medium'>AmaFind - Amazon Webscraper in Python</h3>
+              <p className='italic pb-5'>Python, pandas, BeautifulSoup4</p>
+              <Image src={amafind}/>
+            </div>
+          </div>
         </section>
       </main>
     </div>
