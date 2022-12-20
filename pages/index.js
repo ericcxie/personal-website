@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
        
       <main className='bg-white px-10'>
