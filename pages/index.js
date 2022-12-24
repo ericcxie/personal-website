@@ -1,29 +1,32 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { BsMoonFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube } from 'react-icons/ai';
 import Image from 'next/image';
-import arrow from '../public/components/Arrow 2.svg'
-import amafind from '../public/img/amafind.png'
+import arrow from '../public/components/Arrow 2.svg';
+import amafind from '../public/img/amafind.png';
 import { FiMenu } from 'react-icons/fi';
-import favicon from '../public/img/favicon.png'
+import favicon from '../public/img/favicon.png';
+import { useState } from "react";
+import dots from '../public/components/dots.svg';
 
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
         <link rel="icon" href="/favicon.png" />
       </Head>
        
-      <main className='bg-white px-10 md:px-20'>
-        <section className="min-h-screen">
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212]'>
+        <section className="min-h-screen"> 
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className='text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
             <ul className='flex items-center'>
               <li>
-                <BsMoonFill className='cursor-pointer text-2xl'/>
+                <BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
               </li> 
               <li className='pl-3 pt-1'>
                 <button>
@@ -32,37 +35,37 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className='pl-1'>
-            <h2 className='text-7xl py-2 font-poppins font-thin'>Hi,</h2>
-            <h1 className='text-6xl font-poppins font-bold underline decoration-blue tracking-tight'>I'm Eric Xie</h1>
-            <h3 className='text-3xl font-poppins font-light py-2'>Software Developer</h3>
+          <div className='pl-1 dark:text-white'> {/* Home page */}
+            <h2 className='py-2 font-poppins font-thin text-6xl md:text-7xl'>Hi,</h2>
+            <div className='flex gap-2 justify-start text-5xl md:text-7xl'>
+              <h1 className='font-poppins font-bold tracking-tight'>I'm</h1>
+              <h1 className='font-poppins font-bold underline underline-offset-3 decoration-blue decoration-7 tracking-tight md:decoration-8'>Eric Xie</h1>
+            </div>
+            <h3 className='font-poppins font-light py-2 text-2xl md:text-3xl'>Software Developer</h3>
           </div>
           <div className='py-2 px-1 flex justify-start gap-4'>
             <button className="font-poppins text-small bg-blue hover:bg-[#537399] text-white font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
             <button className='font-poppins font-medium text-blue'>Resume</button>
           </div>
-          <div className='text-2xl flex justify-start gap-1 pl-1 py-2'>
-            <a class href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+          <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white'>
+            <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
             <a href="https://github.com/ericcxie"><AiFillGithub/></a>
             <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
             <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-          </div>
-          <div className='relative mx-auto py-20'>
-            
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className='text-3xl font-poppins font-semibold'>Projects</h3>
+            <h3 className='text-3xl font-poppins font-semibold dark:text-white'>Projects</h3>
           </div>
-          <div>
-            <div className='shadow-lg p-10 rounded-xl my-10'>
+          <div className='lg:flex gap-10 lg:grid-cols-3 dark:text-white'> {/* Project cards */}
+            <div className='shadow-lg p-10 rounded-xl my-10 dark:shadow-blue'>
               <h3 className='text-xl font-medium'>AmaFind - Amazon Webscraper in Python</h3>
               <p className='italic pb-5'>Python, pandas, BeautifulSoup4</p>
               <Image src={amafind}/>
             </div>
-            <div className='shadow-lg p-10 rounded-xl my-10'>
+            <div className='shadow-lg p-10 rounded-xl my-10 dark:shadow-blue'>
               <h3 className='text-xl font-medium'>AmaFind - Amazon Webscraper in Python</h3>
               <p className='italic pb-5'>Python, pandas, BeautifulSoup4</p>
               <Image src={amafind}/>
