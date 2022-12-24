@@ -46,10 +46,15 @@ export default function Home() {
                   <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
                 </div>
                 <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
-                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/></li>
+                <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-white'>
+                  {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                </li>
               </ul>
               <ul className='flex sm:hidden flex-1 justify-end gap-4'>
-                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li>
+                {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
+                <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
+                  {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                </li>
                 <li className='text-3xl text-blue'>
                   <FiMenu/>
                 </li>
