@@ -9,6 +9,8 @@ import { FiMenu } from 'react-icons/fi';
 import favicon from '../public/img/favicon.png';
 import { useState } from "react";
 import dots from '../public/components/dots.svg';
+import { RxDividerVertical } from 'react-icons/rx';
+
 
 
 export default function Home() {
@@ -16,7 +18,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <Head className="dark:bg-[#121212]">
+      <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
         <link rel="icon" href="/favicon.png" />
@@ -26,14 +28,23 @@ export default function Home() {
         <section className="min-h-screen"> 
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
-              <h1 className='py-1 text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
-              <ul className='hidden sm:flex flex-1 justify-end items-center gap-12 dark:text-white'>
-                <li className='cursor-pointer'>Work</li>
-                <li className='cursor-pointer'>Projects</li>
-                <li className='cursor-pointer'>About</li>
-                <li className='cursor-pointer'>Resume</li>
-                <li className='cursor-pointer'>Contact</li>
-                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/></li> 
+              <h1 className='py-2 text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
+              <ul className='hidden sm:flex flex-1 justify-start items-center pl-10 gap-12 dark:text-white'>
+                <li className='cursor-pointer font-poppins'>Projects</li>
+                <li className='cursor-pointer font-poppins'>Work</li>
+                <li className='cursor-pointer font-poppins'>About</li>
+                <li className='cursor-pointer font-poppins'>Resume</li>
+                <li className='cursor-pointer font-poppins'>Contact</li>
+              </ul>
+              <ul className='hidden sm:flex flex-1 justify-end items-center gap-3'>
+                <div className='flex gap-1 text-2xl dark:text-white'>
+                  <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+                  <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+                  <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                  <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+                </div>
+                <li><RxDividerVertical className='dark:text-white text-xl'/></li> 
+                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/></li>
               </ul>
               <ul className='flex sm:hidden flex-1 justify-end gap-4'>
                 <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li>
@@ -44,24 +55,29 @@ export default function Home() {
             </nav>
           </header>
           
-          <div className='pl-1 dark:text-white'> {/* Home page */}
-            <h2 className='py-2 font-poppins font-thin text-6xl md:text-7xl'>Hi,</h2>
-            <div className='flex gap-2 justify-start text-5xl md:text-7xl'>
-              <h1 className='font-poppins font-bold tracking-tight'>I'm</h1>
-              <h1 className='font-poppins font-bold underline underline-offset-3 decoration-blue decoration-7 tracking-tight md:decoration-8'>Eric Xie</h1>
+          <section className='flex items-center justify-between px-10 gap-15'>
+            <div className='pb-20'>
+              <div className='pl-1 dark:text-white'> {/* Home page */}
+                <h2 className='py-2 font-poppins font-thin text-5xl md:text-7xl'>Hi,</h2>
+                <div className='flex gap-2 justify-start text-5xl md:text-6xl'>
+                  <h1 className='font-poppins font-bold tracking-tight'>I'm</h1>
+                  <h1 className='font-poppins font-bold underline underline-offset-3 decoration-blue decoration-7 tracking-tight md:decoration-8'>Eric Xie</h1>
+                </div>
+                <h3 className='font-poppins font-light py-2 text-2xl md:text-3xl'>Software Developer</h3>
+              </div>
+              <div className='py-2 px-1 flex justify-start gap-4'>
+                <button className="font-poppins text-small bg-blue hover:bg-[#537399] text-white font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
+                <button className='font-poppins font-medium text-blue'>Resume</button>
+              </div>
+              <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white'>
+                <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+                <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+                <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+              </div>
             </div>
-            <h3 className='font-poppins font-light py-2 text-2xl md:text-3xl'>Software Developer</h3>
-          </div>
-          <div className='py-2 px-1 flex justify-start gap-4'>
-            <button className="font-poppins text-small bg-blue hover:bg-[#537399] text-white font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
-            <button className='font-poppins font-medium text-blue'>Resume</button>
-          </div>
-          <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white'>
-            <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
-            <a href="https://github.com/ericcxie"><AiFillGithub/></a>
-            <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-            <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-          </div>
+            <div className='hidden lg:inline'><Image src={dots}/></div>
+          </section>
         </section>
 
         <section>
