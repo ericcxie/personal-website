@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
        
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212]'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212] dark:h-full'>
         <section className="min-h-screen"> 
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
