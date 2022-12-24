@@ -26,26 +26,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
        
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813] dark:h-full'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
         <section className="min-h-screen"> 
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
-              <h1 className='py-2 text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
-              <ul className='hidden sm:flex flex-1 justify-start items-center pl-10 gap-12 dark:text-white'>
+              <h1 className='py-2 text-xl lg:text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
+              <ul className='hidden sm:flex flex-1 justify-start items-center pl-10 text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12  dark:text-white'>
                 <li className='cursor-pointer font-poppins'>Projects</li>
                 <li className='cursor-pointer font-poppins'>Work</li>
                 <li className='cursor-pointer font-poppins'>About</li>
                 <li className='cursor-pointer font-poppins'>Resume</li>
                 <li className='cursor-pointer font-poppins'>Contact</li>
               </ul>
-              <ul className='hidden sm:flex flex-1 justify-end items-center gap-3'>
-                <div className='flex gap-1 text-2xl dark:text-white'>
+              <ul className='hidden sm:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
+                <div className='flex gap-1 text-xl lg:text-2xl dark:text-white'>
                   <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
                   <a href="https://github.com/ericcxie"><AiFillGithub/></a>
                   <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
                   <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
                 </div>
-                <li><RxDividerVertical className='dark:text-white text-xl'/></li> 
+                <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
                 <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/></li>
               </ul>
               <ul className='flex sm:hidden flex-1 justify-end gap-4'>
@@ -57,11 +57,11 @@ export default function Home() {
             </nav>
           </header>
           
-          <section className='flex items-center justify-between px-2 py-3 md:px-10 lg:px-10 gap-15'>
+          <section className='flex items-center md:justify-between py-3 md:px-90'>
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
-                <h2 className='py-2 font-poppins font-thin text-5xl md:text-7xl'>Hi,</h2>
-                <div className='flex gap-2 justify-start text-5xl md:text-6xl'>
+                <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
+                <div className='flex gap-2 justify-start text-5xl md:text-6xl xl:text-7xl'>
                   <h1 className='font-poppins font-bold tracking-tight'>I'm</h1>
                   <h1 className='font-poppins font-bold underline underline-offset-3 decoration-blue decoration-7 tracking-tight md:decoration-8'>Eric Xie</h1>
                 </div>
@@ -78,7 +78,7 @@ export default function Home() {
                 <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
               </div>
             </div>
-            <div className='hidden md:inline lg:inline'><Image src={dots}/></div>
+            <div className='hidden md:w-1/2 md:inline'><Image src={dots}/></div>
           </section>
         </section>
 
