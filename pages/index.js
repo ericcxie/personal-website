@@ -55,7 +55,7 @@ export default function Home() {
             </nav>
           </header>
           
-          <section className='flex items-center justify-between px-10 gap-15'>
+          <section className='flex items-center justify-between px-2 py-3 md:px-10 lg:px-10 gap-15'>
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-7xl'>Hi,</h2>
@@ -76,7 +76,7 @@ export default function Home() {
                 <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
               </div>
             </div>
-            <div className='hidden lg:inline'><Image src={dots}/></div>
+            <div className='hidden md:inline lg:inline'><Image src={dots}/></div>
           </section>
         </section>
 
