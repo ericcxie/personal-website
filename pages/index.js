@@ -22,11 +22,11 @@ export default function Home() {
       <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
-        <meta name="theme-color" content={darkMode ? "#121212" : "#FFFFFF"}/>
+        <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
         <link rel="icon" href="/favicon.png" />
       </Head>
        
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212] dark:h-full'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813] dark:h-full'>
         <section className="min-h-screen"> 
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
