@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
-        <meta name="theme-color" content={darkMode ? "#000000" : "#121212"}/>
+        <meta name="theme-color" content={darkMode ? "#121212" : "#FFFFFF"}/>
         <link rel="icon" href="/favicon.png" />
       </Head>
        
