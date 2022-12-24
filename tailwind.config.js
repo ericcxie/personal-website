@@ -9,11 +9,11 @@ module.exports = {
          extend: {
               fontFamily: {
                      'poppins': ['Poppins', 'sans-serif']
-                     
               },
 
               colors: {
                      blue: '#7491B3',
+                     dark: '#5c748f',
               }
          },
        },  
