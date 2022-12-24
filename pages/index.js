@@ -10,6 +10,7 @@ import favicon from '../public/img/favicon.png';
 import { useState } from "react";
 import dots from '../public/components/dots.svg';
 import { RxDividerVertical } from 'react-icons/rx';
+import profile from '../public/img/profilepic.jpg';
 
 
 export default function Home() {
@@ -86,21 +87,28 @@ export default function Home() {
             <h3 className='text-3xl font-poppins font-semibold dark:text-white'>Projects</h3>
           </div>
           <div className='lg:flex gap-10 lg:grid-cols-3 dark:text-white'> {/* Project cards */}
-            <div className='shadow-lg p-10 rounded-xl my-10 dark:shadow-blue'>
+            <div className='shadow-lg p-10 rounded-xl my-10 dark:border dark:shadow-slate-500'>
               <h3 className='text-xl font-medium'>AmaFind - Amazon Webscraper in Python</h3>
               <p className='italic pb-5'>Python, pandas, BeautifulSoup4</p>
               <Image src={amafind}/>
             </div>
-            <div className='shadow-lg p-10 rounded-xl my-10 dark:shadow-blue'>
+            <div className='shadow-lg p-10 rounded-xl my-10 dark:border dark:shadow-slate-500'>
               <h3 className='text-xl font-medium'>AmaFind - Amazon Webscraper in Python</h3>
               <p className='italic pb-5'>Python, pandas, BeautifulSoup4</p>
               <Image src={amafind}/>
             </div>
           </div>
         </section>
-        <section>
+
+        <section className='py-10 dark:text-white'>
           <div>
-            <h3 className='text-3xl font-poppins font-semibold'>About</h3>
+            <h3 className='text-3xl font-poppins font-semibold dark:text-white'>About</h3>
+          </div>
+          <div>
+            <div className='relative w-80 h-80 pt-16 mx-auto'>
+              <Image src={profile} className='rounded-full'/>
+            </div>
+            <p className='py-24 mx-auto text-center max-w-lg'>Hi! I'm currently a computer engineering student at the University of Waterloo. Feel free to connect with me!</p>
           </div>
         </section>
       </main>
