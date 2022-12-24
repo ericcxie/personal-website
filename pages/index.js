@@ -71,7 +71,7 @@ export default function Home() {
                 <button className="font-poppins text-small bg-blue hover:bg-[#537399] text-white font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
                 <button className='font-poppins font-medium text-blue'>Resume</button>
               </div>
-              <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white'>
+              <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidden'>
                 <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
                 <a href="https://github.com/ericcxie"><AiFillGithub/></a>
                 <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
