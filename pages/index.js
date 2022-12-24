@@ -30,12 +30,12 @@ export default function Home() {
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
               <h1 className='py-2 text-2xl lg:text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
-              <ul className='hidden font-medium sm:flex flex-1 justify-start items-center pl-10 text-blue hover:text-dark text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
-                <li className='cursor-pointer font-poppins'>Projects</li>
-                <li className='cursor-pointer font-poppins'>Work</li>
-                <li className='cursor-pointer font-poppins'>About</li>
-                <li className='cursor-pointer font-poppins'>Resume</li>
-                <li className='cursor-pointer font-poppins'>Contact</li>
+              <ul className='hidden font-medium sm:flex flex-1 justify-start items-center pl-10 text-blue text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
+                <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
+                <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
+                <li className='cursor-pointer font-poppins hover:text-dark'>About</li>
+                <li className='cursor-pointer font-poppins hover:text-dark'>Resume</li>
+                <li className='cursor-pointer font-poppins hover:text-dark'>Contact</li>
               </ul>
               <ul className='hidden sm:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
                 <div className='flex gap-1 text-xl lg:text-2xl dark:text-white'>
