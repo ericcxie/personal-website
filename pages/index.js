@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { BsMoonFill } from 'react-icons/bs';
+import { BsSunFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube } from 'react-icons/ai';
 import Image from 'next/image';
 import arrow from '../public/components/Arrow 2.svg';
@@ -11,6 +12,7 @@ import dots from '../public/components/dots.svg';
 
 
 export default function Home() {
+  const [toggle, setToggle] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -22,19 +24,26 @@ export default function Home() {
        
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212]'>
         <section className="min-h-screen"> 
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className='text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
-            <ul className='flex items-center'>
-              <li>
-                <BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
-              </li> 
-              <li className='pl-3 pt-1'>
-                <button>
-                  <FiMenu className='text-4xl text-blue'/>
-                </button>
-              </li>
-            </ul>
-          </nav>
+          <header>
+            <nav className="container flex item-start py-4 sm:py-12">
+              <h1 className='py-1 text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
+              <ul className='hidden sm:flex flex-1 justify-end items-center gap-12 dark:text-white'>
+                <li className='cursor-pointer'>Work</li>
+                <li className='cursor-pointer'>Projects</li>
+                <li className='cursor-pointer'>About</li>
+                <li className='cursor-pointer'>Resume</li>
+                <li className='cursor-pointer'>Contact</li>
+                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/></li> 
+              </ul>
+              <ul className='flex sm:hidden flex-1 justify-end gap-4'>
+                <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li>
+                <li className='text-3xl text-blue'>
+                  <FiMenu/>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          
           <div className='pl-1 dark:text-white'> {/* Home page */}
             <h2 className='py-2 font-poppins font-thin text-6xl md:text-7xl'>Hi,</h2>
             <div className='flex gap-2 justify-start text-5xl md:text-7xl'>
