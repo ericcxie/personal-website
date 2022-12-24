@@ -16,7 +16,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <Head>
+      <Head className="dark:bg-[#121212]">
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
         <link rel="icon" href="/favicon.png" />
