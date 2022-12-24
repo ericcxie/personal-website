@@ -12,15 +12,16 @@ import dots from '../public/components/dots.svg';
 import { RxDividerVertical } from 'react-icons/rx';
 
 
-
 export default function Home() {
   const [toggle, setToggle] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric Xie | Software Developer" />
+        <meta name="theme-color" content={darkMode ? "#000000" : "#121212"}/>
         <link rel="icon" href="/favicon.png" />
       </Head>
        
