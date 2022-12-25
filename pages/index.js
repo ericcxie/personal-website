@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/Link';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import Image from 'next/image';
