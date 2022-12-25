@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/Link';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import Image from 'next/image';
@@ -24,21 +25,22 @@ export default function Home() {
         <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
         <link rel="icon" href="/favicon.png" />
       </Head>
-       
+      
+      {/* Header menu bar */}
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
         <section className="min-h-screen"> 
           <header>
             <nav className="container flex item-start py-4 sm:py-12">
-              <h1 className='py-2 text-2xl lg:text-2xl font-poppins font-bold text-blue'>Eric Xie.</h1>
-              <ul className='hidden font-medium sm:flex flex-1 justify-start items-center pl-10 text-blue text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
+              <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
+              <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
                 <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
                 <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
                 <li className='cursor-pointer font-poppins hover:text-dark'>About</li>
                 <li className='cursor-pointer font-poppins hover:text-dark'>Resume</li>
                 <li className='cursor-pointer font-poppins hover:text-dark'>Contact</li>
               </ul>
-              <ul className='hidden sm:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
-                <div className='flex gap-1 text-xl lg:text-2xl dark:text-white'>
+              <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
+                <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
                   <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
                   <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
                   <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
@@ -50,7 +52,7 @@ export default function Home() {
                   {darkMode ? <BsSunFill/> : <BsMoonFill/> }
                 </li>
               </ul>
-              <ul className='flex sm:hidden flex-1 justify-end gap-4'>
+              <ul className='flex lg:hidden flex-1 justify-end gap-4'>
                 {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
                 <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
                   {darkMode ? <BsSunFill/> : <BsMoonFill/> }
@@ -64,7 +66,7 @@ export default function Home() {
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
-                <div className='flex gap-2 justify-start text-5xl md:text-6xl xl:text-7xl'>
+                <div className='flex gap-2 justify-start text-5xl lg:text-6xl xl:text-7xl'>
                   <h1 className='font-poppins font-bold tracking-tight'>I'm</h1>
                   <h1 className='font-poppins font-bold underline underline-offset-3 decoration-blue decoration-7 tracking-tight md:decoration-8'>Eric Xie</h1>
                 </div>
@@ -72,7 +74,9 @@ export default function Home() {
               </div>
               <div className='py-2 px-1 flex justify-start gap-4'>
                 <button className="font-poppins text-small bg-blue hover:bg-[#537399] text-white font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
-                <button className='font-poppins font-medium text-blue hover:text-dark'>Resume</button>
+                <button className='font-poppins font-medium text-blue hover:text-dark'>
+                  <Link href={'/resume'}>Resume</Link>
+                </button>
               </div>
               <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidden'>
                 <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
