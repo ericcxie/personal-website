@@ -25,43 +25,45 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       
+
+
       {/* Header menu bar */}
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
         <section className="min-h-screen"> 
-          <header>
-            <nav className="container flex item-start py-4 sm:py-12">
+          <nav class="bg-white px-7 py-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
+            <div class="container flex flex-wrap items-center justify-between mx-auto">
               <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
               <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md xl:text-lg gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
-                <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
-                <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
-                <li className='cursor-pointer font-poppins hover:text-dark'>About</li>
-                <li className='cursor-pointer font-poppins hover:text-dark'>Resume</li>
-                <li className='cursor-pointer font-poppins hover:text-dark'>Contact</li>
-              </ul>
-              <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
-                <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
-                  <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-                  <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-                  <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
-                  <a href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
-                  <a href="https://github.com/ericcxie"><AiFillGithub/></a>
-                </div>
-                <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
-                <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-white'>
-                  {darkMode ? <BsSunFill/> : <BsMoonFill/> }
-                </li>
-              </ul>
-              <ul className='flex lg:hidden flex-1 justify-end gap-4'>
-                {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
-                <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
-                  {darkMode ? <BsSunFill/> : <BsMoonFill/> }
-                </li>
-                <li className='text-3xl text-blue'><FiMenu/></li>
-              </ul>
-            </nav>
-          </header>
-          
-          <section className='flex items-center md:justify-between py-3 md:px-90'>
+                    <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
+                    <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
+                    <li className='cursor-pointer font-poppins hover:text-dark'>About</li>
+                    <li className='cursor-pointer font-poppins hover:text-dark'>Resume</li>
+                    <li className='cursor-pointer font-poppins hover:text-dark'>Contact</li>
+                  </ul>
+                  <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
+                    <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
+                      <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+                      <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                      <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+                      <a href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
+                      <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+                    </div>
+                    <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
+                    <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-white'>
+                      {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                    </li>
+                  </ul>
+                  <ul className='flex lg:hidden flex-1 justify-end gap-4'>
+                    {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
+                    <li onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
+                      {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                    </li>
+                    <li className='text-3xl text-blue'><FiMenu/></li>
+                  </ul>
+            </div>
+          </nav>
+
+          <section className='flex items-center md:justify-between py-24 md:px-90'>
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
@@ -106,6 +108,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+      
 
         <section className='py-10 dark:text-white'>
           <div>
