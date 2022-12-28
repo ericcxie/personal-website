@@ -75,7 +75,8 @@ export default function Home() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'font-poppins font-normal bg-white mt-3 py-2 text-blue shadow-lg rounded-2xl text-center ' : 'hidden'}>
+
+              <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'lg:hidden font-poppins font-normal bg-white mt-3 py-2 text-blue shadow-lg rounded-2xl dark:bg-[#060813] dark:shadow-slate-500 text-center' : 'hidden'}>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Projects</a>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Work</a>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>About</a>

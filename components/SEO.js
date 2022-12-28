@@ -3,9 +3,8 @@ import { useState } from "react";
 
 export default function SEO() {
     const [toggle, setToggle] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(false);
     return (
-        
         <Head>
         <title>Eric Xie</title>
         <meta name="description" content="Eric  | Software Developer" />
