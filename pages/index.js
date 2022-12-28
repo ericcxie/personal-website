@@ -29,7 +29,7 @@ export default function Home() {
       {/* Header menu bar */}
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
           {/* Navigation bar */}
-          <nav className="bg-white px-7 py-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
+          <nav className="bg-white px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
               <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
               <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
@@ -75,8 +75,7 @@ export default function Home() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-
-              <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'lg:hidden font-poppins font-normal bg-white mt-3 py-2 text-blue shadow-lg rounded-2xl dark:bg-[#060813] dark:shadow-slate-500 text-center' : 'hidden'}>
+              <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'lg:hidden font-poppins font-normal bg-white mt-3 py-2 text-blue shadow-lg rounded-2xl dark:bg-[#060813] dark:border dark:shadow-slate-500 text-center' : 'hidden'}>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Projects</a>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Work</a>
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>About</a>
@@ -84,7 +83,6 @@ export default function Home() {
                 <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Contact</a>
               </div>
             </Transition>
-            
           </nav>
         
       
