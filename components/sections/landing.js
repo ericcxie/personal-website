@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import dots from '../../public/components/dots.svg';
 import { useState } from "react";
-
+import Link from 'next/link';
 
 
 export default function Landing() {

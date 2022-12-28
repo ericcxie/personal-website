@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter, AiOutlineClose } from 'react-icons/ai';
+import { CgClose } from 'react-icons/cg';
 import { FiMenu } from 'react-icons/fi';
 import { useState } from "react";
 import { RxDividerVertical } from 'react-icons/rx';
@@ -31,7 +32,7 @@ export default function Home() {
           <nav className="bg-white px-7 py-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
               <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
-              <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-black text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
+              <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
                     <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
                     <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
                     <li className='cursor-pointer font-poppins hover:text-dark'>About</li>
@@ -59,22 +60,33 @@ export default function Home() {
                     {/* mobile button */}
                     <button> 
                       <li onClick={() => setIsOpen(!isOpen)} className='text-3xl text-blue'>
-                        {isOpen ? <AiOutlineClose/> : <FiMenu/> } 
+                        {isOpen ? <CgClose/> : <FiMenu/> } 
                       </li>
-                    </button>
-                          
+                    </button>  
                   </ul>
             </div>
-            
             {/* mobile menu */}
-            <div className='mobile-menu hidden'>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:text-white'>Projects</a>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:text-white'>Work</a>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:text-white'>About</a>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:text-white'>Resume</a>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:text-white'>Contact</a>
-            </div>
+            <Transition
+              show={isOpen}
+              enter="transition ease-out duration-100 transform"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="transition ease-in duration-75 transform"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'font-poppins font-normal bg-white mt-3 py-2 text-blue shadow-lg rounded-2xl text-center ' : 'hidden'}>
+                <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Projects</a>
+                <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Work</a>
+                <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>About</a>
+                <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Resume</a>
+                <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Contact</a>
+              </div>
+            </Transition>
+            
           </nav>
+        
+      
 
         <Landing/>
         <Projects/>
