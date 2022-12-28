@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
-import dots from '../../public/components/dots.svg';
+import dots from '../../public/SVG/dots.svg';
 import { useState } from "react";
 import Link from 'next/link';
 
+import Header from '../navigation/navbar';
 
 export default function Landing() {
     const [toggle, setToggle] = useState(false);
