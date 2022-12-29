@@ -5,9 +5,9 @@ import { FiMenu } from 'react-icons/fi';
 import { useState } from "react";
 import { RxDividerVertical } from 'react-icons/rx';
 import { Transition } from "@headlessui/react";
+import react from 'react';
 
 export default function NavBar(props) {
-    const [darkMode, setDarkMode] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
     return (     
@@ -31,13 +31,13 @@ export default function NavBar(props) {
               </div>
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>
-                {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
               </li>
             </ul>
             <ul className='flex lg:hidden flex-1 justify-end gap-4'>
               {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
-              <li onClick={props.onClick} className='cursor-pointer text-2xl mt-1 dark:text-white'>
-                {darkMode ? <BsSunFill/> : <BsMoonFill/> }
+              <li onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
+                {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
               </li>
               {/* mobile button */}
               <button> 
