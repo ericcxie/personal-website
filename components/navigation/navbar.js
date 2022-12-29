@@ -13,7 +13,10 @@ export default function NavBar(props) {
     return (     
       <nav className="bg-white px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto pb-2">
-        <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
+        <a href="#top">
+          <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
+        </a>
+        
         <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
               <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
               <li className='cursor-pointer font-poppins hover:text-dark'>Work</li>
