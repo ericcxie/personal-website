@@ -6,6 +6,9 @@ import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
 import About from '../components/sections/about';
 import NavBar from '../components/navigation/navbar';
+import Contact from '../components/sections/contact';
+import Footer from '../components/navigation/footer';
+import Work from '../components/sections/work';
 
 
 export default function Home() {
@@ -26,11 +29,19 @@ export default function Home() {
       
       {/* Header menu bar */}
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
-        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
+        <div className='z-2'>
+          <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
+        </div>
+        <div className='z-1'>
         <Landing/>
         <Projects/>
+        <Work/>
         <About/>
+        </div>
+        
+        <Footer/>
       </main>
+      
     </div>
   );
 }
