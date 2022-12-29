@@ -14,7 +14,7 @@ export default function NavBar(props) {
     return (     
       <nav className="bg-white px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto pb-2">
-        <button onClick={() => {window.scrollTo({top: 50, behavior: 'smooth'})}}>
+        <button onClick={() => {window.scrollTo({top: 0, behavior: 'smooth', duration: 100})}}>
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
         </button>
         
