@@ -17,7 +17,7 @@ export default function Work() {
                 </li>
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-blue rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2022 - April. 2022</time>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep. 2021 – Feb. 2022</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Project Researcher
                     </h2>
@@ -30,7 +30,7 @@ export default function Work() {
                 </li>
                 <li className="ml-4">
                     <div className="absolute w-3 h-3 bg-blue rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2022 - April. 2022</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Software Developer
                     </h2>
