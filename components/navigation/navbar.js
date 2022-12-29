@@ -5,7 +5,8 @@ import { FiMenu } from 'react-icons/fi';
 import { useState } from "react";
 import { RxDividerVertical } from 'react-icons/rx';
 import { Transition } from "@headlessui/react";
-import react from 'react';
+import Link from 'next/link';
+import { useEffect } from 'react';
 
 export default function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +14,9 @@ export default function NavBar(props) {
     return (     
       <nav className="bg-white px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto pb-2">
-        <a href="#top">
+        <button onClick={() => {window.scrollTo({top: 50, behavior: 'smooth'})}}>
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-blue cursor-pointer'>Eric Xie.</h1>
-        </a>
+        </button>
         
         <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-blue text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
               <li className='cursor-pointer font-poppins hover:text-dark'>Projects</li>
