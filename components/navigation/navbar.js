@@ -20,7 +20,9 @@ export default function NavBar(props) {
         
         <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-zinc-800 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
               <li className='cursor-pointer font-poppins hover:text-blue'>Projects</li>
-              <li className='cursor-pointer font-poppins hover:text-blue'>Work</li>
+              <li className='cursor-pointer font-poppins hover:text-blue'>
+                <Link href="#experiences" >Experiences</Link>
+                </li>
               <li className='cursor-pointer font-poppins hover:text-blue'>About</li>
               <li className='cursor-pointer font-poppins hover:text-blue'>Resume</li>
               <li className='cursor-pointer font-poppins hover:text-blue'>Contact</li>
@@ -67,7 +69,7 @@ export default function NavBar(props) {
             <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Projects</a>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Work</a>
+              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>Experiences</a>
             </li>
             <li>
               <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-blue hover:rounded-lg hover:text-white'>About</a>

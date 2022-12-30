@@ -14,9 +14,9 @@ export default function Footer() {
                 <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2022. All Rights Reserved.</p>
 
                 <div class="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">
-                    <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-                    <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
-                    <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+                    <a className='transition ease-in-out delay-100 hover:-translate-y-1' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                    <a className='transition ease-in-out delay-100 hover:-translate-y-1' href="https://github.com/ericcxie"><AiFillGithub/></a>
+                    <a className='transition ease-in-out delay-100 hover:-translate-y-1' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
                 </div>
             </div>
         </footer>   

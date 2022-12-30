@@ -9,8 +9,6 @@ import Arrow from '../../public/SVG/Arrow 2.svg';
 import Header from '../navigation/navbar';
 
 export default function Landing() {
-    const [toggle, setToggle] = useState(false);
-    const [darkMode, setDarkMode] = useState(false);
     return (
         <section className='flex items-center md:justify-between py-24 md:px-90'>
             <div className='pb-20'>

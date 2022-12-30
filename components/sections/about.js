@@ -8,6 +8,9 @@ export default function About() {
     return (
         <section className='py-10 dark:text-white'>
           <div>
+            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue to-dark">
+                About
+            </h1>
             <div className='relative z-0 order-0 w-80 h-80 pt-16 mx-auto'>
               <Image src={profile} className='rounded-full z-0'/>
             </div>

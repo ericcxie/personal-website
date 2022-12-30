@@ -8,7 +8,7 @@ import About from '../components/sections/about';
 import NavBar from '../components/navigation/navbar';
 import Contact from '../components/sections/contact';
 import Footer from '../components/navigation/footer';
-import Work from '../components/sections/work';
+import Experiences from '../components/sections/experiences';
 
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
         <div className='z-1'>
         <Landing/>
         <Projects/>
-        <Work/>
+        <Experiences/>
         <About/>
         </div>
         
