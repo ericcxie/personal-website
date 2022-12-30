@@ -7,7 +7,7 @@ export default function Experiences() {
             <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue to-dark">
                 Experiences
             </h1>
-            <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-col justify-center items-start'>
             <ol className="relative border-l -pl-0 border-gray-200 dark:border-gray-700">                  
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-blue rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
