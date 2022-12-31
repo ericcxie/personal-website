@@ -54,6 +54,7 @@ export default function NavBar(props) {
             </ul>
       </div>
       {/* mobile menu */}
+
       <Transition
         show={isOpen}
         enter="transition ease-out duration-100 transform"
@@ -63,7 +64,9 @@ export default function NavBar(props) {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'lg:hidden ring-1 ring-zinc-900/5 dark:ring-white/10 font-poppins font-normal bg-white mt-3 py-2 text-theme shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] dark:shadow-slate-500 text-center' : 'hidden'}>
+        <div className="relative">
+          <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-purple-700 via-blue-blue-500 to-blue-600 rounded-lg blur"></div>
+          <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'relative lg:hidden ring-1 ring-zinc-900/5  font-poppins font-normal bg-white mt-3 py-2 text-theme shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center' : 'hidden'}>
           <ul>
             <li>
             <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Projects</a>
@@ -82,6 +85,8 @@ export default function NavBar(props) {
             </li>
           </ul>
         </div>
+      </div>
+        
       </Transition>
     </nav>
     
