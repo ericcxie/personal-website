@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import dots from '../../public/SVG/dots.svg';
+import SlideUp from '../transitions/slideup';
 
 export default function Landing() {
+
     return (
         <section className='flex items-center md:justify-between py-24 md:px-90'>
             <div className='pb-20'>

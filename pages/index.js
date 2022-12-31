@@ -18,6 +18,7 @@ export default function Home() {
     setDarkMode(!darkMode);
   }
   
+  
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -34,6 +35,7 @@ export default function Home() {
         <Projects/>
         <Experiences/>
         <About/>
+        <Contact/>
         <Footer/>
       </main>
       
