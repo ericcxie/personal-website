@@ -24,7 +24,7 @@ export default function Projects_draft() {
                             <FiGithub/>
                         </a>
                     </div>
-                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue via-blue-500 to-purple-600"></span>
+                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#306998] via-[#4B8BBE] to-[#FFD43B]"></span>
                     <div class="justify-between sm:flex">
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 dark:text-white">
@@ -41,7 +41,7 @@ export default function Projects_draft() {
 
                     <div class="mt-6 flex">
                         <div class="flex flex-col-reverse">
-                            <p class="text-sm font-medium text-gray-500 dark:text-gray-200">Python // Selenium // BeautifulSoup4</p>
+                            <p class="text-sm font-medium text-gray-500 dark:text-gray-200">Python // pandas // Selenium // BeautifulSoup4</p>
                         </div>
                     </div>
                 </a>
@@ -56,7 +56,7 @@ export default function Projects_draft() {
                             <FiGithub/>
                         </a>
                     </div>
-                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue via-blue-500 to-purple-600"></span>
+                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#1c2c4c] via-[#4B8BBE] to-[#88dded]"></span>
                     <div class="justify-between sm:flex">
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 dark:text-white">

@@ -34,8 +34,6 @@ export default function Home() {
         <Projects/>
         <Experiences/>
         <About/>
-        
-        
         <Footer/>
       </main>
       
