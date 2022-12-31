@@ -29,11 +29,11 @@ export default function NavBar(props) {
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
-                <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-                <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-                <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
-                <a href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
-                <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+                <a className='hover:text-dark' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+                <a className='hover:text-dark' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                <a className='hover:text-dark' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+                <a className='hover:text-dark' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
+                <a className='hover:text-dark' href="https://github.com/ericcxie"><AiFillGithub/></a>
               </div>
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>

@@ -26,12 +26,12 @@ export default function Landing() {
                   <a href="https://drive.google.com/file/d/1OXMh5eZJjOtlf1Q0CsogtOGVadJUs3AY/view?usp=sharing">Resume</a>
                 </button>
               </div>
-              <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidden'>
-                <a href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-                <a href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-                <a href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>      
-                <a href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
-                <a href="https://github.com/ericcxie"><AiFillGithub/></a>
+              <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidde'>
+                <a className='hover:text-dark' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+                <a className='hover:text-dark' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                <a className='hover:text-dark' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>      
+                <a className='hover:text-dark' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
+                <a className='hover:text-dark' href="https://github.com/ericcxie"><AiFillGithub/></a>
               </div>
             </div>
             <div className='hidden md:w-1/2 md:inline'><Image src={dots}/></div>
