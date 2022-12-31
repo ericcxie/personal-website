@@ -1,28 +1,121 @@
-import Image from 'next/image';
-import amafind_mockup from '../../public/img/amafind_mockup.png';
-import gradient from '../../public/img/gradient-1.png';
+import { FaPython, FaReact } from 'react-icons/fa';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiTailwindcss, SiSelenium } from 'react-icons/si';
 
-
-export default function Projects() {
+export default function Projects_draft() {
     return (
-        <section className='mb-20'>
-          <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue to-dark">
+        <section className='py-10 mb-10'>
+            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue to-dark">
                 Projects
-          </h1>
-          <div className='text-center shadow-lg rounded-xl  my-10 sm:p-0 sm:my-0 last:md:shadow-none md:rounded-none md:text-left mx-auto md:flex md:justify-center '>
-            <Image className="max-w-xs md:p-1 relative drop-shadow-xl hover:drop-shadow-2xl mx-auto cursor-pointer transition ease-in-out delay-100 hover:-translate-y-2" src={amafind_mockup} alt="image description"/>
-            <div className='flex-1 py-5 md:pl-20'>
-                <h2 className="text-lg font-semibold text-dark dark:text-white cursor-pointer">
-                    AmaFind - Amazon Web Scraper
-                </h2>
-                <time className="mb-1 text-md font-normal leading-none text-gray-400 dark:text-gray-500">Sep. 2021 – Feb. 2022</time>
-                <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <h3 className='italic pt-2 text-gray-600'>Python // Selenium // BeautifulSoup4</h3>
-            </div>
-          </div>
-          
-        </section>
+            </h1>
+            {/* first card */}
+            <div class="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1">
+                    <div className='flex gap-3'>
+                        <FaPython className='text-4xl mb-3'/>
+                        <SiSelenium className='text-4xl mb-3'/>
+                    </div>
+                    <div className='text-2xl'>
+                        <a href='https://youtu.be/7JiUlha6u1A' class="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiExternalLink/>
+                        </a>
+                        <a href='https://github.com/ericcxie/AmaFind' class="absolute right-16 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiGithub/>
+                        </a>
+                    </div>
+                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue via-blue-500 to-purple-600"></span>
+                    <div class="justify-between sm:flex">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">
+                                AmaFind - Amazon Web Scraper
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="mt-4 sm:pr-8">
+                        <p class="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <div class="mt-6 flex">
+                        <div class="flex flex-col-reverse">
+                            <p class="text-sm font-medium text-gray-500">Python // Selenium // BeautifulSoup4</p>
+                        </div>
+                    </div>
+                </a>
+                {/* second card */}
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1">
+                    <FaReact className='text-4xl mb-3'/>
+                    <div className='text-2xl'>
+                        <a href='https://budget-expense-tracker-react.netlify.app/' class="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiExternalLink/>
+                        </a>
+                        <a href='https://github.com/ericcxie/react-budget-expense-tracker' class="absolute right-16 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiGithub/>
+                        </a>
+                    </div>
+                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue via-blue-500 to-purple-600"></span>
+                    <div class="justify-between sm:flex">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">
+                                Budget Expense Tracker
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="mt-4 sm:pr-8">
+                        <p class="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <div class="mt-6 flex">
+                        <div class="flex flex-col-reverse">
+                            <p class="text-sm font-medium text-gray-500">ReactJS // JavaScript // Context API</p>
+                        </div>
+                    </div>
+                </a>
+                {/* third card */}
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1">
+                    <div className='flex gap-3'>
+                        <TbBrandNextjs className='text-4xl mb-3'/>
+                        <SiTailwindcss className='text-4xl mb-3'/>
+                    </div>
+                    <div className='text-2xl'>
+                        <a href='https://ericxie.dev/' class="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiExternalLink/>
+                        </a>
+                        <a href='https://github.com/ericcxie/personal-website' class="absolute right-16 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
+                            <FiGithub/>
+                        </a>
+                    </div>
+                    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-blue via-blue-500 to-purple-600"></span>
+                    <div class="justify-between sm:flex">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">
+                                Personal Website
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="mt-4 sm:pr-8">
+                        <p class="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <div class="mt-6 flex">
+                        <div class="flex flex-col-reverse">
+                            <p class="text-sm font-medium text-gray-500">NextJS // Selenium // BeautifulSoup4</p>
+                        </div>
+                    </div>
+                </a>
+        </div>
+    </section>
+
+        
+        
     );
 }

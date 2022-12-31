@@ -29,15 +29,12 @@ export default function Home() {
       
       {/* Header menu bar */}
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
-        <div className='z-2'>
-          <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
-        </div>
-        <div className='z-1'>
+        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
         <Landing/>
         <Projects/>
         <Experiences/>
         <About/>
-        </div>
+        
         
         <Footer/>
       </main>
