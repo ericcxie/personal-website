@@ -19,7 +19,7 @@ export default function Experiences() {
                         Bayview Yearbook Committee
                     </h3>
                     <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ensured the successful delivery of the yearbook by acting as a liaison between the student body and school administration
                     </p>
                 </li>
                 <li className="mb-10 ml-4">
@@ -32,12 +32,12 @@ export default function Experiences() {
                         DoubleOcean Financial Group Ltd.
                     </h3>
                     <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Conducted an independent research project on machine learning used in PD-1 related medicine using library databases to explore areas for potential investment opportunities
                     </p>
                 </li>
                 <li className="ml-4">
                     <div className="absolute w-3 h-3 bg-blue rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2022 - April. 2022</time>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2023 - Current</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Software Developer
                     </h2>
@@ -45,7 +45,7 @@ export default function Experiences() {
                         Brookfield Annuity
                     </h3>
                     <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. TBD
                     </p>
                 </li>
             </ol>
