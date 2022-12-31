@@ -34,8 +34,8 @@ export default function Projects_draft() {
                     </div>
                     <div class="mt-4 sm:pr-8">
                         <p class="text-sm text-gray-500 dark:text-gray-100">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
-                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                            A web scraper application that is built in Python using Selenium, BeautifulSoup4, and Pandas that captures item search results data from  
+                            <a href="https://www.amazon.ca/"> amazon.ca</a>
                         </p>
                     </div>
 
@@ -66,8 +66,7 @@ export default function Projects_draft() {
                     </div>
                     <div class="mt-4 sm:pr-8">
                         <p class="text-sm text-gray-500 dark:text-gray-100">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
-                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                            A simple expense tracker built using ReactJS to manage income and expenses. Learning project to familiarize with Context API with Hooks.
                         </p>
                     </div>
 
@@ -101,14 +100,13 @@ export default function Projects_draft() {
                     </div>
                     <div class="mt-4 sm:pr-8">
                         <p class="text-sm text-gray-500 dark:text-gray-100">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
-                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                            A personal website designed in Figma and developed using NextJS and Tailwind CSS. Website aims towards showcasing personal projects and work experiences.
                         </p>
                     </div>
 
                     <div class="mt-6 flex">
                         <div class="flex flex-col-reverse">
-                            <p class="text-sm font-medium text-gray-500 dark:text-gray-200">NextJS // Selenium // BeautifulSoup4</p>
+                            <p class="text-sm font-medium text-gray-500 dark:text-gray-200">ReactJS // NextJS // Tailwind CSS // Figma</p>
                         </div>
                     </div>
                 </a>
