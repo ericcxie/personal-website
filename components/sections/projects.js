@@ -11,7 +11,7 @@ export default function Projects_draft() {
             </h1>
             {/* first card */}
             <div class="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-none dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                     <div className='flex gap-3'>
                         <FaPython className='text-4xl mb-3'/>
                         <SiSelenium className='text-4xl mb-3'/>
@@ -46,7 +46,7 @@ export default function Projects_draft() {
                     </div>
                 </a>
                 {/* second card */}
-                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-none dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                     <FaReact className='text-4xl mb-3'/>
                     <div className='text-2xl'>
                         <a href='https://budget-expense-tracker-react.netlify.app/' class="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
@@ -77,7 +77,7 @@ export default function Projects_draft() {
                     </div>
                 </a>
                 {/* third card */}
-                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-none dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                <a href="#" class="relative block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 dark:border-none dark:shadow-blue p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                     <div className='flex gap-3'>
                         <TbBrandNextjs className='text-4xl mb-3'/>
                         <SiTailwindcss className='text-4xl mb-3'/>
