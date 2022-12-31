@@ -12,8 +12,9 @@ module.exports = {
               },
 
               colors: {
-                     blue: '#7491B3',
+                     theme: '#7491B3',
                      dark: '#5c748f',
+                     darkmode: '#060813',
               }
          },
        },  

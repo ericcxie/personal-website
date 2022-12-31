@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       
       {/* Header menu bar */}
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-[#060813]'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode'>
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
         <Landing/>
         <Projects/>
