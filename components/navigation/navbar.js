@@ -8,6 +8,7 @@ import { Transition } from "@headlessui/react";
 import Link from 'next/link';
 import { useEffect } from 'react';
 
+
 export default function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -19,12 +20,18 @@ export default function NavBar(props) {
         </button>
         
         <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-zinc-800 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
-              <li className='cursor-pointer font-poppins hover:text-theme'>Projects</li>
+              <li className='cursor-pointer font-poppins hover:text-theme'>
+                <Link href="#projects">Projects</Link>
+                </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>
                 <Link href="#experiences" >Experiences</Link>
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>About</li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>Resume</li>
+              <li className='cursor-pointer font-poppins hover:text-theme'>
+                <Link href="#about" >About</Link> 
+                </li>
+              <li className='cursor-pointer font-poppins hover:text-theme'>
+                <Link href="/resume.pdf">Resume</Link>
+                </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>Contact</li>
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
@@ -78,7 +85,8 @@ export default function NavBar(props) {
               <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>About</a>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Resume</a>
+              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'> 
+              <Link href="/resume.pdf">Resume</Link></a>
             </li>
             <li>
               <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Contact</a>
