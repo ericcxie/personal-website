@@ -3,7 +3,7 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiTailwindcss, SiSelenium } from 'react-icons/si';
 
-export default function Projects_draft() {
+export default function Projects() {
     return (
         <section className='py-10 mb-10'>
             <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-blue-700 dark:to-[#4A00E0]">
@@ -122,8 +122,5 @@ export default function Projects_draft() {
                 
         </div>
     </section>
-
-        
-        
     );
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import dots from '../../public/SVG/dots.svg';
-import SlideUp from '../transitions/slideup';
+import Link from 'next/link';
 
 export default function Landing() {
 
@@ -23,7 +23,7 @@ export default function Landing() {
                 </div>
                 
                 <button className='font-poppins font-medium text-theme hover:text-dark '>
-                  <a href="https://drive.google.com/file/d/1OXMh5eZJjOtlf1Q0CsogtOGVadJUs3AY/view?usp=sharing">Resume</a>
+                  <Link href="/resume.pdf">Resume</Link>
                 </button>
               </div>
               <div className='text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidde'>

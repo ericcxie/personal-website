@@ -2,7 +2,7 @@
 
 export default function Contact() {
     return (
-        <section className="mb-20">
+        <section className="my-24">
             <div className='mt-3 flex flex-col justify-center items-center text-center'>
                 <h1 className="text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#7826c1] dark:to-[#4A00E0]">
                     Get In Touch
