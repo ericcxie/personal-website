@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 import Landing from '../components/sections/landing';
@@ -15,8 +15,21 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
  
   const toggleDarkMode = () => { 
+    if (window.localStorage) {
+      localStorage.setItem('darkMode', darkMode ? 'disabled' : 'enabled');
+    }
     setDarkMode(!darkMode);
   }
+
+  useEffect(() => {
+    if (window.localStorage) {
+      const storedDarkMode = localStorage.getItem('darkMode');
+      if (storedDarkMode === 'enabled') {
+        setDarkMode(true);
+      }
+    }
+  }, []);
+  
   
   
   return (

@@ -6,7 +6,7 @@ import SlideUp from '../transitions/slideup';
 export default function Landing() {
 
     return (
-        <section className='flex items-center md:justify-between py-24 md:px-90'>
+        <section className='flex mb-10 items-center md:justify-between py-24 md:px-90'>
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
