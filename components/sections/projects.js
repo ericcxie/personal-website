@@ -2,6 +2,7 @@ import { FaPython, FaReact } from 'react-icons/fa';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { SiTailwindcss, SiSelenium } from 'react-icons/si';
+import Link from 'next/link';
 
 export default function Projects() {
     return (

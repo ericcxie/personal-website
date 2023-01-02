@@ -22,7 +22,7 @@ export default function Landing() {
                   <button className="relative ont-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
                 </div>
                 
-                <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200'>
+                <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200 dark:hover:text-dark'>
                   <Link href="/resume.pdf">Resume</Link>
                 </button>
               </div>

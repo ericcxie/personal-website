@@ -17,9 +17,7 @@ export default function Experiences() {
                     <h3 className="text-md italic font-normal text-gray-700 dark:text-white">
                         Brookfield Annuity
                     </h3>
-                    <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. TBD
-                    </p>
+                    <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">...</p>
                 </li>
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
