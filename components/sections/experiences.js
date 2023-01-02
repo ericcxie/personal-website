@@ -7,10 +7,10 @@ export default function Experiences() {
                 Experiences
             </h1>
             <div className='mt-3 flex flex-col justify-center items-start'>
-            <ol className="relative border-l -pl-0 border-gray-200 dark:border-gray-700">                  
+            <ul className="relative border-l -pl-0 border-gray-200 dark:border-gray-700">                  
                 <li className="mb-10 ml-4">
-                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2019 - July 2022</time>
+                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2023 - Current</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Software Developer
                     </h2>
@@ -22,7 +22,7 @@ export default function Experiences() {
                     </p>
                 </li>
                 <li className="mb-10 ml-4">
-                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep. 2021 – Feb. 2022</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Project Researcher
@@ -35,8 +35,8 @@ export default function Experiences() {
                     </p>
                 </li>
                 <li className="ml-4">
-                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan. 2023 - Current</time>
+                    <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                    <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2019 - July 2022</time>
                     <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
                         Head of Publicity
                     </h2>
@@ -47,7 +47,7 @@ export default function Experiences() {
                     Ensured the successful delivery of the yearbook by acting as a liaison between the student body and school administration
                     </p>
                 </li>
-            </ol>
+            </ul>
             
             <div className="relative group mt-5">
                 <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
