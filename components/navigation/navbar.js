@@ -27,7 +27,7 @@ export default function NavBar(props) {
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink>
                 </li>
               <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
-                <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700} >Experiences</ScrollLink>
+                <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700}>Experiences</ScrollLink>
                 </li>
               <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> 

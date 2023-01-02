@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import dots from '../../public/SVG/dots.svg';
 import Link from 'next/link';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Landing() {
 
@@ -17,10 +18,14 @@ export default function Landing() {
                 <h3 className='font-poppins font-light py-2 text-2xl md:text-3xl'>Software Developer</h3>
               </div>
               <div className='py-2 px-1 flex justify-start gap-4'>
-                <div className="relative group">
-                  <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                  <button className="relative ont-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
-                </div>
+                <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>
+                  <div className="relative group">
+                    <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                    <button className="relative ont-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-md pt-2 pb-2">
+                      Projects
+                      </button>
+                  </div>
+                </ScrollLink> 
                 
                 <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200 dark:hover:text-dark'>
                   <Link href="/resume.pdf">Resume</Link>
