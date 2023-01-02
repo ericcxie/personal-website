@@ -19,20 +19,20 @@ export default function NavBar(props) {
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-theme cursor-pointer'>Eric Xie.</h1>
         </button>
         
-        <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-zinc-800 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
-              <li className='cursor-pointer font-poppins hover:text-theme'>
+        <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-theme text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink>
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink>
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700} >Experiences</ScrollLink>
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> 
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-theme'>
                 <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink> 
               </li>
             </ul>
