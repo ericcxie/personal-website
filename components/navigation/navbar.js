@@ -33,7 +33,7 @@ export default function NavBar(props) {
                 <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> 
                 </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>
-                <a href="/contactform">Contact</a>
+                <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink> 
               </li>
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
