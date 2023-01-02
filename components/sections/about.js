@@ -16,7 +16,7 @@ export default function About() {
               <Image className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto" src={portrait}/>
             </div>
             <div className="mt-8 dark:text-gray-300 font-poppins">
-              <p className='mx-auto max-w-lg py-2'>Hello! 👋 My name is Eric and I am current a computer engineering student at the University of Waterloo.</p>
+              <p className='mx-auto max-w-lg py-2'>Hello! 👋 My name is Eric and I am a computer engineering student at the University of Waterloo.</p>
               <p className='mx-auto max-w-lg py-2'>Currently, I am a Software Developer at Brookfield Annuity helping to transform business automation processes.</p>
               <p className='mx-auto max-w-lg py-2'>In my free time, I enjoy playing badminton, building keyboards, and finding the next picturesque restaurant!</p>
               <p className='mx-auto max-w-lg py-2'>Here are a few technologies I've been working with recently:</p>
