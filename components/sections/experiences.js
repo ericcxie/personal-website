@@ -17,7 +17,7 @@ export default function Experiences() {
                     <h3 className="text-md italic font-normal text-gray-700 dark:text-white">
                         Brookfield Annuity
                     </h3>
-                    <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">...</p>
+                    <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400"></p>
                 </li>
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
@@ -47,7 +47,7 @@ export default function Experiences() {
                 </li>
             </ul>
             
-            <div className="relative group mt-5">
+            <div className="relative group mt-6 md:mt-10">
                 <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                 <Link href="/resume.pdf">
                     <button className="relative hover:shadow-sm py-2 inline-flex items-center px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-theme-700 dark:bg-darkmode dark:text-gray-100 dark:border-gray-600 dark:focus:ring-gray-700">

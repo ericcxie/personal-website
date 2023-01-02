@@ -8,7 +8,7 @@ export default function Landing() {
 
     return (
         <section id='home' className='flex mb-10 items-center md:justify-between py-24 md:px-90'>
-            <div className='pb-20'>
+            <div className='pb-28 md:pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
                 <div className='flex gap-2 justify-start text-5xl lg:text-6xl xl:text-7xl'>
