@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Landing() {
 
     return (
-        <section className='flex mb-10 items-center md:justify-between py-24 md:px-90'>
+        <section id='home' className='flex mb-10 items-center md:justify-between py-24 md:px-90'>
             <div className='pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 font-poppins font-thin text-5xl md:text-6xl lg:text-7xl'>Hi,</h2>
@@ -22,7 +22,7 @@ export default function Landing() {
                   <button className="relative ont-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-md pt-2 pb-2">Projects</button>
                 </div>
                 
-                <button className='font-poppins font-medium text-theme hover:text-dark '>
+                <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200'>
                   <Link href="/resume.pdf">Resume</Link>
                 </button>
               </div>

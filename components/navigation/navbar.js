@@ -5,8 +5,8 @@ import { FiMenu } from 'react-icons/fi';
 import { useState } from "react";
 import { RxDividerVertical } from 'react-icons/rx';
 import { Transition } from "@headlessui/react";
+import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
-import { useEffect } from 'react';
 
 
 export default function NavBar(props) {
@@ -21,18 +21,20 @@ export default function NavBar(props) {
         
         <ul className='hidden font-medium lg:flex flex-1 justify-start items-center pl-10 text-zinc-800 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-white'>
               <li className='cursor-pointer font-poppins hover:text-theme'>
-                <Link href="#projects">Projects</Link>
+                <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink>
                 </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>
-                <Link href="#experiences" >Experiences</Link>
+                <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink>
                 </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>
-                <Link href="#about" >About</Link> 
+                <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700} >Experiences</ScrollLink>
                 </li>
               <li className='cursor-pointer font-poppins hover:text-theme'>
-                <Link href="/resume.pdf">Resume</Link>
+                <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> 
                 </li>
-              <li className='cursor-pointer font-poppins hover:text-theme'>Contact</li>
+              <li className='cursor-pointer font-poppins hover:text-theme'>
+                <a href="/contactform">Contact</a>
+              </li>
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
@@ -76,20 +78,19 @@ export default function NavBar(props) {
           <div onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'relative lg:hidden ring-1 ring-zinc-900/5  font-poppins font-normal bg-white mt-3 py-2 text-theme dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center' : 'hidden'}>
           <ul>
             <li>
-            <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Projects</a>
+              <ScrollLink onClick={() => setIsOpen(false)} to="home" spy={true} smooth={true} offset={-5} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Home</ScrollLink>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Experiences</a>
+              <ScrollLink onClick={() => setIsOpen(false)} to="projects" spy={true} smooth={true} offset={-5} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Projects</ScrollLink>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>About</a>
+              <ScrollLink onClick={() => setIsOpen(false)} to="experiences" spy={true} smooth={true} offset={-50} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Experiences</ScrollLink>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'> 
-              <Link href="/resume.pdf">Resume</Link></a>
+              <ScrollLink onClick={() => setIsOpen(false)} to="about" spy={true} smooth={true} offset={-40} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>About</ScrollLink>
             </li>
             <li>
-              <a href="" className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Contact</a>
+              <ScrollLink onClick={() => setIsOpen(false)} to="contact" spy={true} smooth={true} offset={-20} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:bg-theme hover:rounded-lg hover:text-white'>Contact</ScrollLink>
             </li>
           </ul>
         </div>
