@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useState, useEffect } from "react";
 
-
 import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
 import About from '../components/sections/about';
