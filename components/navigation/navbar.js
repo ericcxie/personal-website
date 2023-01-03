@@ -33,21 +33,21 @@ export default function NavBar(props) {
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
-                <a className='hover:text-dark' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
-                <a className='hover:text-dark' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
-                <a className='hover:text-dark' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
-                <a className='hover:text-dark' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
-                <a className='hover:text-dark' href="https://github.com/ericcxie"><AiFillGithub/></a>
+                <a className='hover:text-[#b31217]' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
+                <a className='hover:text-[#c13584]' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
+                <a className='hover:text-[#0077b5]' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
+                <a className='hover:text-[#00acee]' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
+                <a className='hover:text-[#6e5494]' href="https://github.com/ericcxie"><AiFillGithub/></a>
               </div>
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>
-                {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                {props.darkMode ? <BsSunFill className='hover:text-[#FFE87C]'/> : <BsMoonFill className='hover:text-[#D8D6CB]'/> }
               </li>
             </ul>
             <ul className='flex lg:hidden flex-1 justify-end gap-4'>
               {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
               <li onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
-                {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
+                {props.darkMode ? <BsSunFill className='hover:text-[#FFE87C]'/> : <BsMoonFill className='hover:text-[#D8D6CB]'/> }
               </li>
               {/* mobile button */}
               <button> 
