@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Projects() {
     return (
         <section id='projects' className='py-10 mb-10'>
-            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-blue-700 dark:to-[#4A00E0]">
+            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#0064f9] dark:to-[#20e93b]">
                 Projects
             </h1>
             {/* first card */}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Experiences() {
     return (
         <section id="experiences">
-            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#7826c1] dark:to-[#4A00E0]">
+            <h1 className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#753bf1] dark:to-[#b92727]">
                 Experiences
             </h1>
             <div className='mt-3 flex flex-col justify-center items-start'>
