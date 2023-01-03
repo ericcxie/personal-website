@@ -27,7 +27,7 @@ export default function Landing() {
                   </div>
                 </ScrollLink> 
                 
-                <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200 dark:hover:text-dark'>
+                <button className='font-poppins font-medium text-theme hover:text-dark dark:text-gray-200 hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600'>
                   <Link href="/resume.pdf">Resume</Link>
                 </button>
               </div>
