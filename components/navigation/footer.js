@@ -6,7 +6,7 @@ export default function Footer() {
             <hr class="my-1 h-px bg-gray-200 border-0 dark:bg-gray-700"/>
             <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-3 sm:space-y-0 sm:flex-row">
             <button onClick={() => {window.scrollTo({top: 0, behavior: 'smooth', duration: 100})}}>
-                <h1 class="text-2xl font-bold font-poppins text-theme transition-colors duration-300 hover:text-dark dark:hover:text-dark">
+                <h1 class="text-2xl font-bold font-poppins text-theme transition-colors duration-300 hover:text-dark bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
                         Eric Xie</h1>
             </button>
                 
