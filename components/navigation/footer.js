@@ -11,7 +11,7 @@ export default function Footer() {
             </button>
                 
 
-                <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2022. All Rights Reserved.</p>
+                <p class="text-sm text-gray-600 dark:text-gray-300">© Copyright 2023. All Rights Reserved.</p>
 
                 <div class="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">
                     <a className='transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#c13584]' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
