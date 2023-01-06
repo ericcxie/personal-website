@@ -11,7 +11,7 @@ import Experiences from '../components/sections/experiences';
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
  
   const toggleDarkMode = () => { 
     if (window.localStorage) {
@@ -28,6 +28,11 @@ export default function Home() {
       }
     }
   }, []);
+
+  useEffect(() => {
+    setDarkMode(true);
+  }, []);
+  
   
   return (
     <div className={darkMode ? "dark" : ""}>
