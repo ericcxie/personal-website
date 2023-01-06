@@ -29,11 +29,6 @@ export default function Home() {
     }
   }, []);
 
-  useEffect(() => {
-    setDarkMode(true);
-  }, []);
-  
-  
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
