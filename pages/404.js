@@ -32,7 +32,7 @@ export default function NotFound404() {
                         <div className="max-w-md ml-8 xl:ml-64">
                             <div className="text-6xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">404</div>
                             <p className="text-2xl md:text-3xl font-light leading-normal dark:text-gray-200" >Sorry we couldn't find this page.</p>
-                            <p className="text-lg mb-8 dark:text-gray-300">But dont worry, you can return home using the button below.</p>
+                            <p className="md:text-lg mb-8 dark:text-gray-300">But dont worry, you can return home using the button below.</p>
                             <Link href="/">
                                 <div className="relative group mt-4 md:mt-8">
                                     <div className="hidden w-32 dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
