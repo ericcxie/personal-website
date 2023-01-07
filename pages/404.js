@@ -28,7 +28,7 @@ export default function NotFound404() {
                 </Head>
 
                 <div className="h-screen w-screen bg-white dark:bg-darkmode flex items-center">
-                    <div className="container flex flex-col md:flex-row items-center justify-center gap-24 px-5 text-gray-700 mb-20 font-poppins">
+                    <div className="container flex flex-col md:flex-row items-center justify-center gap-24 px-5 text-gray-700 mb-20 mt-16 md:mt-0 font-poppins">
                         <div className="max-w-md ml-8 xl:ml-64">
                             <div className="text-6xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">404</div>
                             <p className="text-2xl md:text-3xl font-light leading-normal dark:text-gray-200" >Sorry we couldn't find this page.</p>
@@ -42,7 +42,7 @@ export default function NotFound404() {
                             </Link>
                         </div>
 
-                        <div className="max-w-xs">
+                        <div className="max-w-xs w-60 md:w-80">
                             {darkMode ? (
                                 <Image src={darkModeCat} alt="dark mode cat" /> ) : (
                                 <Image src={lightModeCat} alt="light mode cat" />
