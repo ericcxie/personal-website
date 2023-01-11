@@ -14,7 +14,7 @@ export default function Projects() {
             <div class="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <div className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#FFD43B] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-                    <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 dark:border-none p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                    <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                         <div className='flex gap-3'>
                             <FaPython className='text-4xl mb-3'/>
                             <SiSelenium className='text-4xl mb-3'/>
@@ -52,7 +52,7 @@ export default function Projects() {
                 {/* second card */}
                 <div className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#88dded] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-                    <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 dark:border-none p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                    <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                         <FaReact className='text-4xl mb-3'/>
                         <div className='text-2xl'>
                             <a href='https://budget-expense-tracker-react.netlify.app/' className="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1">
@@ -86,7 +86,7 @@ export default function Projects() {
                 {/* third card */}
                 <div className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-theme to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-                    <a className="relative dark:bg-darkmode min-h-full block overflow-hidden rounded-lg border border-gray-100 hover:border-b-0 hover:shadow-lg dark:border-none p-8 transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+                    <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                         <div className='flex gap-3'>
                             <TbBrandNextjs className='text-4xl mb-3'/>
                             <SiTailwindcss className='text-4xl mb-3'/>

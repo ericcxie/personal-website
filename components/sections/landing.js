@@ -21,9 +21,11 @@ export default function Landing() {
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>
                   <div className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                    <button className="relative ont-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-md pt-2 pb-2">
-                      Projects
+                    <button className="relative font-poppins text-small bg-theme hover:bg-dark dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
+                      Projects 
                     </button>
+                    
+
                   </div>
                 </ScrollLink> 
                 
