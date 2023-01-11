@@ -10,11 +10,10 @@ export default function Landing() {
     return (
         <section id='home' className='flex mb-10 items-center md:justify-between py-24 md:px-90'>
             <div className='pb-28 md:pb-20'>
-              <div className='pl-1 dark:text-white'> {/* Home page */}
-                <h2 className='py-2 ml-1 font-mono font-thin text-dark dark:text-gray-200 text-md lg:text-lg'>Hi, my name is</h2>
+              <div className='pl-1'> {/* Home page */}
+                <h2 className='py-2 ml-1 font-mono font-thin text-light-font dark:text-gray-200 text-md lg:text-lg'>Hi, my name is</h2>
                 <div className='flex gap-2 justify-start text-6xl xl:text-7xl'>
-                  
-                  <h1 className='font-poppins font-bold underline underline-offset-3 decoration-theme decoration-7 tracking-tight '>Eric Xie.</h1>
+                  <h1 className='text-gray-800 dark:text-white font-poppins font-bold underline underline-offset-3 decoration-theme decoration-7 tracking-tight '>Eric Xie.</h1>
                 </div>
                 <div className='ml-1 font-poppins mt-3 md:mt-4 font-light text-gray-800 dark:text-gray-100 py-2 text-xs md:text-md'>
                 <TypeAnimation
