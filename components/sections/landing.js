@@ -12,7 +12,7 @@ export default function Landing() {
             <div className='pb-28 md:pb-20'>
               <div className='pl-1 dark:text-white'> {/* Home page */}
                 <h2 className='py-2 ml-1 font-mono font-thin text-dark dark:text-gray-200 text-md lg:text-lg'>Hi, my name is</h2>
-                <div className='flex gap-2 justify-start text-5xl lg:text-6xl xl:text-7xl'>
+                <div className='flex gap-2 justify-start text-6xl xl:text-7xl'>
                   
                   <h1 className='font-poppins font-bold underline underline-offset-3 decoration-theme decoration-7 tracking-tight '>Eric Xie.</h1>
                 </div>
