@@ -14,26 +14,26 @@ export default function Landing() {
                 <h2 className='py-2 ml-1 font-mono font-thin text-light-font dark:text-gray-200 text-md lg:text-lg'>Hi, my name is</h2>
                 <div className='flex gap-2 justify-start text-6xl xl:text-7xl'>
                   <h1 className='text-gray-800 dark:text-white font-poppins font-bold underline underline-offset-3 decoration-theme decoration-7 tracking-tight '>Eric Xie.</h1>
+                  
                 </div>
-                <div className='ml-1 font-poppins mt-3 md:mt-4 font-light text-gray-800 dark:text-gray-100 py-2 text-xs md:text-md'>
+                
+                <div className='ml-1 font-poppins mt-2 md:mt-3 font-light text-gray-800 dark:text-gray-100 py-2 text-2xl md:text-3xl'>
                 <TypeAnimation
                   // Same String at the start will only be typed once, initially
                   sequence={[
                   "I'm a Software Developer",
                   1000,
-                  "I'm a Student",
-                  1000,
-                  "I'm a Tech Enthusiast",
+                  "I'm a UW student",
                   1000,
                   ]}
                   speed={35} // Custom Speed from 1-99 - Default Speed: 40
-                  style={{ fontSize: '2em' }}
+                  style={{ fontSize: '1em' }}
                   wrapper="span" // Animation will be rendered as a <span>
                   repeat={Infinity} // Repeat this Animation Sequence infinitely
                 />
               </div>
               </div>
-              <div className='py-2 px-1 flex justify-start gap-4'>
+              <div className='py-1 px-1 flex justify-start gap-4'>
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>
                   <div className="relative group mt-1">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
