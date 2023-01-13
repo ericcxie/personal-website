@@ -17,7 +17,7 @@ export default function Landing() {
                   
                 </div>
                 
-                <div className='ml-1 font-poppins mt-4 md:mt-3 font-light text-gray-800 dark:text-gray-100 text-2xl md:text-3xl'>
+                <div className='ml-1 font-poppins mt-4 font-light text-gray-800 dark:text-gray-100 text-2xl md:text-3xl'>
                   <TypeAnimation
                     // Same String at the start will only be typed once, initially
                     sequence={[
