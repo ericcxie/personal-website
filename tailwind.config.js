@@ -41,6 +41,7 @@ module.exports = {
                      card: "250px",
                      button: "100px"
                  }
+              
          },
        },
 
