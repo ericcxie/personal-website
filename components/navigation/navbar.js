@@ -51,15 +51,15 @@ export default function NavBar(props) {
         </button>
         
         <ul className='hidden font-medium pt-1 lg:flex flex-1 justify-start items-center pl-10 text-gray-500 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-gray-200'>
-              <li className='cursor-pointer font-jakarta-sans hover:text-theme dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-theme  dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-dark  dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-theme dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700}>Experiences</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-theme dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> </li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-theme dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink> </li>
             </ul>
             <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
@@ -104,9 +104,9 @@ export default function NavBar(props) {
           <div ref={menuRef} onClick={() => setIsOpen(!isOpen)} className={isOpen ? 'relative lg:hidden ring-1 ring-zinc-900/5  font-poppins font-normal bg-white mt-3 py-2 text-theme dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center' : 'hidden'}>
           <ul>
             <li><ScrollLink onClick={() => setIsOpen(false)} to="home" spy={true} smooth={true} offset={-5} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Home</ScrollLink></li>
-            <li><ScrollLink onClick={() => setIsOpen(false)} to="projects" spy={true} smooth={true} offset={-5} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Projects</ScrollLink></li>
-            <li><ScrollLink onClick={() => setIsOpen(false)} to="experiences" spy={true} smooth={true} offset={-50} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Experiences</ScrollLink></li>
-            <li><ScrollLink onClick={() => setIsOpen(false)} to="about" spy={true} smooth={true} offset={-40} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>About</ScrollLink></li>
+            <li><ScrollLink onClick={() => setIsOpen(false)} to="projects" spy={true} smooth={true} offset={-20} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Projects</ScrollLink></li>
+            <li><ScrollLink onClick={() => setIsOpen(false)} to="experiences" spy={true} smooth={true} offset={-60} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Experiences</ScrollLink></li>
+            <li><ScrollLink onClick={() => setIsOpen(false)} to="about" spy={true} smooth={true} offset={-70} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>About</ScrollLink></li>
             <li><ScrollLink onClick={() => setIsOpen(false)} to="contact" spy={true} smooth={true} offset={-20} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Contact</ScrollLink></li>
           </ul>
         </div>
