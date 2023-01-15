@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState, useEffect } from "react";
+import { HashLoader } from 'react-spinners';
 
 import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
@@ -14,10 +15,12 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // useEffect(() => {
-  //   setLoading(true)
-
-  // }, []);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+        setLoading(false);
+    }, 2500);
+}, []);
  
   const toggleDarkMode = () => { 
     if (window.localStorage) {
@@ -44,18 +47,25 @@ export default function Home() {
         <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
         <link rel="icon" href="/favicon.png" />
       </Head>
+      {
+        loading ? (
+          <div className='flex items-center justify-center h-screen bg-white dark:bg-darkmode'>
+            <HashLoader color="#7491B3" size={100} loading={loading} className='text-center'/>
+          </div>
+        ) : (
+          <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode'>
+            <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
+            <Landing/>
+            <Projects/>
+            <Experiences/>
+            <About/>
+            <Contact/>
+            <Footer/>
+        </main> 
+        )
+      }
       
-      {/* Header menu bar */}
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode'>
-        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
-        <Landing/>
-        <Projects/>
-        <Experiences/>
-        <About/>
-        <Contact/>
-        <Footer/>
-      </main>
-      
+      {/* Header menu bar */}  
     </div>
   );
 }

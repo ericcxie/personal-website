@@ -14,11 +14,11 @@ export default function Projects() {
 
     return (
         <section id='projects' className='py-10 mb-10'>
-            <h1 data-aos="fade-up" className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#0064f9] dark:to-[#20e93b]">
+            <h1 data-aos="fade-up" data-aos-once className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#0064f9] dark:to-[#20e93b]">
                 Projects
             </h1>
             {/* first card */}
-            <div data-aos="fade-up" className="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div data-aos="fade-up" data-aos-once className="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <div className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#FFD43B] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
                     <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
