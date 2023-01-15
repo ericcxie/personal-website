@@ -22,6 +22,7 @@ export default function SEO() {
     }, []);
 
     return (
+      <div className={darkMode ? "dark" : ""}>
         <Head>
           <title>Eric Xie</title>
           <meta name="description" content="Eric  | Software Developer" />
@@ -33,6 +34,7 @@ export default function SEO() {
           <link rel="manifest" href="img/favicons/site.webmanifest"/>
           <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5"/>
           <meta name="msapplication-TileColor" content="#da532c"/>
-      </Head>
+        </Head>
+      </div>  
     );
 }
