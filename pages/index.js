@@ -46,10 +46,11 @@ export default function Home() {
         <meta name="description" content="Eric Xie | Software Developer" />
         <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
         <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/img/favicons/apple-touch-icon.png" />
       </Head>
       {
         loading ? (
-          <div className='flex items-center justify-center h-screen bg-white dark:bg-darkmode'>
+          <div className='flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode'>
             <HashLoader color="#7491B3" size={100} loading={loading} className='text-center'/>
           </div>
         ) : (

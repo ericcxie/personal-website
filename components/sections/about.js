@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portrait from "../../public/img/portrait.jpg";
+import portrait from "../../public/img/profilepic.jpg";
 import Link from "next/link";
 import Aos from 'aos';
 import "aos/dist/aos.css"
