@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { useState, useEffect } from "react";
 import { HashLoader } from 'react-spinners';
-import SEO from '../components/SEO.js';
 
 import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
@@ -42,7 +41,18 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <SEO/>
+      <Head>
+          <title>Eric Xie</title>
+          <meta name="description" content="Eric  | Software Developer" />
+          <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
+          <link rel="icon" href="/favicon.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png"/>
+          <link rel="manifest" href="img/favicons/site.webmanifest"/>
+          <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5"/>
+          <meta name="msapplication-TileColor" content="#da532c"/>
+        </Head>
       {
         loading ? (
           <div className='flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode'>
