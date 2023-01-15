@@ -57,7 +57,7 @@ export default function Projects() {
                     </a>
                 </div>
                 {/* second card */}
-                <div data-aos="fade-up" data-aos-once data-aos-delay='400' className="relative group">
+                <div data-aos="fade-up" data-aos-once data-aos-delay='300' className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#88dded] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
                     <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                         <FaReact className='text-4xl mb-3'/>
@@ -91,7 +91,7 @@ export default function Projects() {
                     </a>
                 </div>
                 {/* third card */}
-                <div data-aos="fade-up" data-aos-once data-aos-delay='600' className="relative group">
+                <div data-aos="fade-up" data-aos-once data-aos-delay='400' className="relative group">
                     <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-theme to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
                     <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
                         <div className='flex gap-3'>
