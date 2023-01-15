@@ -56,17 +56,28 @@ export default function NavBar(props) {
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]'>Eric Xie.</h1>
         </button>
         
+        
         <ul className='hidden font-medium pt-1 lg:flex flex-1 justify-start items-center pl-10 text-gray-500 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-gray-200'>
-              <li data-aos='fade-down' data-aos-delay='400'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
-                <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink></li>
-              <li data-aos='fade-down' data-aos-delay='500'className='cursor-pointer font-jakarta-sans hover:text-dark  dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
-                <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink></li>
-              <li data-aos='fade-down' data-aos-delay='600'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
-                <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700}>Experiences</ScrollLink></li>
-              <li data-aos='fade-down' data-aos-delay='700' className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
-                <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> </li>
-              <li data-aos='fade-down' data-aos-delay='800'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
-                <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink> </li>
+                <li data-aos='fade-down' data-aos-delay='400' className="dark:hover:text-[#7aace5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
+                  <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink>
+                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-[#7aace5]"></span>
+                </li>
+                <li data-aos='fade-down' data-aos-delay='500' className="dark:hover:text-[#7aace5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
+                  <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink>
+                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-[#7aace5]"></span>
+                </li>
+                <li data-aos='fade-down' data-aos-delay='600' className="dark:hover:text-[#7aace5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
+                  <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700}>Experiences</ScrollLink>
+                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-[#7aace5]"></span>
+                </li>
+                <li data-aos='fade-down' data-aos-delay='700' className="dark:hover:text-[#7aace5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
+                  <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink>
+                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-[#7aace5]"></span>
+                </li>
+                <li data-aos='fade-down' data-aos-delay='800' className="dark:hover:text-[#7aace5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
+                  <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink>
+                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-[#7aace5]"></span>
+                </li>
             </ul>
             <ul data-aos='fade-down' data-aos-delay='900' className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
