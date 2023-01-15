@@ -1,9 +1,26 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function SEO() {
     const [toggle, setToggle] = useState(false);
     const [darkMode, setDarkMode] = useState(false);
+
+    const toggleDarkMode = () => { 
+      if (window.localStorage) {
+        localStorage.setItem('darkMode', darkMode ? 'disabled' : 'enabled');
+      }
+      setDarkMode(!darkMode);
+    }
+  
+    useEffect(() => {
+      if (window.localStorage) {
+        const storedDarkMode = localStorage.getItem('darkMode');
+        if (storedDarkMode === 'enabled') {
+          setDarkMode(true);
+        }
+      }
+    }, []);
+
     return (
         <Head>
           <title>Eric Xie</title>
