@@ -26,7 +26,7 @@ export default function Landing() {
                     <TypeAnimation
                       // Same String at the start will only be typed once, initially
                       sequence={[
-                      2800,
+                      2400,
                       "I'm a Software Developer",
                       1000,
                       "I'm a UW student",
