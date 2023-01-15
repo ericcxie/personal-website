@@ -8,6 +8,8 @@ import { Transition } from "@headlessui/react";
 import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
 import { sendStatusCode } from 'next/dist/server/api-utils';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 
 
@@ -43,26 +45,30 @@ export default function NavBar(props) {
       window.addEventListener("scroll", changeNavbar);
     }, []);
 
+    useEffect(() => {
+      Aos.init({ duration: 1000 });
+    }, [])
+
     return (
-      <nav className={navbar ? 'bg-white py-2 z-20 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0 shadow-light-button dark:shadow-[#202747]' : 'bg-white py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0'}>
+      <nav data-aos='fade-in' data-aos-delay='300' className={navbar ? 'bg-white py-2 z-20 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0 shadow-light-button dark:shadow-[#202747]' : 'bg-white py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0'}>
       <div className="relative container flex flex-wrap items-center justify-between mx-auto pb-2">
         <button onClick={() => {window.scrollTo({top: 0, behavior: 'smooth', duration: 100})}}>
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]'>Eric Xie.</h1>
         </button>
         
         <ul className='hidden font-medium pt-1 lg:flex flex-1 justify-start items-center pl-10 text-gray-500 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-gray-200'>
-              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li data-aos='slide-down' data-aos-delay='400'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-dark  dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li data-aos='slide-down' data-aos-delay='500'className='cursor-pointer font-jakarta-sans hover:text-dark  dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="projects" spy={true} smooth={true} offset={-20} duration={700}>Projects</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li data-aos='slide-down' data-aos-delay='600'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="experiences" spy={true} smooth={true} offset={-60} duration={700}>Experiences</ScrollLink></li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li data-aos='slide-down' data-aos-delay='700' className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="about" spy={true} smooth={true} offset={-60} duration={700}>About</ScrollLink> </li>
-              <li className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
+              <li data-aos='slide-down' data-aos-delay='800'className='cursor-pointer font-jakarta-sans hover:text-dark dark:hover:text-[#7aace5] border-b-2 border-transparent hover:border-current hover:border-theme dark:hover:border-[#7aace5]'>
                 <ScrollLink to="contact" spy={true} smooth={true} offset={-60} duration={700}>Contact</ScrollLink> </li>
             </ul>
-            <ul className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
+            <ul data-aos='slide-down' data-aos-delay='900' className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
                 <a className='hover:text-[#b31217]' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
                 <a className='hover:text-[#c13584]' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
@@ -77,11 +83,11 @@ export default function NavBar(props) {
             </ul>
             <ul className='flex lg:hidden flex-1 justify-end gap-4'>
               {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
-              <li onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
+              <li data-aos='fade-in' data-aos-delay='700' onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
                 {props.darkMode ? <BsSunFill className='md:hover:text-[#FFE87C]'/> : <BsMoonFill className='md:hover:text-[#D8D6CB]'/> }
               </li>
               {/* mobile button */}
-              <button> 
+              <button data-aos='fade-in' data-aos-delay='900'> 
                 <li onClick={() => setIsOpen(!isOpen)} className='text-3xl text-theme dark:text-[#7aace5]'>
                   {isOpen ? <CgClose/> : <FiMenu/> } 
                 </li>

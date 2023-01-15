@@ -12,6 +12,12 @@ import Experiences from '../components/sections/experiences';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  // useEffect(() => {
+  //   setLoading(true)
+
+  // }, []);
  
   const toggleDarkMode = () => { 
     if (window.localStorage) {
