@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useState, useEffect } from "react";
 import { HashLoader } from 'react-spinners';
+import SEO from '../components/SEO.js';
 
 import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
@@ -41,13 +42,7 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <Head>
-        <title>Eric Xie</title>
-        <meta name="description" content="Eric Xie | Software Developer" />
-        <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
-        <link rel="icon" href="/favicon.png" />
-        <link rel="icon" href="/img/favicons/apple-touch-icon.png" />
-      </Head>
+      <SEO/>
       {
         loading ? (
           <div className='flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode'>
