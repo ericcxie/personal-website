@@ -27,7 +27,7 @@ module.exports = {
 
               boxShadow: {
                      "light-card":
-                         "12px 12px 16px 0 rgba(255, 255, 255, 0.3), -8px -8px 12px 0 rgba(0, 0, 0, .25)",
+                         "5px 5px 8px 0 rgba(0, 0, 0, .25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3)",
                      "light-button":
                          "6px 6px 7px 0 rgba(190, 190, 190, 0.3), -4px -4px 6px 0 rgba(250, 250, 250, .25)"
                  },

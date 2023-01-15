@@ -21,11 +21,13 @@ export default function About() {
           <div className='mt-3 md:-mt-3 flex flex-col md:flex-row justify-center items-center my-2 gap-2 md:gap-12'>
           <div data-aos='fade-up' data-aos-once className="relative group">
               <div className="hidden dark:inline rounded-full absolute -inset-1 bg-gradient-to-r from-[#4c6f35] via-[#2B2F50] to-[#BFA06B] blur opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <Image className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto border-2 border-[#21243a] dark:border-[#1b1206] drop-shadow-xl dark:drop-shadow-none" src={portrait}/>
+              <Image className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto border-2 border-[#21243a] dark:border-[#1b1206] shadow-light-card dark:drop-shadow-none" src={portrait}/>
             </div>
-            <div data-aos='fade-up' data-aos-once className="mt-8 dark:text-gray-300 font-poppins">
+            <div data-aos='fade-up' data-aos-once className="mt-8 text-gray-800 dark:text-gray-300 font-poppins">
               <p className='mx-auto max-w-lg py-2'>Hello! 👋 My name is Eric and I am a computer engineering student at the University of Waterloo.</p>
-              <p className='mx-auto max-w-lg py-2'>Currently, I am a Software Developer at Brookfield Annuity helping to transform business automation processes.</p>
+              <p className='mx-auto max-w-lg py-2'>Currently, I am a Software Developer at 
+              <a href="https://www.brookfieldannuity.com/en/" className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme dark:text-gray-300 transition duration-500"> Brookfield Annuity</a> helping to transform business automation processes.</p>
+
               <p className='mx-auto max-w-lg py-2'>In my free time, I enjoy playing badminton, building keyboards, and  keeping up with the <Link href="/apple">latest Apple products! 🎧</Link></p> 
               
               <p className='mx-auto max-w-lg py-2'>Here are a few technologies I've been working with recently:</p>
