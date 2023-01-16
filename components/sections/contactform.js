@@ -125,7 +125,7 @@ export default function Contact() {
                         )}
                         {submitted && (
                             <p className="text-sm text-theme dark:text-theme lg:text-base">
-                                Success! I will get back to you ASAP!
+                                Thank you! I will get back to you soon.
                             </p>
                         )}
                     </div>
