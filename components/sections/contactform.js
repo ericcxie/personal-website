@@ -25,7 +25,7 @@ export default function Contact() {
                         </div>
                     </div>
                 
-                    <div className="relative group rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
+                    <div className="relative group rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 bg-white dark:bg-darkmode lg:col-span-3 lg:p-12">
                         <ContactForm/>
                     </div>
                     </div>
