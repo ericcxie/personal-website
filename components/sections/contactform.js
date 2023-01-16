@@ -68,7 +68,7 @@ export default function Contact() {
             });
 
         return (
-            <form name="contact" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
+            <form name="contact" method="POST" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
                     <div>
                         <label class="sr-only" for="name">Name</label>
                         <input
