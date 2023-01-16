@@ -124,7 +124,7 @@ export default function NavBar(props) {
             <li><ScrollLink onClick={() => setIsOpen(false)} to="projects" spy={true} smooth={true} offset={-20} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Projects</ScrollLink></li>
             <li><ScrollLink onClick={() => setIsOpen(false)} to="experiences" spy={true} smooth={true} offset={-60} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Experiences</ScrollLink></li>
             <li><ScrollLink onClick={() => setIsOpen(false)} to="about" spy={true} smooth={true} offset={-70} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>About</ScrollLink></li>
-            <li><ScrollLink onClick={() => setIsOpen(false)} to="contact" spy={true} smooth={true} offset={-20} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Contact</ScrollLink></li>
+            <li><ScrollLink onClick={() => setIsOpen(false)} to="contact" spy={true} smooth={true} offset={5} duration={700} className='block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400'>Contact</ScrollLink></li>
           </ul>
         </div>
       </div>
