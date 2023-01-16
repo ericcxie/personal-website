@@ -10,8 +10,8 @@ export default function Contact() {
       }, [])
         
         return (
-            <section id='contact' data-aos='fade-up' data-aos-once>
-                <div className="mx-auto max-w-screen-xl py-16">
+            <section id='contact' >
+                <div data-aos='fade-up' data-aos-once className="mx-auto max-w-screen-xl py-16">
                     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                     <div className="lg:col-span-2 lg:py-12">
                         <h1 className="text-center md:text-start text-4xl md:text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
