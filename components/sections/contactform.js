@@ -10,7 +10,7 @@ export default function Contact() {
       }, [])
         
         return (
-            <section id='contact'>
+            <section id='contact' data-aos='fade-up' data-aos-once>
                 <div className="mx-auto max-w-screen-xl py-16">
                     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                     <div className="lg:col-span-2 lg:py-12">
@@ -64,10 +64,11 @@ export default function Contact() {
                 actions.resetForm();
                 setSubmitted(true);
             },
-            });
+            }); 
 
         return (
-            <form name="contact" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
+            <form name="contact" method="POST" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
+                    <input type="hidden" name='form-name' value='contact' />
                     <div>
                         <label className="sr-only" for="name">Name</label>
                         <input
