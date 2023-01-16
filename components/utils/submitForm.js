@@ -5,7 +5,7 @@ function encode(data) {
   }
   
   const handleSubmit = (name, data) => {
-    fetch('/form.html', {
+    fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
