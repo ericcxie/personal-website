@@ -14,19 +14,18 @@ export default function Contact() {
                 <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                     <div class="lg:col-span-2 lg:py-12">
-                        
-                        <h1 className="text-center md:text-start text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
+                        <h1 className="text-center md:text-start text-4xl md:text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
                             Get In Touch
                         </h1>
 
-                        <div class="mt-2">
-                        <p class="text-lg text-center md:text-start font-bold text-gray-600 dark:text-gray-200">
+                        <div class="md:mt-2">
+                        <p class="text-md md:text-lg text-center md:text-start font-bold text-gray-600 dark:text-gray-200">
                             Have a question or want to have a quick ☕️ chat? Feel free to connect with me!
                         </p>
                         </div>
                     </div>
                 
-                    <div class="relative group rounded-lg bg-white dark:bg-darkmode p-8 shadow-lg lg:col-span-3 lg:p-12">
+                    <div class="relative group rounded-lg bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
                         <ContactForm/>
                     </div>
                     </div>
@@ -131,9 +130,9 @@ export default function Contact() {
                         )}
                     </div>
 
-                    <div class="mt-4">
+                    <div className="mt-2">
                         
-                        <div className="relative group">
+                        <div className="relative group mt-2">
                             <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                             <button
                         type="submit"
