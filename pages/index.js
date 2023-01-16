@@ -56,8 +56,8 @@ export default function Home() {
             <Projects/>
             <Experiences/>
             <About/>
-            <Contact/>
-            {/* <ContactForm/> */}
+            {/* <Contact/> */}
+            <ContactForm/>
             <Footer/>
         </main> 
         )
