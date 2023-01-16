@@ -11,21 +11,21 @@ export default function Contact() {
         
         return (
             <section id='contact'>
-                <div class="mx-auto max-w-screen-xl py-16">
-                    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-                    <div class="lg:col-span-2 lg:py-12">
+                <div className="mx-auto max-w-screen-xl py-16">
+                    <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+                    <div className="lg:col-span-2 lg:py-12">
                         <h1 className="text-center md:text-start text-4xl md:text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
                             Get In Touch
                         </h1>
 
-                        <div class="md:mt-2">
-                        <p class="text-md md:text-lg text-center md:text-start font-bold text-gray-600 dark:text-gray-200">
+                        <div className="md:mt-2">
+                        <p className="text-md md:text-lg text-center md:text-start font-bold text-gray-600 dark:text-gray-200">
                             Have a question or want to have a quick ☕️ chat? Feel free to connect with me!
                         </p>
                         </div>
                     </div>
                 
-                    <div class="relative group rounded-lg p-5 md:p-8 bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
+                    <div className="relative group rounded-lg p-5 md:p-8 bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
                         <ContactForm/>
                     </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Contact() {
         return (
             <form name="contact" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
                     <div>
-                        <label class="sr-only" for="name">Name</label>
+                        <label className="sr-only" for="name">Name</label>
                         <input
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Name"
@@ -87,7 +87,7 @@ export default function Contact() {
                         )}
                     </div>
                     <div>
-                        <label class="sr-only" for="email">Email</label>
+                        <label className="sr-only" for="email">Email</label>
                         <input
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Email address"
@@ -106,7 +106,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                        <label class="sr-only" for="message">Message</label>
+                        <label className="sr-only" for="message">Message</label>
                         <textarea
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Message"
@@ -137,7 +137,7 @@ export default function Contact() {
                             <button
                         type="submit"
 
-                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
+                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
                         >
                         <span> Say Hello</span>
                         </button>
