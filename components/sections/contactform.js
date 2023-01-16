@@ -134,7 +134,6 @@ export default function Contact() {
                     <div class="mt-4">
                         <button
                         type="submit"
-                        purpose="submit"
 
                         class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
                         >
