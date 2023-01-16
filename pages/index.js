@@ -10,6 +10,7 @@ import Contact from '../components/sections/contact';
 import Footer from '../components/navigation/footer';
 import Experiences from '../components/sections/experiences';
 import SEO from '../components/SEO.js';
+import ContactForm from '../components/sections/contactform';
 
 
 export default function Home() {
@@ -56,6 +57,7 @@ export default function Home() {
             <Experiences/>
             <About/>
             <Contact/>
+            <ContactForm/>
             <Footer/>
         </main> 
         )
