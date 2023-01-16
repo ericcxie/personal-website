@@ -14,20 +14,21 @@ export default function Contact() {
                 <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                     <div class="lg:col-span-2 lg:py-12">
-                        
-                        <h1 className="text-center md:text-start text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
-                            Get In Touch
-                        </h1>
+                        <p class="max-w-xl text-3xl dark:text-white">
+                        Get In Touch
+                        </p>
 
-                        <div class="mt-2">
-                        <p class="text-lg text-center md:text-start font-bold text-gray-600 dark:text-gray-200">
+                        <div class="mt-8">
+                        <p class="text-2xl font-bold dark:text-white">
                             Have a question or want to have a quick ☕️ chat? Feel free to connect with me!
                         </p>
                         </div>
                     </div>
-                
-                    <div class="relative group rounded-lg bg-white dark:bg-darkmode p-8 shadow-lg lg:col-span-3 lg:p-12">
-                        <ContactForm/>
+                    <div className="relative group">
+                        <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#88dded] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
+                        <div class="relative rounded-lg bg-white dark:bg-darkmode p-8 shadow-lg lg:col-span-3 lg:p-12">
+                            <ContactForm/>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -72,7 +73,7 @@ export default function Contact() {
                     <div>
                         <label class="sr-only" for="name">Name</label>
                         <input
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        class="w-full rounded-lg border dark:bg-darkmode dark:border-theme border-gray-200 p-3 text-sm"
                         placeholder="Name"
                         type="text"
                         id="name"
@@ -82,7 +83,7 @@ export default function Contact() {
                         value={formik.values.name}
                         />
                         {formik.errors.name && formik.touched.name && (
-                            <p className="text-sm text-theme lg:text-base">
+                            <p className="text-sm text-red-600 lg:text-base">
                                 {formik.errors.name}
                             </p>
                         )}
@@ -90,7 +91,7 @@ export default function Contact() {
                     <div>
                         <label class="sr-only" for="email">Email</label>
                         <input
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        class="w-full rounded-lg border dark:bg-darkmode dark:border-theme border-gray-200 p-3 text-sm"
                         placeholder="Email address"
                         type="email"
                         id="email"
@@ -100,7 +101,7 @@ export default function Contact() {
                         value={formik.values.email}
                         />
                         {formik.errors.email && formik.touched.email && (
-                            <p className="text-sm text-theme lg:text-base">
+                            <p className="text-sm text-red-600 lg:text-base">
                             {formik.errors.email}
                             </p>
                         )}
@@ -109,7 +110,7 @@ export default function Contact() {
                     <div>
                         <label class="sr-only" for="message">Message</label>
                         <textarea
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        class="w-full rounded-lg border dark:bg-darkmode dark:border-theme border-gray-200 p-3 text-sm"
                         placeholder="Message"
                         rows="8"
                         id="message"
@@ -120,27 +121,27 @@ export default function Contact() {
                         value={formik.values.message}
                         />
                         {formik.errors.message && formik.touched.message && (
-                            <p className="text-sm text-theme lg:text-base">
+                            <p className="text-sm text-red-600 lg:text-base">
                             {formik.errors.message}
                             </p>
                         )}
                         {submitted && (
                             <p className="text-sm text-theme dark:text-theme lg:text-base">
-                                Success! I will get back to you ASAP!
+                            Success! I will get back to you ASAP!
                             </p>
                         )}
                     </div>
 
                     <div class="mt-4">
                         
-                        <div className="relative group">
+                        <div className="relative group mt-6">
                             <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                             <button
                         type="submit"
 
-                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl bg-black px-5 py-3 dark:text-gray-200"
+                        class="relative inline-flex w-full items-center justify-center rounded-xl bg-black px-5 py-3 text-white sm:w-auto"
                         >
-                        <span> Say Hello</span>
+                        <span class="font-sm"> Say Hello </span>
                         </button>
                         </div>
                     </div>
