@@ -11,7 +11,7 @@ export default function Contact() {
         
         return (
             <section id='contact'>
-                <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-screen-xl py-16">
                     <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
                     <div class="lg:col-span-2 lg:py-12">
                         <h1 className="text-center md:text-start text-4xl md:text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
@@ -25,7 +25,7 @@ export default function Contact() {
                         </div>
                     </div>
                 
-                    <div class="relative group rounded-lg bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
+                    <div class="relative group rounded-lg p-5 md:p-8 bg-white dark:bg-darkmode shadow-lg lg:col-span-3 lg:p-12">
                         <ContactForm/>
                     </div>
                     </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                             <button
                         type="submit"
 
-                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl bg-black px-5 py-3 dark:text-gray-200"
+                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
                         >
                         <span> Say Hello</span>
                         </button>
