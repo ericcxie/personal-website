@@ -138,12 +138,10 @@ export default function Contact() {
                         <div className="relative group mt-2">
                             <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                             <button
-                        type="submit"
-
-                        className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
-                        >
-                        <span> Say Hello</span>
-                        </button>
+                            type="submit"
+                            className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
+                            ><span> Say Hello</span>
+                            </button>
                         </div>
                     </div>
                 </form>
