@@ -6,11 +6,10 @@ import Landing from '../components/sections/landing';
 import Projects from '../components/sections/projects';
 import About from '../components/sections/about';
 import NavBar from '../components/navigation/navbar';
-import Contact from '../components/sections/contact';
 import Footer from '../components/navigation/footer';
 import Experiences from '../components/sections/experiences';
 import SEO from '../components/SEO.js';
-import ContactForm from '../components/sections/contactform';
+import Contact from '../components/sections/contact';
 
 
 export default function Home() {
@@ -56,8 +55,7 @@ export default function Home() {
             <Projects/>
             <Experiences/>
             <About/>
-            {/* <Contact/> */}
-            <ContactForm/>
+            <Contact/>
             <Footer/>
         </main> 
         )
