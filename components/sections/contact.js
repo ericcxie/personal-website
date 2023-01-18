@@ -19,7 +19,7 @@ export default function Contact() {
                         </h1>
 
                         <div className="md:mt-2">
-                        <p className="text-md md:text-lg text-center md:text-start font-medium text-gray-600 dark:text-gray-200">
+                        <p className="text-md md:text-lg text-center md:text-start text-gray-600 dark:text-gray-200">
                             Have a question or want to have a quick ☕️ chat? Feel free to connect with me!
                         </p>
                         </div>
