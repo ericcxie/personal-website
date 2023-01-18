@@ -30,9 +30,8 @@ export default function NotFound404() {
                 <div className="h-screen w-screen bg-white dark:bg-darkmode flex items-center">
                     <div className="container flex flex-col md:flex-row items-center justify-center gap-24 px-5 text-gray-700 mb-20 mt-16 md:mt-0 font-poppins">
                         <div className="max-w-md ml-8 xl:ml-64">
-                            <div className="text-6xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">404</div>
-                            <p className="text-2xl md:text-3xl font-light leading-normal dark:text-gray-200" >Sorry we couldn't find this page.</p>
-                            <p className="md:text-lg mb-8 dark:text-gray-300">But don't worry, you can return home using the button below.</p>
+                            <div className="text-3xl md:text-4xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">404: Page not found</div>
+                            <p className="text-xl md:text-2xl font-light leading-normal dark:text-gray-200" >The page you're looking for doesn't exist or has been moved</p>
                             <Link href="/">
                                 <div className="relative group mt-4 md:mt-8">
                                     <div className="hidden w-32 dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
@@ -45,7 +44,7 @@ export default function NotFound404() {
                         <div className="max-w-xs w-60 md:w-80">
                             {darkMode ? (
                                 <Image src={darkModeCat} alt="dark mode cat" /> ) : (
-                                <Image src={lightModeCat} alt="light mode cat" />
+                                <Image width='200' src={darkModeCat} alt="light mode cat" />
                             )}
                         </div>
                     </div>
