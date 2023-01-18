@@ -69,7 +69,7 @@ export default function Contact() {
         return (
             <form name="contact" onSubmit={formik.handleSubmit} data-netlify="true" className="space-y-4">
                     <div>
-                        <label className="sr-only" for="name">Name</label>
+                        <label>Name</label>
                         <input
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Name"
@@ -88,7 +88,7 @@ export default function Contact() {
                         )}
                     </div>
                     <div>
-                        <label className="sr-only" for="email">Email</label>
+                        <label>Email</label>
                         <input
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Email address"
@@ -108,7 +108,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                        <label className="sr-only" for="message">Message</label>
+                        <label>Message</label>
                         <textarea
                         className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Message"

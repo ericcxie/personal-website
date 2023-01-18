@@ -23,7 +23,8 @@
     "react-icons": "^4.7.1",
     "react-scroll": "^1.8.9",
     "react-spinners": "^0.13.7",
-    "react-type-animation": "^2.1.2"
+    "react-type-animation": "^2.1.2",
+    "scheduler": "^0.23.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
