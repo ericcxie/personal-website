@@ -60,23 +60,23 @@ export default function NavBar(props) {
         <ul className='hidden font-medium pt-1 xl:flex flex-1 justify-start items-center pl-10 text-gray-500 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-gray-200'>
                 <li data-aos='fade-down' data-aos-delay='400' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
                   <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink>
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
                 </li>
                 <li data-aos='fade-down' data-aos-delay='500' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
                   <ScrollLink to="projects" spy={true} smooth={true} offset={-30} duration={700}>Projects</ScrollLink>
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#567b8b]"></span>
                 </li>
                 <li data-aos='fade-down' data-aos-delay='600' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
                   <ScrollLink to="experiences" spy={true} smooth={true} offset={-70} duration={700}>Experiences</ScrollLink>
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#8bafbe]"></span>
                 </li>
                 <li data-aos='fade-down' data-aos-delay='700' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
                   <ScrollLink to="about" spy={true} smooth={true} offset={-70} duration={700}>About</ScrollLink>
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
                 </li>
                 <li data-aos='fade-down' data-aos-delay='800' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-500 dark:text-gray-200 transition duration-300 cursor-pointer">
-                  <ScrollLink to="contact" spy={true} smooth={true} offset={40} duration={700}>Contact</ScrollLink>
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+                  <ScrollLink to="contact" spy={true} smooth={true} offset={20} duration={700}>Contact</ScrollLink>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
                 </li>
             </ul>
             <ul data-aos='fade-down' data-aos-delay='900' className='hidden xl:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
@@ -86,7 +86,7 @@ export default function NavBar(props) {
                 <a className='hover:text-[#0077b5]' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
                 <a className='hover:text-[#00acee]' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
                 <a className='hover:text-[#6e5494]' href="https://github.com/ericcxie"><AiFillGithub/></a>
-              </div>
+              </div>Name
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>
                 {props.darkMode ? <BsSunFill className='md:hover:text-[#FFE87C]'/> : <BsMoonFill className='md:hover:text-[#D8D6CB]'/> }
