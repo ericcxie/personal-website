@@ -86,7 +86,7 @@ export default function NavBar(props) {
                 <a className='hover:text-[#0077b5]' href="https://www.linkedin.com/in/ericcxie/"><AiFillLinkedin/></a>
                 <a className='hover:text-[#00acee]' href="https://twitter.com/ericx_3"><AiOutlineTwitter/></a>
                 <a className='hover:text-[#6e5494]' href="https://github.com/ericcxie"><AiFillGithub/></a>
-              </div>Name
+              </div>
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>
                 {props.darkMode ? <BsSunFill className='md:hover:text-[#FFE87C]'/> : <BsMoonFill className='md:hover:text-[#D8D6CB]'/> }
