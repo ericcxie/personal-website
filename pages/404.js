@@ -21,8 +21,8 @@ export default function NotFound404() {
         <section>
             <div className={darkMode ? "dark" : ""}>
                 <Head>
-                    <title>Page not found | Eric Xie</title>
-                    <meta name="description" content="404: Page not found" />
+                    <title>Eric Xie</title>
+                    <meta name="description" content="Eric Xie | Software Developer" />
                     <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"}/>
                     <link rel="icon" href="/favicon.png" />
                 </Head>
