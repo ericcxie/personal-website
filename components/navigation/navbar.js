@@ -89,13 +89,13 @@ export default function NavBar(props) {
               </div>
               <li><RxDividerVertical className='dark:text-white text-lg lg:text-xl'/></li> 
               <li onClick={props.onClick} className='cursor-pointer dark:text-white'>
-                {props.darkMode ? <BsSunFill className='md:hover:text-[#FFE87C]'/> : <BsMoonFill className='md:hover:text-[#D8D6CB]'/> }
+                {props.darkMode ? <BsSunFill /> : <BsMoonFill /> }
               </li>
             </ul>
             <ul className='flex xl:hidden flex-1 justify-end gap-4'>
               {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
               <li data-aos='fade-in' data-aos-delay='700' onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
-                {props.darkMode ? <BsSunFill className='md:hover:text-[#FFE87C]'/> : <BsMoonFill className='md:hover:text-[#D8D6CB]'/> }
+                {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
               </li>
               {/* mobile button */}
               <button data-aos='fade-in' data-aos-delay='900'> 
