@@ -11,7 +11,7 @@ export default function About() {
     }, [])
 
     return (
-        <section id="about" className='mb-24 mt-36 dark:text-white'>
+        <section id="about" className='mb-24 mt-36 dark:text-white transition-colors duration-300'>
           <div className="flex text-center mx-auto">
             <h1 data-aos='fade-up' data-aos-once className="mx-auto text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4042b8] dark:to-[#2975a4]">
                       About Me!

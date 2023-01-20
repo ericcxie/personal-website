@@ -49,7 +49,7 @@ export default function Home() {
             <HashLoader color="#7491B3" size={100} loading={loading} className='text-center'/>
           </div>
         ) : (
-          <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode'>
+          <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode transition-colors duration-300'>
             <NavBar darkMode={darkMode} setDarkMode={setDarkMode} onClick={toggleDarkMode}/>
             <Landing/>
             <Projects/>

@@ -25,7 +25,7 @@ export default function Contact() {
                         </div>
                     </div>
                 
-                    <div data-aos='fade-up' data-aos-once className="relative group rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 bg-white dark:bg-darkmode lg:col-span-3 lg:p-12">
+                    <div data-aos='fade-up' data-aos-once className="transition-colors duration-300 relative group rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 lg:col-span-3 lg:p-12">
                         <ContactForm/>
                     </div>
                     </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                     <div>
                         <label>Name</label>
                         <input
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Name"
                         type="text"
                         id="name"
@@ -90,7 +90,7 @@ export default function Contact() {
                     <div>
                         <label>Email</label>
                         <input
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Email address"
                         type="email"
                         id="email"
@@ -110,7 +110,7 @@ export default function Contact() {
                     <div>
                         <label>Message</label>
                         <textarea
-                        className="w-full dark:text-white rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+                        className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
                         placeholder="Message"
                         rows="8"
                         id="message"
@@ -139,7 +139,7 @@ export default function Contact() {
                             <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                             <button
                             type="submit"
-                            className="relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
+                            className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
                             ><span> Say Hello</span>
                             </button>
                         </div>

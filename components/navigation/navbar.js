@@ -50,8 +50,8 @@ export default function NavBar(props) {
     }, [])
 
     return (
-      <nav data-aos='fade-in' data-aos-delay='300' className={navbar ? 'bg-white py-2 z-20 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0 shadow-light-button dark:shadow-[#202747]' : 'bg-white py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0'}>
-      <div className="relative container flex flex-wrap items-center justify-between mx-auto pb-2">
+      <nav data-aos='fade-in' data-aos-delay='300' className={navbar ? 'bg-white py-2 z-20 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#060813] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-80 dark:backdrop-blur-sm backdrop-blur-md shadow-light-button dark:shadow-[#202747] transition-colors duration-1000' : 'py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 transition-colors duration-1000 fixed w-full left-0'}>
+      <div className="relative container flex flex-wrap items-center justify-between mx-auto pb-2 ">
         <button onClick={() => {window.scrollTo({top: 0, behavior: 'smooth', duration: 100})}}>
           <h1 className='text-2xl lg:text-2xl font-poppins font-bold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]'>Eric Xie.</h1>
         </button>
