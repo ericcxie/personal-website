@@ -57,7 +57,7 @@ export default function NavBar(props) {
         </button>
         
         
-        <ul className='hidden font-medium pt-1 xl:flex flex-1 justify-start items-center pl-10 text-md gap-3 lg:gap-6 xl:gap-12 dark:text-gray-200'>
+        <ul className='hidden font-medium pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-3 xl:gap-12 dark:text-gray-200'>
                 <li data-aos='fade-down' data-aos-delay='400' className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-700 dark:text-gray-200 transition duration-300 cursor-pointer">
                   <ScrollLink to="home" spy={true} smooth={true} offset={-20} duration={700}>Home</ScrollLink>
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
@@ -79,7 +79,7 @@ export default function NavBar(props) {
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
                 </li>
             </ul>
-            <ul data-aos='fade-down' data-aos-delay='900' className='hidden xl:flex flex-1 justify-end items-center gap-1 lg:gap-3'>
+            <ul data-aos='fade-down' data-aos-delay='900' className='hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-0 xl:gap-3'>
               <div className='flex gap-1 text-xl xl:text-2xl dark:text-white'>
                 <a className='hover:text-[#b31217]' href="https://www.youtube.com/@ericcxie"><AiFillYoutube/></a>
                 <a className='hover:text-[#c13584]' href="https://www.instagram.com/ericcxie/"><AiOutlineInstagram/></a>
@@ -92,7 +92,7 @@ export default function NavBar(props) {
                 {props.darkMode ? <BsSunFill /> : <BsMoonFill /> }
               </li>
             </ul>
-            <ul className='flex xl:hidden flex-1 justify-end gap-4'>
+            <ul className='flex lg:hidden flex-1 justify-end gap-4'>
               {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
               <li data-aos='fade-in' data-aos-delay='700' onClick={(props.onClick)} className='cursor-pointer text-2xl mt-1 dark:text-white'>
                 {props.darkMode ? <BsSunFill/> : <BsMoonFill/> }
