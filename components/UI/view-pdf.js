@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
-import { Document, Page } from 'react-pdf';
+import { useRouter } from "next/router";
+import { Document, Page } from "react-pdf";
 
 function ViewPdf({ pdfUrl }) {
   return (
