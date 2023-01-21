@@ -56,14 +56,14 @@ export default function Landing() {
               sequence={[
                 2400,
                 "I'm a Software Developer",
-                1000,
-                "I'm a UW student",
+                1200,
+                "I'm a UWaterloo student",
                 1000,
               ]}
               speed={35} // Custom Speed from 1-99 - Default Speed: 40
               style={{ fontSize: "1em" }}
               wrapper="div" // Animation will be rendered as a <span>
-              repeat={Infinity} // Repeat this Animation Sequence infinitely
+              repeat={3} // Repeat this Animation Sequence infinitely
             />
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Landing() {
         data-aos-delay="2100"
         className="hidden md:w-1/2 md:inline"
       >
-        <Image src={dots} />
+        <Image src={dots} alt="main-dots" />
       </div>
     </section>
   );

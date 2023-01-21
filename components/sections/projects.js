@@ -2,7 +2,6 @@ import { FaPython, FaReact } from "react-icons/fa";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss, SiSelenium } from "react-icons/si";
-import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -33,7 +32,7 @@ export default function Projects() {
           className="relative group"
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#FFD43B] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-          <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+          <div className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
             <div className="flex gap-3">
               <FaPython className="text-4xl mb-3" />
               <SiSelenium className="text-4xl mb-3" />
@@ -76,7 +75,7 @@ export default function Projects() {
                 </p>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         {/* second card */}
         <div
@@ -86,7 +85,7 @@ export default function Projects() {
           className="relative group"
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#88dded] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-          <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+          <div className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
             <FaReact className="text-4xl mb-3" />
             <div className="text-2xl">
               <a
@@ -125,7 +124,7 @@ export default function Projects() {
                 </p>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         {/* third card */}
         <div
@@ -135,7 +134,7 @@ export default function Projects() {
           className="relative group"
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-theme to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
-          <a className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+          <div className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
             <div className="flex gap-3">
               <TbBrandNextjs className="text-4xl mb-3" />
               <SiTailwindcss className="text-4xl mb-3" />
@@ -177,7 +176,7 @@ export default function Projects() {
                 </p>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>

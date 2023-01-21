@@ -31,6 +31,7 @@ export default function About() {
           <Image
             className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto border-2 border-[#21243a] dark:border-[#1b1206] shadow-light-card dark:drop-shadow-none"
             src={portrait}
+            alt="portrait"
           />
         </div>
         <div

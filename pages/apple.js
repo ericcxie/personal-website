@@ -34,7 +34,11 @@ export default function Apple() {
           </Link>
           <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
             <div className="mx-auto max-w-3xl text-center">
-              <Image src={apple_logo} className="w-14 mx-auto py-4" />
+              <Image
+                src={apple_logo}
+                alt="apple-logo"
+                className="w-14 mx-auto py-4"
+              />
               <h1 className="text-[#BDBDBD] dark:text-white text-3xl font-extrabold text-transparent md:text-5xl">
                 {" "}
                 My Apple Gear
