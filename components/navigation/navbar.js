@@ -95,7 +95,7 @@ export default function NavBarPage(props) {
               offset={-20}
               duration={700}
             >
-              home
+              Home
             </ScrollLink>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
@@ -111,7 +111,7 @@ export default function NavBarPage(props) {
               offset={-30}
               duration={700}
             >
-              projects
+              Projects
             </ScrollLink>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#567b8b]"></span>
           </li>
@@ -127,7 +127,7 @@ export default function NavBarPage(props) {
               offset={-70}
               duration={700}
             >
-              experiences
+              Experiences
             </ScrollLink>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#8bafbe]"></span>
           </li>
@@ -143,7 +143,7 @@ export default function NavBarPage(props) {
               offset={-70}
               duration={700}
             >
-              about
+              About
             </ScrollLink>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
@@ -159,7 +159,7 @@ export default function NavBarPage(props) {
               offset={20}
               duration={700}
             >
-              contact
+              Contact
             </ScrollLink>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
@@ -276,7 +276,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  home
+                  Home
                 </ScrollLink>
               </li>
               <li>
@@ -289,7 +289,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  projects
+                  Projects
                 </ScrollLink>
               </li>
               <li>
@@ -302,7 +302,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  experiences
+                  Experiences
                 </ScrollLink>
               </li>
               <li>
@@ -315,7 +315,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  about
+                  About
                 </ScrollLink>
               </li>
               <li>
@@ -328,7 +328,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  contact
+                  Contact
                 </ScrollLink>
               </li>
             </ul>
