@@ -17,7 +17,7 @@ export default function Footer() {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl -my-1 font-bold font-poppins text-theme transition-colors duration-300 hover:text-dark bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl -my-1 font-bold font-gilroybold text-theme transition-colors duration-300 hover:text-dark bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie
           </h1>
         </button>
@@ -27,7 +27,7 @@ export default function Footer() {
               Designed & Built by Eric Xie
             </p>
           </a>
-          <p className="text-sm text-gray-600 dark:text-gray-300 ">
+          <p className="text-sm font-gilroy text-gray-600 dark:text-gray-300 ">
             © Copyright 2023.
           </p>
         </div>

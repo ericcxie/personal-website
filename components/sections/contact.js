@@ -18,12 +18,12 @@ export default function Contact() {
             data-aos-once
             className="lg:col-span-2 lg:py-12"
           >
-            <h1 className="text-center md:text-start text-4xl md:text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
-              Get In Touch
+            <h1 className="text-center md:text-start text-4xl md:text-5xl py-5 font-gilroybold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#7600ec] dark:to-[#ff00d9]">
+              Get In Touch.
             </h1>
 
             <div className="md:mt-2">
-              <p className="text-md md:text-lg text-center md:text-start text-gray-600 dark:text-gray-200">
+              <p className="text-md md:text-lg text-center font-gilroy md:text-start text-pf-dark dark:text-pf-light">
                 Have a question or want to have a quick ☕️ chat? Feel free to
                 connect with me!
               </p>
@@ -82,9 +82,11 @@ function ContactForm() {
       className="space-y-4"
     >
       <div>
-        <label>Name</label>
+        <label className="font-gilroy text-pf-dark dark:text-pf-light">
+          Name
+        </label>
         <input
-          className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
           placeholder="Name"
           type="text"
           id="name"
@@ -101,9 +103,11 @@ function ContactForm() {
         )}
       </div>
       <div>
-        <label>Email</label>
+        <label className="font-gilroy text-pf-dark dark:text-pf-light">
+          Email
+        </label>
         <input
-          className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
           placeholder="Email address"
           type="email"
           id="email"
@@ -121,9 +125,11 @@ function ContactForm() {
       </div>
 
       <div>
-        <label>Message</label>
+        <label className="font-gilroy text-pf-dark dark:text-pf-light">
+          Message
+        </label>
         <textarea
-          className="w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
           placeholder="Message"
           rows="8"
           id="message"
@@ -148,12 +154,14 @@ function ContactForm() {
 
       <div className="mt-2">
         <div className="relative group mt-2">
-          <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+          <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7928CA] to-[#FF0080] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
           <button
             type="submit"
             className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
           >
-            <span> Say Hello</span>
+            <span className="font-gilroy font-bold text-pf-dark dark:text-pf-light">
+              say hi.
+            </span>
           </button>
         </div>
       </div>

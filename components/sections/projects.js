@@ -19,12 +19,12 @@ export default function Projects() {
       <h1
         data-aos="fade-up"
         data-aos-once
-        className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#0064f9] dark:to-[#20e93b]"
+        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#007CF0] dark:to-[#6df8f3]"
       >
         Projects
       </h1>
       {/* first card */}
-      <div className="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+      <div className="mt-3 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 font-gilroy">
         <div
           data-aos="fade-up"
           data-aos-once
@@ -54,7 +54,7 @@ export default function Projects() {
             <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#306998] via-[#4B8BBE] to-[#FFD43B]"></span>
             <div className="justify-between sm:flex">
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold text-pf-dark dark:text-white">
                   AmaFind - Amazon Web Scraper
                 </h3>
               </div>
@@ -104,7 +104,7 @@ export default function Projects() {
             <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-[#1c2c4c] via-[#4B8BBE] to-[#88dded]"></span>
             <div className="justify-between sm:flex">
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold text-pf-dark dark:text-white">
                   Budget Expense Tracker
                 </h3>
               </div>
@@ -156,7 +156,7 @@ export default function Projects() {
             <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-theme to-purple-600"></span>
             <div className="justify-between sm:flex">
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold text-pf-dark dark:text-white">
                   Personal Website
                 </h3>
               </div>

@@ -11,15 +11,12 @@ export default function About() {
   }, []);
 
   return (
-    <section
-      id="about"
-      className="mb-24 mt-36 dark:text-white transition-colors duration-300"
-    >
+    <section id="about" className="mb-24 mt-36 transition-colors duration-300">
       <div className="flex text-center mx-auto">
         <h1
           data-aos="fade-up"
           data-aos-once
-          className="mx-auto text-5xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4042b8] dark:to-[#2975a4]"
+          className="mx-auto text-5xl font-bold py-5 font-gilroybold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4042b8] dark:to-[#2975a4]"
         >
           About Me!
         </h1>
@@ -37,7 +34,7 @@ export default function About() {
         <div
           data-aos="fade-up"
           data-aos-once
-          className="mt-8 text-gray-800 dark:text-gray-300 font-poppins"
+          className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
           <p className="mx-auto max-w-lg py-2">
             Hello! 👋 My name is Eric and I am a computer engineering student at
@@ -47,7 +44,7 @@ export default function About() {
             Currently, I am a Software Developer at
             <a
               href="https://www.brookfieldannuity.com/en/"
-              className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme dark:text-gray-300 transition duration-500"
+              className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme dark:text-pf-light transition duration-500"
             >
               {" "}
               Brookfield Annuity

@@ -1,5 +1,27 @@
-@tailwind base; 
-@tailwind components; 
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("../public/fonts/Gilroy-Medium.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../public/fonts/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../public/fonts/Gilroy-Light.otf");
+  font-weight: 300;
+}
+
+/* * {
+  @apply cursor-none;
+} */

@@ -19,7 +19,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Twirl as Hamburger } from "hamburger-react";
 
-export default function NavBarPage(props) {
+export default function NavBar(props) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
   const [navbar, setNavbar] = useState(false);
@@ -63,11 +63,9 @@ export default function NavBarPage(props) {
 
   return (
     <nav
-      data-aos="fade-in"
-      data-aos-delay="300"
       className={
         navbar
-          ? " mt-2 rounded-3xl bg-white xl:py-2 z-10 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
+          ? "mt-2 rounded-3xl bg-white xl:py-2 z-20 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
           : "mt-1 py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 transition-colors duration-1000 fixed w-full left-0"
       }
     >
@@ -77,98 +75,22 @@ export default function NavBarPage(props) {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold lg:text-2xl text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl mb-1 xl:mb-0 lg:text-2xl font-poppins font-bold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie.
           </h1>
         </button>
 
-        <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
-          <li
-            data-aos="fade-down"
-            data-aos-delay="400"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
-          >
-            <ScrollLink
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-20}
-              duration={700}
-            >
-              home
-            </ScrollLink>
+        <ul className="hidden font-medium pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
+          <li className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-700 dark:text-gray-200 transition duration-300 cursor-pointer">
+            <a href="/">Home</a>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
-          <li
-            data-aos="fade-down"
-            data-aos-delay="500"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
-          >
-            <ScrollLink
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={700}
-            >
-              projects
-            </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#567b8b]"></span>
-          </li>
-          <li
-            data-aos="fade-down"
-            data-aos-delay="600"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
-          >
-            <ScrollLink
-              to="experiences"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={700}
-            >
-              experiences
-            </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#8bafbe]"></span>
-          </li>
-          <li
-            data-aos="fade-down"
-            data-aos-delay="700"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
-          >
-            <ScrollLink
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={700}
-            >
-              about
-            </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
-          </li>
-          <li
-            data-aos="fade-down"
-            data-aos-delay="800"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
-          >
-            <ScrollLink
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={20}
-              duration={700}
-            >
-              contact
-            </ScrollLink>
+          <li className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-700 dark:text-gray-200 transition duration-300 cursor-pointer">
+            <a href="/">Projects</a>
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
         </ul>
-        <ul
-          data-aos="fade-down"
-          data-aos-delay="900"
-          className="hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-0 xl:gap-3"
-        >
+        <ul className="hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-0 xl:gap-3">
           <div className="flex gap-1 text-xl xl:text-2xl dark:text-white">
             <a
               className="hover:text-[#b31217]"
@@ -231,7 +153,7 @@ export default function NavBarPage(props) {
             </li>
           </button>
 
-          {/* <li>
+          <li>
             <Hamburger
               toggled={isOpen}
               toggle={setIsOpen}
@@ -240,7 +162,7 @@ export default function NavBarPage(props) {
               size={25}
               color="black"
             />
-          </li> */}
+          </li>
         </ul>
       </div>
       {/* mobile menu */}
@@ -261,7 +183,7 @@ export default function NavBarPage(props) {
             onClick={() => setIsOpen(!isOpen)}
             className={
               isOpen
-                ? "relative xl:hidden ring-1 ring-zinc-900/5  font-inter font-normal bg-white mt-3 py-2 text-theme dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center"
+                ? "relative xl:hidden ring-1 ring-zinc-900/5  font-poppins font-normal bg-white mt-3 py-2 text-theme dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center"
                 : "hidden"
             }
           >
@@ -274,7 +196,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-5}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
                   Home
                 </ScrollLink>
@@ -287,7 +209,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-20}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
                   Projects
                 </ScrollLink>
@@ -300,7 +222,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-60}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
                   Experiences
                 </ScrollLink>
@@ -313,7 +235,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-70}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
                   About
                 </ScrollLink>
@@ -326,7 +248,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={0}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-poppins cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
                   Contact
                 </ScrollLink>

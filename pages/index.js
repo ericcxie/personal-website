@@ -10,6 +10,7 @@ import Footer from "../components/navigation/footer";
 import Experiences from "../components/sections/experiences";
 import SEO from "../components/SEO.js";
 import Contact from "../components/sections/contact";
+import Cursor from "../components/cursor/cursor";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -67,6 +68,7 @@ export default function Home() {
       )}
 
       {/* Header menu bar */}
+      {/* <Cursor /> */}
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Experiences() {
       <h1
         data-aos="fade-up"
         data-aos-once
-        className="text-3xl py-5 font-poppins font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#753bf1] dark:to-[#b92727]"
+        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#753bf1] dark:to-[#b92727]"
       >
         Experiences
       </h1>
@@ -21,17 +21,17 @@ export default function Experiences() {
         <ul
           data-aos="fade-up"
           data-aos-once
-          className="relative border-l -pl-0 border-gray-200 dark:border-gray-700"
+          className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy"
         >
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jan. 2023 - Current
             </time>
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
               Software Developer
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-white">
+            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
               Brookfield Annuity
             </h3>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -44,10 +44,10 @@ export default function Experiences() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sep. 2021 – Feb. 2022
             </time>
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
               Project Researcher
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-white">
+            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
               DoubleOcean Financial Group Ltd.
             </h3>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -61,10 +61,10 @@ export default function Experiences() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Oct. 2019 - July 2022
             </time>
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
               Head of Publicity
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-white">
+            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
               Bayview Yearbook Committee
             </h3>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -81,7 +81,7 @@ export default function Experiences() {
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
           <Link href="/resume.pdf">
-            <button className="py-2 relative rounded-lg px-4 inline-flex items-center bg-[##e0e0e0] shadow-light-button text-light-font font-poppins text-sm dark:hover:bg-none dark:shadow-none active:shadow-inner transition-shadow ease-in-out duration-100 dark:bg-darkmode dark:text-gray-200">
+            <button className="py-2 relative rounded-lg px-4 inline-flex items-center bg-[##e0e0e0] shadow-light-button text-light-font font-gilroy text-sm dark:hover:bg-none dark:shadow-none active:shadow-inner transition-shadow ease-in-out duration-100 dark:bg-darkmode dark:text-gray-200">
               Receive CV{" "}
               <svg
                 className="ml-2 w-3 h-3"

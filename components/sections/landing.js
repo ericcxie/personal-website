@@ -13,6 +13,7 @@ import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import dotsanimate from "../../public/SVG/dotsanimate.svg";
 
 export default function Landing() {
   useEffect(() => {
@@ -32,7 +33,7 @@ export default function Landing() {
             data-aos="fade-up"
             data-aos-once
             data-aos-delay="1700"
-            className="py-2 ml-1 font-mono font-thin text-light-font dark:text-gray-200 text-md lg:text-lg"
+            className="py-2 ml-1 font-mono font-thin text-pf-dark dark:text-pf-light text-md lg:text-lg"
           >
             Hi, my name is
           </h2>
@@ -40,7 +41,7 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-gray-800 dark:text-white font-poppins font-bold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-white font-gilroy font-semibold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
             >
               Eric Xie.
             </h1>
@@ -49,7 +50,7 @@ export default function Landing() {
             data-aos="fade-up"
             data-aos-once
             data-aos-delay="2000"
-            className="ml-1 font-poppins mt-3 md:mt-4 font-light text-gray-800 dark:text-gray-100 text-2xl md:text-3xl"
+            className="ml-1 mt-3 font-gilroylight md:mt-4 text-pf-dark dark:text-pf-light text-2xl md:text-3xl"
           >
             <TypeAnimation
               // Same String at the start will only be typed once, initially
@@ -82,12 +83,12 @@ export default function Landing() {
           >
             <div className="relative group">
               <div className=" hidden blur dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg  opacity-100 md:opacity-60 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <button className="transition-colors duration-300 relative font-poppins text-small bg-theme hover:bg-dark active:shadow-inner  dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
+              <button className="transition-colors duration-300 relative font-gilroy text-small bg-theme hover:bg-dark active:shadow-inner  dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
                 Projects
               </button>
             </div>
           </ScrollLink>
-          <button className="font-poppins font-medium text-theme hover:text-gray-600 dark:text-gray-200 hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
+          <button className="font-gilroy font-medium text-theme hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
             <Link href="/resume.pdf">Resume</Link>
           </button>
         </div>
@@ -136,6 +137,7 @@ export default function Landing() {
         className="hidden md:w-1/2 md:inline"
       >
         <Image src={dots} alt="main-dots" />
+        <dotsanimate />
       </div>
     </section>
   );
