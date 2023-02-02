@@ -41,7 +41,7 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-pf-dark dark:text-white font-gilroy font-semibold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-white font-gilroybold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
             >
               Eric Xie.
             </h1>
@@ -137,7 +137,6 @@ export default function Landing() {
         className="hidden md:w-1/2 md:inline"
       >
         <Image src={dots} alt="main-dots" />
-        <dotsanimate />
       </div>
     </section>
   );

@@ -276,7 +276,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  Home
+                  home
                 </ScrollLink>
               </li>
               <li>
@@ -289,7 +289,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  Projects
+                  projects
                 </ScrollLink>
               </li>
               <li>
@@ -302,7 +302,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  Experiences
+                  experiences
                 </ScrollLink>
               </li>
               <li>
@@ -315,7 +315,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  About
+                  about
                 </ScrollLink>
               </li>
               <li>
@@ -328,7 +328,7 @@ export default function NavBarPage(props) {
                   duration={700}
                   className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
                 >
-                  Contact
+                  contact
                 </ScrollLink>
               </li>
             </ul>
