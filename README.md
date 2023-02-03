@@ -1,3 +1,4 @@
+# Personal Website
 Visit the site here: https://ericxie.dev/
 
 ## Starting the app
