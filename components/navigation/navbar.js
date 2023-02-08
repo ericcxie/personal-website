@@ -18,6 +18,8 @@ import { sendStatusCode } from "next/dist/server/api-utils";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Twirl as Hamburger } from "hamburger-react";
+import logo from "../../public/img/logo.png";
+import Image from "next/image";
 
 export default function NavBarPage(props) {
   const [isOpen, setIsOpen] = useState(false);

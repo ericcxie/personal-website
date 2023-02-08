@@ -1,7 +1,12 @@
 import { FaPython, FaReact } from "react-icons/fa";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss, SiSelenium } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiSelenium,
+  SiFlask,
+  SiTypescript,
+} from "react-icons/si";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -86,16 +91,20 @@ export default function Projects() {
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#4B8BBE] to-[#88dded] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
           <div className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
-            <FaReact className="text-4xl mb-3" />
+            <div className="flex gap-3">
+              <FaReact className="text-4xl mb-3" />
+              <SiTypescript className="text-4xl mb-3" />
+              <SiFlask className="text-4xl mb-3" />
+            </div>
             <div className="text-2xl">
               <a
-                href="https://budget-expense-tracker-react.netlify.app/"
+                href="https://devpost.com/software/build-a-buddy-vmu7iq?ref_content=my-projects-tab&ref_feature=my_projects"
                 className="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
               >
                 <FiExternalLink />
               </a>
               <a
-                href="https://github.com/ericcxie/react-budget-expense-tracker"
+                href="https://github.com/Nikola-Milekic/McHacks10"
                 className="absolute right-16 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
               >
                 <FiGithub />
@@ -105,22 +114,22 @@ export default function Projects() {
             <div className="justify-between sm:flex">
               <div>
                 <h3 className="text-xl font-bold text-pf-dark dark:text-white">
-                  Budget Expense Tracker
+                  Build-a-Buddy
                 </h3>
               </div>
             </div>
             <div className="mt-4 sm:pr-8">
               <p className="text-sm text-gray-500 dark:text-gray-100">
-                A simple expense tracker built using ReactJS to manage income
-                and expenses. Learning project to familiarize with Context API
-                with Hooks.
+                A specialized conversational persona chat bot powered by Cohere
+                API for NLP built for McHacks10 2023.
               </p>
             </div>
 
             <div className="mt-6 flex">
               <div className="flex flex-col-reverse">
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
-                  ReactJS // JavaScript // Context API
+                  ReactJS // Typescript // Python // Flask // Tailwind CSS //
+                  Figma
                 </p>
               </div>
             </div>

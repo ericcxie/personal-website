@@ -28,15 +28,22 @@ export default function Experiences() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jan. 2023 - Current
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
               Software Developer
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
+            <a
+              href="https://www.brookfieldannuity.com/en/"
+              className="text-md italic font-normal text-gray-700 dark:text-pf-light"
+            >
               Brookfield Annuity
-            </h3>
+            </a>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              Designing and developing RPA softwares to automate business
-              processes
+              Designing and developing RPA programs to automate business
+              processes to improve efficiency
+            </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
+              <span className="font-gilroybold">Tools:</span> Python, pandas,
+              NumPy, Plotly, SQL, Jupyter, SQL, Git, GitHub
             </p>
           </li>
           <li className="mb-10 ml-4">
@@ -44,7 +51,7 @@ export default function Experiences() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sep. 2021 – Feb. 2022
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
               Project Researcher
             </h2>
             <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
@@ -55,13 +62,17 @@ export default function Experiences() {
               in PD-1 related medicine using library databases to explore areas
               for potential investment opportunities
             </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
+              <span className="font-gilroybold">Tools:</span> Microsoft Excel,
+              Microsoft Word
+            </p>
           </li>
           <li className="ml-4">
             <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Oct. 2019 - July 2022
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white cursor-pointer">
+            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
               Head of Publicity
             </h2>
             <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
@@ -70,6 +81,10 @@ export default function Experiences() {
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
               Ensured the successful delivery of the yearbook by acting as a
               liaison between the student body and school administration
+            </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
+              <span className="font-gilroybold">Tools:</span> Adobe Photoshop,
+              Adobe Illustrator
             </p>
           </li>
         </ul>
