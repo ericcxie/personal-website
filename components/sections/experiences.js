@@ -43,7 +43,7 @@ export default function Experiences() {
             </p>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
               <span className="font-gilroybold">Tools:</span> Python, pandas,
-              NumPy, Plotly, SQL, Jupyter, SQL, Git, GitHub
+              NumPy, Plotly, Jupyter, SQL, Git, GitHub
             </p>
           </li>
           <li className="mb-10 ml-4">
