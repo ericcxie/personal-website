@@ -120,8 +120,9 @@ export default function Projects() {
             </div>
             <div className="mt-4 sm:pr-8">
               <p className="text-sm text-gray-500 dark:text-gray-100">
-                A specialized conversational persona chat bot powered by Cohere
-                API for NLP built for McHacks10 2023.
+                A specialized conversational chat bot powered by Cohere API for
+                NLP built for McHacks10 2023. Users generate a personalized
+                "buddy" chat bot that responds based on persona prompt
               </p>
             </div>
 
