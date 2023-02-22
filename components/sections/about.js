@@ -94,7 +94,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                C++
+                SQL
               </li>
             </ul>
             <ul className="flex flex-col">
@@ -128,7 +128,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Next.js
+                Node.js
               </li>
             </ul>
             <ul className="flex flex-col">

@@ -1,4 +1,4 @@
-import { FaPython, FaReact } from "react-icons/fa";
+import { FaPython, FaReact, FaNodeJs } from "react-icons/fa";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -6,6 +6,7 @@ import {
   SiSelenium,
   SiFlask,
   SiTypescript,
+  SiMongodb,
 } from "react-icons/si";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -129,7 +130,7 @@ export default function Projects() {
             <div className="mt-6 flex">
               <div className="flex flex-col-reverse">
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
-                  ReactJS // Typescript // Python // Flask // Tailwind CSS //
+                  React.js // Typescript // Python // Flask // Tailwind CSS //
                   Figma
                 </p>
               </div>
@@ -146,18 +147,18 @@ export default function Projects() {
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-theme to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
           <div className="dark:bg-darkmode min-h-full relative block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 p-8 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
             <div className="flex gap-3">
-              <TbBrandNextjs className="text-4xl mb-3" />
-              <SiTailwindcss className="text-4xl mb-3" />
+              <FaNodeJs className="text-4xl mb-3" />
+              <SiMongodb className="text-4xl mb-3" />
             </div>
             <div className="text-2xl">
               <a
-                href="https://ericxie.dev/"
+                href="https://github.com/ericcxie/career-snap"
                 className="absolute right-6 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
               >
                 <FiExternalLink />
               </a>
               <a
-                href="https://github.com/ericcxie/personal-website"
+                href="https://github.com/ericcxie/career-snap"
                 className="absolute right-16 top-8 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
               >
                 <FiGithub />
@@ -167,22 +168,22 @@ export default function Projects() {
             <div className="justify-between sm:flex">
               <div>
                 <h3 className="text-xl font-bold text-pf-dark dark:text-white">
-                  Personal Website
+                  Career Snap
                 </h3>
               </div>
             </div>
             <div className="mt-4 sm:pr-8">
               <p className="text-sm text-gray-500 dark:text-gray-100">
-                A personal website designed in Figma and developed using NextJS
-                and Tailwind CSS. Website aims towards showcasing personal
-                projects and work experiences.
+                An internship tracker developed using the MERN stack. It
+                features a login authentication system and a dashboard to show
+                relevant application data. Currently a work in progress...
               </p>
             </div>
 
             <div className="mt-6 flex">
               <div className="flex flex-col-reverse">
                 <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
-                  ReactJS // NextJS // Tailwind CSS // Figma
+                  React.js // Express.js // Node.js // MongoDB
                 </p>
               </div>
             </div>
