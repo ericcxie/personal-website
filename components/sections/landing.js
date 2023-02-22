@@ -74,20 +74,15 @@ export default function Landing() {
           data-aos-delay="2100"
           className="py-1 px-1 flex justify-start gap-4 mt-5"
         >
-          <ScrollLink
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-20}
-            duration={700}
-          >
-            <div className="relative group">
-              <div className=" hidden blur dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg  opacity-100 md:opacity-60 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <button className="transition-colors duration-300 relative font-gilroy text-small bg-theme hover:bg-dark active:shadow-inner  dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
-                Projects
-              </button>
-            </div>
-          </ScrollLink>
+          <div className="relative group">
+            <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <a
+              href="mailto:Ex.EricXie@gmail.com"
+              className="transition-colors duration-300 relative font-gilroy text-small bg-theme hover:bg-dark active:shadow-inner dark:bg-darkmode text-white dark:text-gray-100 font-medium py-1.5 px-10 rounded-lg pt-2.5 pb-2.5"
+            >
+              Connect
+            </a>
+          </div>
           <button className="font-gilroy font-medium text-theme hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
             <Link href="/resume.pdf">Resume</Link>
           </button>
