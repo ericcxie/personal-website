@@ -72,7 +72,7 @@ export default function Landing() {
           data-aos="fade-up"
           data-aos-once
           data-aos-delay="2100"
-          className="py-1 px-1 flex justify-start gap-4 mt-5"
+          className="py-1 px-1 flex justify-start gap-4 mt-5 mb-2"
         >
           <div className="relative group">
             <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
