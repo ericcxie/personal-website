@@ -95,7 +95,6 @@ export default function Projects() {
             <div className="flex gap-3">
               <FaReact className="text-4xl mb-3" />
               <SiTypescript className="text-4xl mb-3" />
-              <SiFlask className="text-4xl mb-3" />
             </div>
             <div className="text-2xl">
               <a

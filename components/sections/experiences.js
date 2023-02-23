@@ -17,12 +17,12 @@ export default function Experiences() {
       >
         Experiences
       </h1>
-      <div className="mt-3 flex flex-col justify-center items-start">
-        <ul
-          data-aos="fade-up"
-          data-aos-once
-          className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy"
-        >
+      <div
+        data-aos="fade-up"
+        data-aos-once
+        className="mt-3 flex flex-col justify-center items-start"
+      >
+        <ul className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy">
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
@@ -89,11 +89,7 @@ export default function Experiences() {
           </li>
         </ul>
 
-        <div
-          data-aos="fade-up"
-          data-aos-once
-          className="relative group mt-6 md:mt-10 transition-colors duration-300"
-        >
+        <div className="relative group mt-6 md:mt-10 transition-colors duration-300">
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
           <Link href="/resume.pdf">
             <button className="py-2 relative rounded-lg px-4 inline-flex items-center bg-[##e0e0e0] shadow-light-button text-light-font font-gilroy text-sm dark:hover:bg-none dark:shadow-none active:shadow-inner transition-shadow ease-in-out duration-100 dark:bg-darkmode dark:text-gray-200">
