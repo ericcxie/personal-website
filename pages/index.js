@@ -20,7 +20,7 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1300);
   }, []);
 
   const toggleDarkMode = () => {
