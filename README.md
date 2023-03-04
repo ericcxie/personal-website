@@ -1,7 +1,7 @@
 <div align="center">
     <div id="user-content-toc">
       <ul>
-          <summary><a href="https://ericcxie.com/"><h1 style="display: inline-block; margin-bottom:0px">Personal Website</h1></a></summary>
+          <summary><h1 style="display: inline-block; margin-bottom:0px">Personal Website</h1></summary>
       </ul>
     </div>
     <h3>Visit the site here: https://ericcxie.com/</h3>
