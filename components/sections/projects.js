@@ -55,7 +55,7 @@ export default function Projects() {
                 className="h-48 2xl:h-52 w-full rounded-t-lg object-cover"
               />
             </Link>
-            <div className="pl-8 py-6 mb-1">
+            <div className="px-8 py-6 mb-1">
               <div className="flex gap-3">
                 <FaNodeJs className="text-3xl mb-3" />
                 <SiFirebase className="text-3xl mb-3" />
@@ -117,7 +117,7 @@ export default function Projects() {
                 className="h-48 2xl:h-52 w-full rounded-t-lg object-cover"
               />
             </Link>
-            <div className="pl-8 py-6 mb-1">
+            <div className="px-8 py-6 mb-1">
               <div className="flex gap-3">
                 <FaPython className="text-3xl mb-3" />
                 <SiPandas className="text-3xl mb-3" />
@@ -180,7 +180,7 @@ export default function Projects() {
                 className="h-48 2xl:h-52 w-full rounded-t-lg object-cover"
               />
             </Link>
-            <div className="pl-8 pr-2 py-6 mb-1">
+            <div className="px-8 pr-2 py-6 mb-1">
               <div className="flex gap-3">
                 <SiTypescript className="text-3xl mb-3" />
                 <SiTailwindcss className="text-3xl mb-3" />
@@ -218,8 +218,7 @@ export default function Projects() {
               <div className="mt-3 flex">
                 <div className="flex flex-col-reverse">
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
-                    React.js // Typescript // Python // Flask // Tailwind CSS //
-                    Figma
+                    Typescript // Python // Flask // Tailwind CSS // Figma
                   </p>
                 </div>
               </div>
