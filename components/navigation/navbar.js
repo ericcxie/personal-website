@@ -17,9 +17,8 @@ import Link from "next/link";
 import { sendStatusCode } from "next/dist/server/api-utils";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Twirl as Hamburger } from "hamburger-react";
-import logo from "../../public/img/logo.png";
 import Image from "next/image";
+import logo from "../../public/SVG/logo.svg";
 
 export default function NavBarPage(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,6 +81,7 @@ export default function NavBarPage(props) {
           <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold lg:text-2xl text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie.
           </h1>
+          {/* <Image width={40} src={logo}></Image> */}
         </button>
 
         <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
