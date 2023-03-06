@@ -48,7 +48,7 @@ export default function Home() {
             color="#7491B3"
             size={100}
             loading={loading}
-            className="text-center"
+            className="text-center overscroll-none"
           />
         </div>
       ) : (
