@@ -26,7 +26,7 @@ export default function Experiences() {
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Jan. 2023 - Current
+              Jan. 2023 - Present
             </time>
             <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
               Software Developer
@@ -52,7 +52,7 @@ export default function Experiences() {
               Sep. 2021 – Feb. 2022
             </time>
             <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
-              Project Researcher
+              Market Research
             </h2>
             <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
               DoubleOcean Financial Group Ltd.
