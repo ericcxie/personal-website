@@ -85,8 +85,8 @@ export default function Projects() {
               </div>
               <div className="mt-1 sm:pr-8">
                 <p className="text-sm text-gray-500 dark:text-gray-200">
-                  A real time study room app based on the pomodoro technique.
-                  Study together with your friends using the Pomodoro technique
+                  A real time study room app. Study together with your friends
+                  using the Pomodoro Technique
                 </p>
               </div>
 
