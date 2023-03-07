@@ -4,6 +4,7 @@ import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { FaPython, FaReact, FaNodeJs } from "react-icons/fa";
 
 export default function About() {
   useEffect(() => {
@@ -146,7 +147,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Tailwind CSS
+                MongoDB
               </li>
               <li className="inline-flex items-center">
                 <svg
@@ -162,7 +163,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Figma
+                Tailwind CSS
               </li>
             </ul>
           </div>
