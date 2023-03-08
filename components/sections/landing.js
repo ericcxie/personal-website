@@ -42,7 +42,8 @@ export default function Landing() {
               data-aos-delay="1900"
               className="text-pf-dark dark:text-white font-gilroybold underline-offset-3 decoration-theme decoration-7 tracking-tight "
             >
-              Eric Xie<span className="text-theme pl-1">.</span>
+              Eric Xie
+              <span className="text-theme dark:text-purple-500 pl-1">.</span>
             </h1>
           </div>
           <div
