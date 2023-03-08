@@ -15,11 +15,16 @@
 </div>
 
 ### Starting the app
+
 _(localhost:3000 by default)_
+
 1. `npm install`
 1. `npm run dev`
 
 ### Dark mode
+
 <img width="1496" alt="Screenshot 2023-03-04 at 1 23 17 PM" src="https://user-images.githubusercontent.com/66566975/222922521-cb77a806-b385-4902-875c-fd5e4e70e33e.png">
 
 #### [Initial figma prototype ](https://www.figma.com/proto/cLmEGsYANojpucopovTIdQ/Personal-Website-F22?node-id=152%3A2&scaling=min-zoom&page-id=0%3A1)
+
+#####[Colour Theme](https://uicolors.app/edit?sv1=wild-blue-:50-f5f7fa/100-eaeef4/200-d1dae6/300-a9bbd0/400-7491b3/500-59799e/600-466083/700-394d6b/800-32435a/900-2e3a4c)

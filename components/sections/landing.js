@@ -40,7 +40,7 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-pf-dark dark:text-white font-gilroybold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-white font-gilroybold underline underline-offset-3 decoration-wild-blue-400 decoration-7 tracking-tight "
             >
               Eric Xie.
             </h1>
@@ -77,12 +77,12 @@ export default function Landing() {
             <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <a
               href="mailto:Ex.EricXie@gmail.com"
-              className="transition-colors duration-300 relative font-gilroy text-small bg-theme hover:bg-dark active:shadow-inner dark:bg-darkmode text-white dark:text-gray-100 font-medium py-1.5 px-10 rounded-lg pt-2.5 pb-2.5"
+              className="transition-colors duration-300 relative font-gilroy text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-darkmode text-white dark:text-gray-100 font-medium py-1.5 px-10 rounded-lg pt-2.5 pb-2.5"
             >
               Connect
             </a>
           </div>
-          <button className="font-gilroy font-medium text-theme hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
+          <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
             <Link href="/resume.pdf">Resume</Link>
           </button>
         </div>

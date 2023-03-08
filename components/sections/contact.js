@@ -18,7 +18,7 @@ export default function Contact() {
             data-aos-once
             className="lg:col-span-2 lg:py-12"
           >
-            <h1 className="text-center md:text-start text-4xl md:text-5xl py-5 font-gilroybold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#7600ec] dark:to-[#ff00d9]">
+            <h1 className="text-center md:text-start text-4xl md:text-5xl py-5 font-gilroybold bg-clip-text dark:text-transparent text-wild-blue-400 dark:bg-gradient-to-r dark:from-[#7600ec] dark:to-[#ff00d9]">
               Get In Touch.
             </h1>
 
@@ -79,7 +79,7 @@ function ContactForm() {
       name="contact"
       onSubmit={formik.handleSubmit}
       data-netlify="true"
-      className="space-y-4"
+      className="space-y-4 bg-white dark:bg-darkmode p-6 rounded-lg relative"
     >
       <div>
         <label className="font-gilroy text-pf-dark dark:text-pf-light">
@@ -97,7 +97,7 @@ function ContactForm() {
           value={formik.values.name}
         />
         {formik.errors.name && formik.touched.name && (
-          <p className="text-sm text-theme lg:text-base">
+          <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.name}
           </p>
         )}
@@ -118,7 +118,7 @@ function ContactForm() {
           value={formik.values.email}
         />
         {formik.errors.email && formik.touched.email && (
-          <p className="text-sm text-theme lg:text-base">
+          <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.email}
           </p>
         )}
@@ -141,12 +141,12 @@ function ContactForm() {
           value={formik.values.message}
         />
         {formik.errors.message && formik.touched.message && (
-          <p className="text-sm text-theme lg:text-base">
+          <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.message}
           </p>
         )}
         {submitted && (
-          <p className="text-sm text-theme dark:text-theme lg:text-base">
+          <p className="text-sm text-wild-blue-400 dark:text-wild-blue-400 lg:text-base">
             Success! I will get back to you soon.
           </p>
         )}
@@ -165,6 +165,10 @@ function ContactForm() {
           </button>
         </div>
       </div>
+      <div className="-z-40 absolute invisible md:visible top-5 -left-8 w-96 h-96 bg-wild-blue-400 dark:bg-[#FF0080] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob"></div>
+      <div className="-z-40 absolute invisible md:visible top-0 -right-1 w-96 h-96 bg-wild-blue-500 dark:bg-[#9425BD] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-2000"></div>
+      <div className="-z-40 absolute invisible md:visible -bottom-12 -right-12 w-96 h-96 bg-wild-blue-300 dark:bg-[#C51AA3] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-4000"></div>
+      <div className="-z-40 absolute invisible md:visible -bottom-16 right-56 w-96 h-96 bg-wild-blue-500 dark:bg-[#7928CA] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-6000"></div>
     </form>
   );
 }

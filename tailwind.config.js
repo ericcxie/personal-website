@@ -15,7 +15,18 @@ module.exports = {
       },
 
       colors: {
-        theme: "#7491B3",
+        "wild-blue": {
+          50: "#f5f7fa",
+          100: "#eaeef4",
+          200: "#d1dae6",
+          300: "#a9bbd0",
+          400: "#7491b3",
+          500: "#59799e",
+          600: "#466083",
+          700: "#394d6b",
+          800: "#32435a",
+          900: "#2e3a4c",
+        },
         dark: "#5c748f",
         darkmode: "#060813",
         "light-theme-gray": "#bfbfbf",
@@ -44,6 +55,25 @@ module.exports = {
       width: {
         card: "250px",
         button: "100px",
+      },
+      animation: {
+        blob: "blob 10s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: " translate(0px, 0px) scale(1)",
+          },
+        },
       },
     },
   },

@@ -79,7 +79,7 @@ export default function NavBarPage(props) {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-wild-blue-400 cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie
           </h1>
           {/* {props.darkMode ? (
@@ -93,7 +93,7 @@ export default function NavBarPage(props) {
           <li
             data-aos="fade-down"
             data-aos-delay="400"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="home"
@@ -104,12 +104,12 @@ export default function NavBarPage(props) {
             >
               Home
             </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-wild-blue-400 dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
           <li
             data-aos="fade-down"
             data-aos-delay="500"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="projects"
@@ -120,12 +120,12 @@ export default function NavBarPage(props) {
             >
               Projects
             </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#567b8b]"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-wild-blue-400 dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#567b8b]"></span>
           </li>
           <li
             data-aos="fade-down"
             data-aos-delay="600"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="experiences"
@@ -136,12 +136,12 @@ export default function NavBarPage(props) {
             >
               Experiences
             </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#8bafbe]"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-wild-blue-400 dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#8bafbe]"></span>
           </li>
           <li
             data-aos="fade-down"
             data-aos-delay="700"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="about"
@@ -152,12 +152,12 @@ export default function NavBarPage(props) {
             >
               About
             </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-wild-blue-400 dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
           <li
             data-aos="fade-down"
             data-aos-delay="800"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-theme group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="contact"
@@ -168,7 +168,7 @@ export default function NavBarPage(props) {
             >
               Contact
             </ScrollLink>
-            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-theme dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-wild-blue-400 dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]"></span>
           </li>
         </ul>
         <ul
@@ -232,7 +232,7 @@ export default function NavBarPage(props) {
           <button data-aos="fade-in" data-aos-delay="900">
             <li
               onClick={() => setIsOpen(!isOpen)}
-              className="text-3xl text-theme dark:text-[#7aace5]"
+              className="text-3xl text-wild-blue-400 dark:text-[#7aace5]"
             >
               {isOpen ? <CgClose /> : <FiMenu />}
             </li>
@@ -268,7 +268,7 @@ export default function NavBarPage(props) {
             onClick={() => setIsOpen(!isOpen)}
             className={
               isOpen
-                ? "relative xl:hidden ring-1 ring-zinc-900/5  font-inter font-normal bg-white mt-3 py-2 text-theme dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center"
+                ? "relative xl:hidden ring-1 ring-zinc-900/5  font-inter font-normal bg-white mt-3 py-2 text-wild-blue-400 dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center"
                 : "hidden"
             }
           >

@@ -33,7 +33,7 @@ export default function Projects() {
       <h1
         data-aos="fade-up"
         data-aos-once
-        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#007CF0] dark:to-[#6df8f3]"
+        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-wild-blue-400 dark:bg-gradient-to-r dark:from-[#007CF0] dark:to-[#6df8f3]"
       >
         Projects
       </h1>

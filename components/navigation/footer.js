@@ -17,13 +17,13 @@ export default function Footer() {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl -my-1 font-bold font-gilroybold text-theme transition-colors duration-300 hover:text-dark bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl -my-1 font-bold font-gilroybold text-wild-blue-400 transition-colors duration-300 hover:text-dark bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie
           </h1>
         </button>
         <div className="flex flex-col items-center">
           <a href="https://github.com/ericcxie/personal-website">
-            <p className="font-mono text-sm text-gray-600 dark:text-gray-300 hover:text-theme dark:hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
+            <p className="font-mono text-sm text-gray-600 dark:text-gray-300 hover:text-wild-blue-400 dark:hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
               Designed & Developed by Eric Xie
             </p>
           </a>

@@ -13,7 +13,7 @@ export default function Experiences() {
       <h1
         data-aos="fade-up"
         data-aos-once
-        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#753bf1] dark:to-[#b92727]"
+        className="text-3xl py-5 font-gilroybold font-extrabold bg-clip-text dark:text-transparent text-wild-blue-400 dark:bg-gradient-to-r dark:from-[#753bf1] dark:to-[#b92727]"
       >
         Experiences
       </h1>
@@ -24,7 +24,7 @@ export default function Experiences() {
       >
         <ul className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy">
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jan. 2023 - Present
             </time>
@@ -47,7 +47,7 @@ export default function Experiences() {
             </p>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sep. 2021 – Feb. 2022
             </time>
@@ -68,7 +68,7 @@ export default function Experiences() {
             </p>
           </li>
           <li className="ml-4">
-            <div className="absolute w-3 h-3 bg-theme rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Oct. 2019 - July 2022
             </time>
