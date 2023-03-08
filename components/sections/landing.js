@@ -13,7 +13,6 @@ import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import dotsanimate from "../../public/SVG/dotsanimate.svg";
 
 export default function Landing() {
   useEffect(() => {

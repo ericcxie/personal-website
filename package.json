@@ -16,6 +16,7 @@
     "aos": "^2.3.4",
     "flowbite": "^1.6.3",
     "formik": "^2.2.9",
+    "framer-motion": "^10.2.3",
     "hamburger-react": "^2.5.0",
     "next": "13.0.7",
     "next-purgecss": "^4.0.0",
