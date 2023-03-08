@@ -46,7 +46,7 @@ export default function About() {
           className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
           <p className="mx-auto max-w-lg py-2">
-            Hello! 👋 My name is Eric and I am a computer engineering student at
+            Hello! 👋 My name is Eric and I am a Computer Engineering student at
             the University of Waterloo.
           </p>
           <p className="mx-auto max-w-lg py-2">
@@ -58,13 +58,12 @@ export default function About() {
               {" "}
               Brookfield Annuity
             </a>{" "}
-            helping to transform business automation processes.
+            helping to develop business automation processes.
           </p>
 
           <p className="mx-auto max-w-lg py-2">
             In my free time, I enjoy playing badminton, building keyboards, and
-            keeping up with the{" "}
-            <Link href="/apple">latest Apple products! 🎧</Link>
+            keeping up with the latest Apple products! 🎧
           </p>
 
           <p className="mx-auto max-w-lg py-2">

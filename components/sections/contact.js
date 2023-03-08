@@ -79,7 +79,7 @@ function ContactForm() {
       name="contact"
       onSubmit={formik.handleSubmit}
       data-netlify="true"
-      className="space-y-4 bg-white dark:bg-darkmode p-6 rounded-lg relative"
+      className="space-y-4 bg-white dark:bg-darkmode md:p-6 rounded-lg relative"
     >
       <div>
         <label className="font-gilroy text-pf-dark dark:text-pf-light">
