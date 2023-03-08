@@ -40,17 +40,16 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-pf-dark dark:text-white font-gilroybold underline-offset-3 decoration-theme decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-white font-gilroybold underline underline-offset-3 decoration-theme decoration-7 tracking-tight "
             >
-              Eric Xie
-              <span className="text-theme pl-1">.</span>
+              Eric Xie.
             </h1>
           </div>
           <div
             data-aos="fade-up"
             data-aos-once
             data-aos-delay="2000"
-            className="ml-1 mt-0 font-gilroylight text-pf-dark dark:text-pf-light text-2xl md:text-3xl"
+            className="ml-1 mt-3 font-gilroylight md:mt-4 text-pf-dark dark:text-pf-light text-2xl md:text-3xl"
           >
             <TypeAnimation
               // Same String at the start will only be typed once, initially

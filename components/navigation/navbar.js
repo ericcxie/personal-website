@@ -79,7 +79,7 @@ export default function NavBarPage(props) {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold lg:text-xl 2xl:text-2xl text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie
           </h1>
           {/* {props.darkMode ? (
