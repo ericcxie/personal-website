@@ -27,4 +27,5 @@ _(localhost:3000 by default)_
 
 #### [Initial figma prototype ](https://www.figma.com/proto/cLmEGsYANojpucopovTIdQ/Personal-Website-F22?node-id=152%3A2&scaling=min-zoom&page-id=0%3A1)
 
-##### [Theme](https://uicolors.app/edit?sv1=wild-blue-:50-f5f7fa/100-eaeef4/200-d1dae6/300-a9bbd0/400-7491b3/500-59799e/600-466083/700-394d6b/800-32435a/900-2e3a4c)
+### Theme
+![Screenshot 2023-03-08 at 5 33 28 PM](https://user-images.githubusercontent.com/66566975/223866665-d2637d6f-61c6-4963-90d1-c5a44b4ddc18.png)
