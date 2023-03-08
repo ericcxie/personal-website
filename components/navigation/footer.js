@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <a href="https://github.com/ericcxie/personal-website">
             <p className="font-mono text-sm text-gray-600 dark:text-gray-300 hover:text-theme dark:hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
-              Designed & Built by Eric Xie
+              Designed & Developed by Eric Xie
             </p>
           </a>
           <p className="text-sm font-gilroy text-gray-600 dark:text-gray-300 ">

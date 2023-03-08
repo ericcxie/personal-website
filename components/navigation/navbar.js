@@ -69,8 +69,8 @@ export default function NavBarPage(props) {
       data-aos-delay="300"
       className={
         navbar
-          ? " mt-2 rounded-3xl bg-white xl:py-0 z-10 px-7 pt-1 lg:pt-1 lg:py-0 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
-          : "mt-0 py-2 z-20 px-7 pt-4 lg:py-4 md:px-20 lg:px-40 transition-colors duration-1000 fixed w-full left-0"
+          ? "mt-2 rounded-3xl bg-white xl:py-2 z-10 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
+          : "mt-1 py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 transition-colors duration-1000 fixed w-full left-0"
       }
     >
       <div className="relative container flex flex-wrap items-center justify-between mx-auto pb-2 ">
@@ -79,15 +79,14 @@ export default function NavBarPage(props) {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          {/* <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold lg:text-2xl text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold lg:text-xl text-theme cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie.
-          </h1> */}
-          {props.darkMode ? (
+          </h1>
+          {/* {props.darkMode ? (
             <Image width={50} src={logo_gradient}></Image>
           ) : (
             <Image width={50} src={logo_black}></Image>
-          )}
-          {/* <Image width={50} src={logo_black}></Image> */}
+          )} */}
         </button>
 
         <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
