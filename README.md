@@ -28,4 +28,4 @@ _(localhost:3000 by default)_
 #### [Initial figma prototype ](https://www.figma.com/proto/cLmEGsYANojpucopovTIdQ/Personal-Website-F22?node-id=152%3A2&scaling=min-zoom&page-id=0%3A1)
 
 ### Theme
-![Screenshot 2023-03-08 at 5 33 28 PM](https://user-images.githubusercontent.com/66566975/223866665-d2637d6f-61c6-4963-90d1-c5a44b4ddc18.png)
+![Screenshot 2023-03-08 at 5 33 28 PM](https://user-images.githubusercontent.com/66566975/223866988-f415b055-286f-45f3-9355-adb83100e0c2.png)
