@@ -29,9 +29,9 @@ export default function About() {
           <div className="absolute -bottom-2 w-52 h-52 bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div> */}
 
         <div data-aos="fade-up" data-aos-once className="relative group">
-          <div className="absolute top-5 -left-8 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-400 dark:bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-40 dark:opacity-30 animate-blob"></div>
-          <div className="absolute top-12 -right-1 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-500 dark:bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-40 dark:opacity-30 animate-blob animation-delay-2000"></div>
-          <div className="absolute -bottom-2 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-300 dark:bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-40 dark:opacity-30 animate-blob animation-delay-4000"></div>
+          <div className="absolute top-5 -left-8 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-400 dark:bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 dark:opacity-30 animate-blob"></div>
+          <div className="absolute top-12 -right-1 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-500 dark:bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 dark:opacity-30 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-2 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-300 dark:bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30 dark:opacity-30 animate-blob animation-delay-4000"></div>
           {/* <div className="hidden dark:inline rounded-full absolute -inset-1 bg-gradient-to-r from-[#4c6f35] via-[#2B2F50] to-[#BFA06B] blur opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div> */}
           <Image
             className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto border-2 border-[#21243a] dark:border-[#1b1206]"
