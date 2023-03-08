@@ -43,7 +43,7 @@ export default function Landing() {
               className="text-pf-dark dark:text-white font-gilroybold underline-offset-3 decoration-theme decoration-7 tracking-tight "
             >
               Eric Xie
-              <span className="text-theme dark:text-purple-700 pl-1">.</span>
+              <span className="text-theme pl-1">.</span>
             </h1>
           </div>
           <div
