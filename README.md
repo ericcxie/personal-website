@@ -22,3 +22,4 @@ _(localhost:3000 by default)_
 ### Dark mode
 <img width="1496" alt="Screenshot 2023-03-04 at 1 23 17 PM" src="https://user-images.githubusercontent.com/66566975/222922521-cb77a806-b385-4902-875c-fd5e4e70e33e.png">
 
+#### [Initial figma prototype ](https://www.figma.com/proto/cLmEGsYANojpucopovTIdQ/Personal-Website-F22?node-id=152%3A2&scaling=min-zoom&page-id=0%3A1)
