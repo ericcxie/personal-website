@@ -76,7 +76,7 @@ export default function Landing() {
           <div className="relative group">
             <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <a
-              href="mailto:Ex.EricXie@gmail.com"
+              href="mailto:pexie@uwaterloo.ca"
               className="transition-colors duration-300 relative font-gilroy text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-darkmode text-white dark:text-gray-100 font-medium py-1.5 px-10 rounded-lg pt-2.5 pb-2.5"
             >
               Connect
