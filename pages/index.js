@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { useState, useEffect } from "react";
 import { HashLoader } from "react-spinners";
 
@@ -10,7 +9,6 @@ import Footer from "../components/navigation/footer";
 import Experiences from "../components/sections/experiences";
 import SEO from "../components/SEO.js";
 import Contact from "../components/sections/contact";
-import Cursor from "../components/cursor/cursor";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -66,9 +64,6 @@ export default function Home() {
           <Footer />
         </main>
       )}
-
-      {/* Header menu bar */}
-      {/* <Cursor /> */}
     </div>
   );
 }

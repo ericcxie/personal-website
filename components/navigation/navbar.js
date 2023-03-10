@@ -13,13 +13,8 @@ import { useState, useRef, useEffect } from "react";
 import { RxDividerVertical } from "react-icons/rx";
 import { Transition } from "@headlessui/react";
 import { Link as ScrollLink } from "react-scroll";
-import Link from "next/link";
-import { sendStatusCode } from "next/dist/server/api-utils";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
-import logo_black from "../../public/SVG/logo_black.svg";
-import logo_gradient from "../../public/SVG/logo_white.svg";
 
 export default function NavBarPage(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,11 +77,6 @@ export default function NavBarPage(props) {
           <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-wild-blue-400 cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
             Eric Xie
           </h1>
-          {/* {props.darkMode ? (
-            <Image width={50} src={logo_gradient}></Image>
-          ) : (
-            <Image width={50} src={logo_black}></Image>
-          )} */}
         </button>
 
         <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
@@ -219,7 +209,6 @@ export default function NavBarPage(props) {
           </li>
         </ul>
         <ul className="flex lg:hidden flex-1 justify-end gap-4">
-          {/* <li><BsMoonFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mt-1 dark:text-white'/></li> */}
           <li
             data-aos="fade-in"
             data-aos-delay="700"
@@ -237,17 +226,6 @@ export default function NavBarPage(props) {
               {isOpen ? <CgClose /> : <FiMenu />}
             </li>
           </button>
-
-          {/* <li>
-            <Hamburger
-              toggled={isOpen}
-              toggle={setIsOpen}
-              className="bg-white"
-              direction="left"
-              size={25}
-              color="black"
-            />
-          </li> */}
         </ul>
       </div>
       {/* mobile menu */}

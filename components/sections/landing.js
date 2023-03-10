@@ -8,7 +8,6 @@ import {
 } from "react-icons/ai";
 import dots from "../../public/SVG/dots.svg";
 import Link from "next/link";
-import { Link as ScrollLink } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
 import "aos/dist/aos.css";

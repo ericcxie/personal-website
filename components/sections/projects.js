@@ -49,7 +49,7 @@ export default function Projects() {
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7A8974] to-[#c6881c] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
 
           <div className="dark:bg-darkmode min-h-full relative block border dark:border-none overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
-            <Link href="/video/pomoduo-timer.mp4">
+            <Link href="/demo/pomoduo-timer.mp4">
               <Image
                 src={pomoduo}
                 className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
@@ -63,7 +63,7 @@ export default function Projects() {
 
               <div className="text-2xl">
                 <Link
-                  href="/video/pomoduo-timer.mp4"
+                  href="/demo/pomoduo-timer.mp4"
                   className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />
@@ -111,7 +111,7 @@ export default function Projects() {
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#565198] to-[#C76271] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
 
           <div className="dark:bg-darkmode min-h-full relative block border dark:border-none overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
-            <Link href="/video/amafind.mp4">
+            <Link href="/demo/amafind.mp4">
               <Image
                 src={amafind}
                 className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
@@ -125,7 +125,7 @@ export default function Projects() {
 
               <div className="text-2xl">
                 <Link
-                  href="/video/amafind.mp4"
+                  href="/demo/amafind.mp4"
                   className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />
@@ -174,7 +174,7 @@ export default function Projects() {
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#6964F4] to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 delay-100 hover:-translate-y-1"></div>
 
           <div className="dark:bg-darkmode min-h-full relative block border dark:border-none overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
-            <Link href="/video/buildabuddy.mp4">
+            <Link href="/demo/buildabuddy.mp4">
               <Image
                 src={buildabuddy}
                 className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
@@ -188,7 +188,7 @@ export default function Projects() {
 
               <div className="text-2xl">
                 <Link
-                  href="/video/buildabuddy.mp4"
+                  href="/demo/buildabuddy.mp4"
                   className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />

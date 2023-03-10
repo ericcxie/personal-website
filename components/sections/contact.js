@@ -160,7 +160,7 @@ function ContactForm() {
             className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
           >
             <span className="text-light-font font-gilroy dark:text-pf-light">
-              Say hi.
+              Say Hi.
             </span>
           </button>
         </div>

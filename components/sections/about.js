@@ -1,10 +1,8 @@
 import Image from "next/image";
 import portrait from "../../public/img/profilepic.jpg";
-import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { FaPython, FaReact, FaNodeJs } from "react-icons/fa";
 
 export default function About() {
   useEffect(() => {
@@ -28,7 +26,6 @@ export default function About() {
           <div className="absolute top-5 -left-8 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-400 dark:bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
           <div className="absolute top-12 -right-1 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-500 dark:bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
           <div className="absolute -bottom-2 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-300 dark:bg-green-600 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
-          {/* <div className="hidden dark:inline rounded-full absolute -inset-1 bg-gradient-to-r from-[#4c6f35] via-[#2B2F50] to-[#BFA06B] blur opacity-80 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div> */}
           <Image
             className="h-52 w-52 md:h-60 md:w-60 relative rounded-full overflow-hidden mx-auto border-2 border-[#21243a] dark:border-[#1b1206]"
             src={portrait}

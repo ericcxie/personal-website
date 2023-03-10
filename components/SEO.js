@@ -4,8 +4,11 @@ import { useState, useEffect } from "react";
 export default function SEO({ darkMode }) {
   return (
     <Head>
-      <title>Eric Xie</title>
-      <meta name="description" content="Eric  | Software Developer" />
+      <title>Eric Xie | Portfolio</title>
+      <meta
+        name="description"
+        content="Eric Xie | Student & Software Developer"
+      />
       <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"} />
       <link rel="manifest" href="img/favicons/site.webmanifest" />
       <link
