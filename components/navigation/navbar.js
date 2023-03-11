@@ -246,7 +246,7 @@ export default function NavBarPage(props) {
             onClick={() => setIsOpen(!isOpen)}
             className={
               isOpen
-                ? "relative xl:hidden ring-1 ring-zinc-900/5  font-inter font-normal bg-white mt-3 py-2 text-wild-blue-400 dark:text-gray-200 shadow-lg shadow-zinc-800/5 rounded-2xl dark:bg-[#060813] text-center"
+                ? "relative xl:hidden ring-1 ring-zinc-900/5 bg-white mt-3 py-2 text-pf-dark dark:text-gray-200 drop-shadow-md dark:drop-shadow-none rounded-2xl dark:bg-[#060813] text-center"
                 : "hidden"
             }
           >
@@ -259,7 +259,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-5}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Home
                 </ScrollLink>
@@ -272,7 +272,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-20}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Projects
                 </ScrollLink>
@@ -285,7 +285,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-60}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Experiences
                 </ScrollLink>
@@ -298,7 +298,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-70}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   About
                 </ScrollLink>
@@ -311,7 +311,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={0}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-dark dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Contact
                 </ScrollLink>
