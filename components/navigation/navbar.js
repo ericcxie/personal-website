@@ -79,11 +79,11 @@ export default function NavBarPage(props) {
           </h1>
         </button>
 
-        <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 dark:text-gray-200">
+        <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 text-[#303030] dark:text-pf-light">
           <li
             data-aos="fade-down"
             data-aos-delay="400"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="home"
@@ -99,7 +99,7 @@ export default function NavBarPage(props) {
           <li
             data-aos="fade-down"
             data-aos-delay="500"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="projects"
@@ -115,7 +115,7 @@ export default function NavBarPage(props) {
           <li
             data-aos="fade-down"
             data-aos-delay="600"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="experiences"
@@ -131,7 +131,7 @@ export default function NavBarPage(props) {
           <li
             data-aos="fade-down"
             data-aos-delay="700"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="about"
@@ -147,7 +147,7 @@ export default function NavBarPage(props) {
           <li
             data-aos="fade-down"
             data-aos-delay="800"
-            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text dark:text-gray-200 transition duration-300 cursor-pointer"
+            className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 group text-gray-text transition duration-300 cursor-pointer"
           >
             <ScrollLink
               to="contact"
@@ -166,7 +166,7 @@ export default function NavBarPage(props) {
           data-aos-delay="900"
           className="hidden lg:flex flex-1 justify-end items-center gap-1 lg:gap-0 xl:gap-3"
         >
-          <div className="flex gap-1 text-xl xl:text-2xl dark:text-white">
+          <div className="flex gap-1 text-xl xl:text-2xl text-[#303030] dark:text-white">
             <a
               className="hover:text-[#b31217]"
               href="https://www.youtube.com/@ericcxie"
@@ -199,11 +199,11 @@ export default function NavBarPage(props) {
             </a>
           </div>
           <li>
-            <RxDividerVertical className="dark:text-white text-lg lg:text-xl" />
+            <RxDividerVertical className="text-[#303030] dark:text-white text-lg lg:text-xl" />
           </li>
           <li
             onClick={props.onClick}
-            className="cursor-pointer dark:text-white"
+            className="cursor-pointer text-[#303030] dark:text-white"
           >
             {props.darkMode ? <BsSunFill /> : <BsMoonFill />}
           </li>

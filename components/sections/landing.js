@@ -39,7 +39,7 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-pf-dark dark:text-white font-gilroybold underline underline-offset-3 decoration-wild-blue-400 decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-[#F2F2F2] font-gilroybold underline underline-offset-3 decoration-wild-blue-400 decoration-7 tracking-tight "
             >
               Eric Xie.
             </h1>
