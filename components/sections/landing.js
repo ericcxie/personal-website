@@ -74,7 +74,7 @@ export default function Landing() {
           className="py-1 px-1 flex justify-start gap-4 mt-5 mb-2"
         >
           <div className="relative group">
-            <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-60 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <ScrollLink
               to="contact"
               spy={true}
@@ -82,12 +82,9 @@ export default function Landing() {
               offset={20}
               duration={700}
             >
-              <div className="relative group">
-                <div className=" hidden blur dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg  opacity-100 md:opacity-60 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner  dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
-                  Connect
-                </button>
-              </div>
+              <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
+                Connect
+              </button>
             </ScrollLink>
           </div>
 
