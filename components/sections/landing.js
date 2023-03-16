@@ -12,6 +12,7 @@ import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Landing() {
   useEffect(() => {
@@ -74,13 +75,22 @@ export default function Landing() {
         >
           <div className="relative group">
             <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-100 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <a
-              href="mailto:pexie@uwaterloo.ca"
-              className="transition-colors duration-300 relative font-gilroy text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-darkmode text-white dark:text-gray-100 font-medium py-1.5 px-10 rounded-lg pt-2.5 pb-2.5"
+            <ScrollLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={20}
+              duration={700}
             >
-              Connect
-            </a>
+              <div className="relative group">
+                <div className=" hidden blur dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg  opacity-100 md:opacity-60 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner  dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
+                  Connect
+                </button>
+              </div>
+            </ScrollLink>
           </div>
+
           <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
             <Link href="/resume.pdf">Resume</Link>
           </button>
