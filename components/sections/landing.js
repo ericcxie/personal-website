@@ -79,7 +79,7 @@ export default function Landing() {
               to="contact"
               spy={true}
               smooth={true}
-              offset={20}
+              offset={0}
               duration={700}
             >
               <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
