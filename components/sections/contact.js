@@ -33,7 +33,7 @@ export default function Contact() {
           <div
             data-aos="fade-up"
             data-aos-once
-            className="transition-colors duration-300 relative group rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 lg:col-span-3 lg:p-12"
+            className="transition-colors duration-300 relative rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 lg:col-span-3 lg:p-12"
           >
             <ContactForm />
           </div>
@@ -165,6 +165,8 @@ function ContactForm() {
           </button>
         </div>
       </div>
+
+      {/* Blurry animated shapes */}
       <div className="-z-40 absolute hidden md:inline top-5 -left-8 w-96 h-96 bg-wild-blue-400 dark:bg-[#FF0080] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob"></div>
       <div className="-z-40 absolute hidden md:inline top-0 -right-1 w-96 h-96 bg-wild-blue-500 dark:bg-[#9425BD] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-2000"></div>
       <div className="-z-40 absolute hidden md:inline -bottom-12 -right-12 w-96 h-96 bg-wild-blue-300 dark:bg-[#C51AA3] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-4000"></div>
