@@ -1,7 +1,7 @@
 # Personal Website
 
 <div align="center">
-    <a href="https://ericcxie.com/"><img width="1491" alt="Screenshot 2023-03-04 at 1 20 49 PM" src="https://user-images.githubusercontent.com/66566975/222922444-3edffe55-d05d-44bd-a8f7-0194fdc6e207.png"></a>
+    <a href="https://ericxie.ca/"><img width="1491" alt="Screenshot 2023-03-04 at 1 20 49 PM" src="https://user-images.githubusercontent.com/66566975/222922444-3edffe55-d05d-44bd-a8f7-0194fdc6e207.png"></a>
     <br>
     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
     <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
