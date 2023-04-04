@@ -24,11 +24,11 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <a href="https://github.com/ericcxie/personal-website">
             <p className="text-center font-mono text-sm text-gray-600 dark:text-gray-300 hover:text-wild-blue-400 dark:hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
-              Designed & Built by Eric Xie
+              Designed & Built by Eric
             </p>
           </a>
           <p className="text-sm font-gilroy text-gray-600 dark:text-gray-300 ">
-            © Copyright 2023.
+            © 2023 Eric Xie.
           </p>
         </div>
         <div className="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">

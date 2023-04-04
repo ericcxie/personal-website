@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 export default function SEO({ darkMode }) {
   return (
     <Head>
-      <title>Eric Xie | Portfolio</title>
+      <title>Eric Xie</title>
       <meta
         name="description"
         content="Eric Xie | Student & Software Developer"
