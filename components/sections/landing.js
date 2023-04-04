@@ -34,7 +34,7 @@ export default function Landing() {
             data-aos-delay="1700"
             className="py-2 ml-1 font-mono font-thin text-pf-dark dark:text-pf-light text-md lg:text-lg"
           >
-            Hi, my name is
+            &gt; Hi, my name is
           </h2>
           <div className="flex gap-2 justify-start text-6xl xl:text-7xl">
             <h1
