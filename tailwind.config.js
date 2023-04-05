@@ -12,6 +12,7 @@ module.exports = {
         gilroy: ["GilroyMedium", "sans-serif"],
         gilroybold: ["GilroyBold", "sans-serif"],
         gilroylight: ["GilroyLight", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
 
       colors: {

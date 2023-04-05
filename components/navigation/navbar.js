@@ -79,7 +79,7 @@ export default function NavBarPage(props) {
           </h1>
         </button>
 
-        <ul className="hidden font-gilroy pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 text-[#303030] dark:text-pf-light">
+        <ul className="hidden font-inter pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 text-[#303030] dark:text-pf-light">
           <li
             data-aos="fade-down"
             data-aos-delay="400"
