@@ -34,7 +34,7 @@ export default function NotFound404() {
               <div className="text-3xl md:text-4xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
                 404: Page not found
               </div>
-              <p className="text-xl md:text-2xl font-light leading-normal dark:text-gray-200">
+              <p className="text-lg md:text-2xl font-light leading-normal dark:text-gray-200">
                 The page you're looking for doesn't exist or has been moved
               </p>
               <Link href="/">
@@ -47,11 +47,11 @@ export default function NotFound404() {
               </Link>
             </div>
 
-            <div className="max-w-xs w-60 md:w-80">
+            <div className="max-w-xs w-30 md:w-80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1024 768"
-                className="w-auto h-56 mx-auto text-black dark:text-white dark:text-gray-200 sm:h-64"
+                className="w-auto h-56 mx-auto text-black dark:text-gray-200 sm:h-64"
               >
                 <g fill="none" fillRule="evenodd">
                   <g fill="#7491B3">
