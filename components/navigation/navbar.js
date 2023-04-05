@@ -259,7 +259,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-5}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-inter cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Home
                 </ScrollLink>
@@ -272,7 +272,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-20}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-inter cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Projects
                 </ScrollLink>
@@ -285,7 +285,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-60}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-inter cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Experiences
                 </ScrollLink>
@@ -298,7 +298,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={-70}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-inter cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   About
                 </ScrollLink>
@@ -311,7 +311,7 @@ export default function NavBarPage(props) {
                   smooth={true}
                   offset={0}
                   duration={700}
-                  className="block py-2 px-4 text-sm font-gilroy cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
+                  className="block py-2 px-4 text-sm font-inter cursor-pointer hover:text-wild-blue-400 dark:hover:text-gray-400"
                 >
                   Contact
                 </ScrollLink>
