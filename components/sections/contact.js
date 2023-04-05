@@ -167,10 +167,10 @@ function ContactForm() {
       </div>
 
       {/* Blurry animated shapes */}
-      <div className="-z-40 absolute hidden md:inline top-5 -left-8 w-96 h-96 bg-wild-blue-400 dark:bg-[#FF0080] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob"></div>
-      <div className="-z-40 absolute hidden md:inline top-0 -right-1 w-96 h-96 bg-wild-blue-500 dark:bg-[#9425BD] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-2000"></div>
-      <div className="-z-40 absolute hidden md:inline -bottom-12 -right-12 w-96 h-96 bg-wild-blue-300 dark:bg-[#C51AA3] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-4000"></div>
-      <div className="-z-40 absolute hidden md:inline -bottom-16 right-56 w-96 h-96 bg-wild-blue-500 dark:bg-[#7928CA] rounded-full mix-blend-multiply filter blur-2xl opacity-30 dark:opacity-30 animate-blob animation-delay-6000"></div>
+      <div className="-z-40 absolute hidden xl:inline top-5 -left-8 w-96 h-96 bg-wild-blue-400 dark:bg-[#FF0080] rounded-full mix-blend-multiply filter blur-2xl opacity-10 dark:opacity-30 animate-blob"></div>
+      <div className="-z-40 absolute hidden xl:inline top-0 -right-1 w-96 h-96 bg-wild-blue-500 dark:bg-[#9425BD] rounded-full mix-blend-multiply filter blur-2xl opacity-10 dark:opacity-30 animate-blob animation-delay-2000"></div>
+      <div className="-z-40 absolute hidden xl:inline -bottom-12 -right-12 w-96 h-96 bg-wild-blue-300 dark:bg-[#C51AA3] rounded-full mix-blend-multiply filter blur-2xl opacity-10 dark:opacity-30 animate-blob animation-delay-4000"></div>
+      <div className="-z-40 absolute hidden xl:inline -bottom-16 right-56 w-96 h-96 bg-wild-blue-500 dark:bg-[#7928CA] rounded-full mix-blend-multiply filter blur-2xl opacity-10 dark:opacity-30 animate-blob animation-delay-6000"></div>
     </form>
   );
 }
