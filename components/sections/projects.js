@@ -52,7 +52,7 @@ export default function Projects() {
             <Link href="/demo/pomoduo-timer.mp4">
               <Image
                 src={pomoduo}
-                className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover"
               />
             </Link>
             <div className="px-8 py-6 mb-1">
@@ -64,13 +64,13 @@ export default function Projects() {
               <div className="text-2xl">
                 <Link
                   href="/demo/pomoduo-timer.mp4"
-                  className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-6 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />
                 </Link>
                 <a
                   href="https://github.com/ericcxie/pomoduo-timer"
-                  className="absolute right-16 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-16 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiGithub />
                 </a>
@@ -114,7 +114,7 @@ export default function Projects() {
             <Link href="/demo/amafind.mp4">
               <Image
                 src={amafind}
-                className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover"
               />
             </Link>
             <div className="px-8 py-6 mb-1">
@@ -126,13 +126,13 @@ export default function Projects() {
               <div className="text-2xl">
                 <Link
                   href="/demo/amafind.mp4"
-                  className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-6 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />
                 </Link>
                 <a
                   href="https://github.com/ericcxie/AmaFind"
-                  className="absolute right-16 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-16 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiGithub />
                 </a>
@@ -145,11 +145,10 @@ export default function Projects() {
                   </h3>
                 </div>
               </div>
-              <div className="mt-1 sm:pr-8">
+              <div className="mt-1 sm:pr-3 xl:pr-8">
                 <p className="text-sm text-gray-500 dark:text-gray-200">
-                  A web scraper application that is built in Python using
-                  Selenium, BeautifulSoup4, and Pandas that captures item search
-                  results data from
+                  A web scraper application that is built in Python that
+                  captures item search results data from
                   <a href="https://www.amazon.ca/"> amazon.ca</a>
                 </p>
               </div>
@@ -177,7 +176,7 @@ export default function Projects() {
             <Link href="/demo/buildabuddy.mp4">
               <Image
                 src={buildabuddy}
-                className="h-48 2xl:h-60 w-full rounded-t-lg object-cover"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover"
               />
             </Link>
             <div className="px-8 pr-2 py-6 mb-1">
@@ -189,13 +188,13 @@ export default function Projects() {
               <div className="text-2xl">
                 <Link
                   href="/demo/buildabuddy.mp4"
-                  className="absolute right-6 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-6 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiExternalLink />
                 </Link>
                 <a
                   href="https://github.com/ericcxie/Build-a-Buddy"
-                  className="absolute right-16 top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
+                  className="absolute right-16 top-52 sm:top-5 xl:top-52 2xl:top-64 hover:drop-shadow-xl transition ease-in-out delay-100 hover:-translate-y-1"
                 >
                   <FiGithub />
                 </a>
