@@ -40,7 +40,8 @@ export default function About() {
         >
           <p className="mx-auto max-w-lg py-2">
             Hello! 👋 My name is Eric and I am a Computer Engineering student at
-            the University of Waterloo.
+            the University of Waterloo. My goal is to develop meaningful and
+            seamless user experiences.
           </p>
           <p className="mx-auto max-w-lg py-2">
             Currently, I am a Software Developer at
@@ -51,12 +52,12 @@ export default function About() {
               {" "}
               Brookfield Annuity
             </a>{" "}
-            helping to develop business automation processes.
+            helping to develop and automate insurance bidding tools.
           </p>
 
           <p className="mx-auto max-w-lg py-2">
-            In my free time, I enjoy playing badminton, building keyboards, and
-            keeping up with the latest Apple products! 🎧
+            In my free time, I enjoy listening to podcasts, playing badminton,
+            and keeping up with the latest Apple products!
           </p>
 
           <p className="mx-auto max-w-lg py-2">

@@ -24,67 +24,83 @@ export default function Experiences() {
       >
         <ul className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy">
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900" />
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
               Jan. 2023 - Present
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
+
+            <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
+              <a href="https://www.brookfieldannuity.com/en/">
+                Brookfield Annuity
+              </a>
+            </h1>
+            <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
               Software Developer
             </h2>
-            <a
-              href="https://www.brookfieldannuity.com/en/"
-              className="text-md italic font-normal text-gray-700 dark:text-pf-light"
-            >
-              Brookfield Annuity
-            </a>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              Designing and developing RPA programs to automate business
-              processes to improve efficiency
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+              <a href="https://goo.gl/maps/sMYHx5fzwKS4pMzGA">Toronto, ON</a>
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              <span className="font-gilroybold">Tools:</span> Python, pandas,
-              NumPy, Plotly, Jupyter, SQL, Git, GitHub
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
+              Worked as a Software Developer on the Transformation Team to help
+              automate insurance bidding process. Built financial tools to
+              generate pricing models/memo reports.
+            </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
+              <span className="font-gilroybold text-gray-600 dark:text-gray-100">
+                Tools:
+              </span>{" "}
+              Python, pandas, NumPy, Plotly, Jupyter notebook, Tkinter
             </p>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900" />
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
               Sep. 2021 – Feb. 2022
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
-              Market Research
+            <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
+              DoubleOcean Financial Group
+            </h1>
+            <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
+              Market Research Intern
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
-              DoubleOcean Financial Group Ltd.
-            </h3>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+              Remote
+            </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
               Conducted an independent research project on machine learning used
               in PD-1 related medicine using library databases to explore areas
               for potential investment opportunities
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              <span className="font-gilroybold">Tools:</span> Microsoft Excel,
-              Microsoft Word
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
+              <span className="font-gilroybold text-gray-600 dark:text-gray-100">
+                Tools:
+              </span>{" "}
+              Microsoft Excel, Microsoft Word
             </p>
           </li>
           <li className="ml-4">
-            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 " />
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
               Oct. 2019 - July 2022
             </time>
-            <h2 className="text-lg font-semibold text-pf-dark dark:text-white">
+            <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
+              Bayview Yearbook Committee
+            </h1>
+            <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
               Head of Publicity
             </h2>
-            <h3 className="text-md italic font-normal text-gray-700 dark:text-pf-light">
-              Bayview Yearbook Committee
-            </h3>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+              Richmond Hill, ON
+            </p>
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
               Ensured the successful delivery of the yearbook by acting as a
               liaison between the student body and school administration
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400">
-              <span className="font-gilroybold">Tools:</span> Adobe Photoshop,
-              Adobe Illustrator
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
+              <span className="font-gilroybold text-gray-600 dark:text-gray-100">
+                Tools:
+              </span>{" "}
+              Adobe Photoshop, Adobe Illustrator, Final Cut Pro
             </p>
           </li>
         </ul>
