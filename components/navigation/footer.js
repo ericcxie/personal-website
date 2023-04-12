@@ -6,6 +6,8 @@ import {
   AiOutlineTwitter,
   AiOutlineClose,
 } from "react-icons/ai";
+import { HiDocumentText } from "react-icons/hi";
+import { IoDocumentText } from "react-icons/io5";
 
 export default function Footer() {
   return (
@@ -33,10 +35,10 @@ export default function Footer() {
         </div>
         <div className="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">
           <a
-            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#c13584]"
-            href="https://www.instagram.com/ericcxie/"
+            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#B854E5]"
+            href="/resume.pdf"
           >
-            <AiOutlineInstagram />
+            <IoDocumentText />
           </a>
           <a
             className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#6e5494]"
