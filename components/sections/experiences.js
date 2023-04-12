@@ -37,15 +37,15 @@ export default function Experiences() {
             <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
               Software Developer
             </h2>
-            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-white">
               <a href="https://goo.gl/maps/sMYHx5fzwKS4pMzGA">Toronto, ON</a>
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
               Worked as a Software Developer on the Transformation Team to help
               automate insurance bidding process. Built financial tools to
               generate pricing models/memo reports.
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
               <span className="font-gilroybold text-gray-600 dark:text-gray-100">
                 Tools:
               </span>{" "}
@@ -63,15 +63,15 @@ export default function Experiences() {
             <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
               Market Research Intern
             </h2>
-            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-white">
               Remote
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
               Conducted an independent research project on machine learning used
               in PD-1 related medicine using library databases to explore areas
               for potential investment opportunities
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
               <span className="font-gilroybold text-gray-600 dark:text-gray-100">
                 Tools:
               </span>{" "}
@@ -89,15 +89,15 @@ export default function Experiences() {
             <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
               Head of Publicity
             </h2>
-            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-100">
+            <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-white">
               Richmond Hill, ON
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300 max-w-2xl">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
               Ensured the successful delivery of the yearbook by acting as a
               liaison between the student body and school administration
             </p>
-            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-200">
-              <span className="font-gilroybold text-gray-600 dark:text-gray-100">
+            <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
+              <span className="font-gilroybold text-gray-600 dark:text-gray-200">
                 Tools:
               </span>{" "}
               Adobe Photoshop, Adobe Illustrator, Final Cut Pro
