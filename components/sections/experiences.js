@@ -61,10 +61,10 @@ export default function Experiences() {
               DoubleOcean Financial Group
             </h1>
             <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-pf-light">
-              Market Research Intern
+              Market Research
             </h2>
             <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-white">
-              Remote
+              Toronto, ON (Remote)
             </p>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
               Conducted an independent research project on machine learning used
