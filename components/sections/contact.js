@@ -10,7 +10,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact">
+    <section id="contact" className="max-w-screen-2xl mx-auto">
       <div className="mx-auto max-w-screen-xl py-16">
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div

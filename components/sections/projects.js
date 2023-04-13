@@ -28,7 +28,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-10 mb-10 transition-colors duration-300"
+      className="py-10 mb-10 transition-colors duration-300 max-w-screen-2xl mx-auto"
     >
       <h1
         data-aos="fade-up"
