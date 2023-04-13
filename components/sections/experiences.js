@@ -9,7 +9,7 @@ export default function Experiences() {
   }, []);
 
   return (
-    <section id="experiences">
+    <section id="experiences" className="max-w-screen-2xl mx-auto">
       <h1
         data-aos="fade-up"
         data-aos-once

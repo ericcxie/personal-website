@@ -22,7 +22,7 @@ export default function Landing() {
   return (
     <section
       id="home"
-      className="flex mb-64 md:mb-24 items-center md:justify-between py-24 md:px-90"
+      className="flex mb-64 md:mb-24 items-center md:justify-between py-24 md:px-90 max-w-screen-2xl mx-auto"
     >
       <div className="pb-28 md:pb-20">
         <div className="pl-1 cursor-default">

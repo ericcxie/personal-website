@@ -10,7 +10,10 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="mb-24 mt-36 transition-colors duration-300">
+    <section
+      id="about"
+      className="mb-24 mt-36 transition-colors duration-300 max-w-screen-2xl mx-auto"
+    >
       <div className="flex text-center mx-auto">
         <h1
           data-aos="fade-up"
