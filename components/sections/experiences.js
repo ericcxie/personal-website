@@ -41,8 +41,8 @@ export default function Experiences() {
               <a href="https://goo.gl/maps/sMYHx5fzwKS4pMzGA">Toronto, ON</a>
             </p>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
-              Worked as a Software Developer on the Transformation Team to help
-              automate insurance bidding process. Built financial tools to
+              Worked as a software developer on the Transformation Team to help
+              automate insurance bidding processes. Built financial tools to
               generate pricing models/memo reports.
             </p>
             <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
