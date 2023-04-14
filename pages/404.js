@@ -1,10 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
-import darkModeCat from "../public/img/cat_darkmode.png";
-import lightModeCat from "../public/img/cat_lightmode.png";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import errorImg from "../public/SVG/error.svg";
+import SEO from "../components/SEO.js";
 
 export default function NotFound404() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,16 +18,10 @@ export default function NotFound404() {
   return (
     <section>
       <div className={darkMode ? "dark" : ""}>
-        <Head>
-          <title>Eric Xie</title>
-          <meta name="description" content="Eric Xie | Software Developer" />
-          <meta name="theme-color" content={darkMode ? "#060813" : "#FFFFFF"} />
-          <link rel="icon" href="/favicon.png" />
-        </Head>
-
-        <div className="h-screen w-screen bg-white dark:bg-darkmode flex items-center">
-          <div className="container flex flex-col md:flex-row items-center justify-center gap-24 px-5 text-gray-700 mb-20 mt-16 md:mt-0 font-poppins">
-            <div className="max-w-md ml-8 xl:ml-64">
+        <SEO darkMode={darkMode} />
+        <div className="h-screen w-screen bg-white dark:bg-darkmode flex justify-center">
+          <div className="container flex flex-col md:flex-row items-center justify-center gap-24 px-10 text-gray-700 mb-20 mt-16 md:mt-0 font-poppins">
+            <div className="max-w-md">
               <div className="text-3xl md:text-4xl font-bold py-5 font-poppins bg-clip-text dark:text-transparent text-theme dark:bg-gradient-to-r dark:from-[#4637e9] dark:to-[#0b6be0]">
                 404: Page not found
               </div>
