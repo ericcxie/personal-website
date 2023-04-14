@@ -28,14 +28,15 @@ export default function NotFound404() {
               <p className="text-lg md:text-2xl font-light leading-normal dark:text-gray-200">
                 The page you're looking for doesn't exist or has been moved
               </p>
-              <Link href="/">
-                <div className="relative group mt-4 md:mt-8">
-                  <div className="hidden w-32 dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+
+              <div className="relative group mt-4 md:mt-8">
+                <div className="hidden w-32 dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#8E2DE2] to-[#4A00E0] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                <Link href="/">
                   <button className="relative hover:shadow-sm py-2 inline-flex items-center px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-theme-700 dark:bg-darkmode dark:text-gray-100 dark:border-gray-600 dark:focus:ring-gray-700">
                     Return Home{" "}
                   </button>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
 
             <div className="max-w-xs w-30 md:w-80">
