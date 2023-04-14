@@ -64,7 +64,7 @@ export default function NavBarPage(props) {
       data-aos-delay="300"
       className={
         navbar
-          ? "mt-2 rounded-3xl bg-white xl:py-2 xl:pt-3 z-10 px-7 pt-4 lg:pt-4 lg:py-3 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
+          ? "mt-2 rounded-3xl bg-white xl:py-2 xl:pt-3 z-10 px-7 pt-4 lg:pt-4 lg:py-1 md:px-20 lg:px-40 dark:bg-[#070a18] fixed w-full left-0 bg-opacity-70 dark:bg-opacity-50 dark:backdrop-blur-sm backdrop-blur-md xl:shadow-light-button dark:shadow-none transition-colors duration-1000"
           : "mt-1 py-2 z-20 px-7 pt-4 lg:py-5 md:px-20 lg:px-40 transition-colors duration-1000 fixed w-full left-0"
       }
     >
@@ -79,7 +79,7 @@ export default function NavBarPage(props) {
           </h1>
         </button>
 
-        <ul className="hidden font-inter pt-1 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 text-[#303030] dark:text-pf-light">
+        <ul className="hidden font-inter pt-1 pb-2 xl:pb-0 lg:flex flex-1 justify-start items-center pl-10 text-md lg:gap-5 xl:gap-12 text-[#303030] dark:text-pf-light">
           <li
             data-aos="fade-down"
             data-aos-delay="400"
