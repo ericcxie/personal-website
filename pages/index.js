@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { HashLoader } from "react-spinners";
+import ReactGa from "react-ga4";
 
 import Landing from "../components/sections/landing";
 import Projects from "../components/sections/projects";
@@ -9,6 +10,8 @@ import Footer from "../components/navigation/footer";
 import Experiences from "../components/sections/experiences";
 import SEO from "../components/SEO.js";
 import Contact from "../components/sections/contact";
+
+ReactGa.initialize("G-Q53PM84TNW");
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
