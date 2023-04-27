@@ -92,7 +92,7 @@ export default function Experiences() {
             <div
               data-aos="fade-in"
               data-aos-once
-              data-Aos-delay="100"
+              data-aos-delay="100"
               className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 "
             />
             <div data-aos="fade-up" data-aos-once data-aos-delay="100">
