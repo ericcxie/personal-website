@@ -47,7 +47,7 @@ export default function About() {
             seamless user experiences.
           </p>
           <p className="mx-auto max-w-lg py-2">
-            Currently, I am a Software Developer at
+            Previously, I was a Software Developer at
             <a
               href="https://www.brookfieldannuity.com/en/"
               className="hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 dark:text-pf-light transition duration-500"
@@ -55,12 +55,13 @@ export default function About() {
               {" "}
               Brookfield Annuity
             </a>{" "}
-            helping to develop and automate insurance bidding tools.
+            helping to develop and automate insurance bidding tools. I am
+            currently seeking Fall 2023 SWE internships!
           </p>
 
           <p className="mx-auto max-w-lg py-2">
             In my free time, I enjoy listening to podcasts, playing badminton,
-            and keeping up with the latest Apple products!
+            and keeping up with the latest news in tech!
           </p>
 
           <p className="mx-auto max-w-lg py-2">

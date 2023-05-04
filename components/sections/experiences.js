@@ -28,7 +28,7 @@ export default function Experiences() {
             />
             <div data-aos="fade-up" data-aos-once data-aos-delay="400">
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
-                Jan. 2023 - Present
+                Jan. 2023 - April 2023
               </time>
 
               <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
