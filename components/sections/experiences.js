@@ -23,7 +23,7 @@ export default function Experiences() {
             <div
               data-aos="fade-in"
               data-aos-once
-              data-Aos-delay="100"
+              data-aos-delay="100"
               className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900"
             />
             <div data-aos="fade-up" data-aos-once data-aos-delay="400">
@@ -59,7 +59,7 @@ export default function Experiences() {
             <div
               data-aos="fade-in"
               data-aos-once
-              data-Aos-delay="100"
+              data-aos-delay="100"
               className="absolute w-3 h-3 bg-wild-blue-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900"
             />
             <div data-aos="fade-up" data-aos-once data-aos-delay="100">
@@ -70,7 +70,7 @@ export default function Experiences() {
                 DoubleOcean Financial Group
               </h1>
               <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-gray-200">
-                Market Research
+                Data Scientist
               </h2>
               <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-pf-light">
                 Toronto, ON (Remote)
