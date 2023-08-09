@@ -57,7 +57,7 @@ export default function Landing() {
                 2400,
                 "I'm a Software Developer",
                 1200,
-                "I'm a UWaterloo student",
+                "I'm a UWaterloo Student",
                 1000,
               ]}
               speed={35} // Custom Speed from 1-99 - Default Speed: 40
