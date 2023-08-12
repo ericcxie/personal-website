@@ -61,12 +61,13 @@ export default function Experiences() {
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
                   Incoming...
                 </p>
-                {/* <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
+                <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
                   <span className="font-gilroybold text-gray-600 dark:text-gray-100">
                     Tools:
                   </span>{" "}
-                  Typescript, AWS...
-                </p> */}
+                  Python, React.js, Amazon Web Services (AWS), PostgreSQL,
+                  Flask, Next.js, Redux
+                </p>
               </div>
             </div>
           </li>
