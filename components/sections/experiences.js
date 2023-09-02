@@ -55,11 +55,12 @@ export default function Experiences() {
                 <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-pf-light">
                   Toronto, ON
                 </p>
-                {/* <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-400 max-w-2xl">
-                  💰 Finance and banking stuff blah blah blah
-                </p> */}
+                <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-200 max-w-2xl">
+                  🏠 Mortgage and Loan Funding
+                </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
-                  Incoming...
+                  Working as a software engineer to automate document processing
+                  while leveraging AWS cloud
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
                   <span className="font-gilroybold text-gray-600 dark:text-gray-100">
@@ -103,11 +104,9 @@ export default function Experiences() {
                   Software Developer Intern
                 </h2>
                 <p className="mt-1 mb-3 text-sm font-normal leading-none text-gray-500 dark:text-pf-light">
-                  <a href="https://goo.gl/maps/sMYHx5fzwKS4pMzGA">
-                    Toronto, ON
-                  </a>
+                  Toronto, ON
                 </p>
-                <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-400 max-w-2xl">
+                <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-200 max-w-2xl">
                   📈 Pension Risk Transfer (PRT) Technology
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
