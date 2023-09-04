@@ -26,18 +26,16 @@ export default function About() {
       </div>
 
       <div className="mt-3 md:-mt-3 flex flex-col md:flex-row justify-center items-center my-2 gap-2 md:gap-12">
-        <a href="https://www.linkedin.com/in/ericcxie/">
-          <div
-            data-aos="fade-up"
-            data-aos-once
-            className="relative group cursor-pointer"
-          >
-            <div className="absolute hidden dark:inline top-5 -left-8 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-400 dark:bg-[#522d93] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob"></div>
-            <div className="absolute hidden dark:inline top-12 -right-1 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-500 dark:bg-[#027ac0] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob animation-delay-2000"></div>
-            <div className="absolute hidden dark:inline -bottom-2 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-300 dark:bg-[#734dbd] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob animation-delay-4000"></div>
-            <div className="h-52 w-52 rounded-full relative dark:bg-[url('/img/profilepic_dark.jpg')] hover:dark:bg-[url('/img/profilepic_hover_dark.jpg')] bg-[url('/img/profilepic.jpg')] hover:bg-[url('/img/profilepic_hover.jpg')] bg-cover hover:duration-500 duration-200" />
-          </div>
-        </a>
+        <div
+          data-aos="fade-up"
+          data-aos-once
+          className="relative group cursor-default"
+        >
+          <div className="absolute hidden dark:inline top-5 -left-8 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-400 dark:bg-[#522d93] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob"></div>
+          <div className="absolute hidden dark:inline top-12 -right-1 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-500 dark:bg-[#027ac0] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob animation-delay-2000"></div>
+          <div className="absolute hidden dark:inline -bottom-2 w-48 h-48 lg:w-52 lg:h-52 bg-wild-blue-300 dark:bg-[#734dbd] rounded-full mix-blend-multiply filter blur-xl opacity-30 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-blob animation-delay-4000"></div>
+          <div className="h-52 w-52 rounded-full relative dark:bg-[url('/img/profilepic_dark.jpg')] hover:dark:bg-[url('/img/profilepic_hover_dark.jpg')] bg-[url('/img/profilepic.jpg')] hover:bg-[url('/img/profilepic_hover.jpg')] bg-cover hover:duration-500 duration-200" />
+        </div>
 
         <div
           data-aos="fade-up"
