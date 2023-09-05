@@ -1,6 +1,3 @@
-import Image from "next/image";
-// import portrait from "../../public/img/profilepic.jpg";
-// import portraitHover from "../../public/img/profilepic_hover.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -65,7 +62,7 @@ export default function About() {
 
           <p className="mx-auto max-w-lg py-2">
             In my free time, I enjoy listening to podcasts, playing badminton,
-            and keeping up with the latest news in tech!
+            and keeping up with the latest news in tech/finance!
           </p>
 
           <p className="mx-auto max-w-lg py-2">

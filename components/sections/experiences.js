@@ -56,11 +56,11 @@ export default function Experiences() {
                   Toronto, ON
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-200 max-w-2xl">
-                  🏠 Mortgage and Loan Funding
+                  📊 Digital Core AI
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
                   Working as a software engineer to automate document processing
-                  while leveraging AWS cloud
+                  for loan funding and mortgage processes using AI/ML.
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
                   <span className="font-gilroybold text-gray-600 dark:text-gray-100">
