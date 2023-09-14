@@ -82,20 +82,21 @@ function ContactForm() {
       className="space-y-4 bg-white xl:border dark:border-none dark:bg-darkmode md:p-6 rounded-lg relative"
     >
       <div>
-        <label className="font-gilroy text-pf-dark dark:text-pf-light">
-          Name
+        <label className="font-gilroy relative">
+          <input
+            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+            type="text"
+            id="name"
+            name="name"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            onFocus={() => setSubmitted(false)}
+            value={formik.values.name}
+          />
+          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+            Name
+          </span>
         </label>
-        <input
-          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-          placeholder="Name"
-          type="text"
-          id="name"
-          name="name"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          onFocus={() => setSubmitted(false)}
-          value={formik.values.name}
-        />
         {formik.errors.name && formik.touched.name && (
           <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.name}
@@ -103,20 +104,21 @@ function ContactForm() {
         )}
       </div>
       <div>
-        <label className="font-gilroy text-pf-dark dark:text-pf-light">
-          Email
+        <label className="font-gilroy relative">
+          <input
+            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+            type="email"
+            id="email"
+            name="email"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            onFocus={() => setSubmitted(false)}
+            value={formik.values.email}
+          />
+          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+            Email address
+          </span>
         </label>
-        <input
-          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-          placeholder="Email address"
-          type="email"
-          id="email"
-          name="email"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          onFocus={() => setSubmitted(false)}
-          value={formik.values.email}
-        />
         {formik.errors.email && formik.touched.email && (
           <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.email}
@@ -125,21 +127,22 @@ function ContactForm() {
       </div>
 
       <div>
-        <label className="font-gilroy text-pf-dark dark:text-pf-light">
-          Message
+        <label className="font-gilroy relative">
+          <textarea
+            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
+            rows="8"
+            type="text"
+            id="message"
+            name="message"
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            onFocus={() => setSubmitted(false)}
+            value={formik.values.message}
+          />
+          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 py-3 mx-1 px-2 transition duration-200 input-text">
+            Message
+          </span>
         </label>
-        <textarea
-          className="font-gilroy w-full dark:text-white transition-colors duration-300 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-          placeholder="Message"
-          rows="8"
-          id="message"
-          name="message"
-          type="text"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          onFocus={() => setSubmitted(false)}
-          value={formik.values.message}
-        />
         {formik.errors.message && formik.touched.message && (
           <p className="text-sm text-wild-blue-400 lg:text-base">
             {formik.errors.message}
