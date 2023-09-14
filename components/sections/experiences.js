@@ -60,7 +60,7 @@ export default function Experiences() {
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
                   Working as a software engineer to automate document processing
-                  for loan funding and mortgage processes using AI/ML.
+                  and content management for loan funding processes using AI/ML.
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
                   <span className="font-gilroybold text-gray-600 dark:text-gray-100">
