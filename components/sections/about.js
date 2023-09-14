@@ -40,9 +40,17 @@ export default function About() {
           className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
           <p className="mx-auto max-w-lg py-2">
-            Hello! 👋 My name is Eric and I am a Computer Engineering student at
-            the <a className="font-gilroybold">University of Waterloo</a>. My
-            goal is to develop meaningful and seamless user experiences.
+            Hello! 👋 My name is Eric and I am a{" "}
+            <a
+              href="https://uwaterloo.ca/future-students/programs/computer-engineering"
+              className="font-gilroybold hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 dark:text-pf-light transition duration-500"
+            >
+              {" "}
+              Computer Engineering
+            </a>{" "}
+            student at the{" "}
+            <a className="font-gilroybold">University of Waterloo</a>. My goal
+            is to develop meaningful and seamless user experiences.
           </p>
           <p className="mx-auto max-w-lg py-2">
             Previously, I was a Software Developer at
