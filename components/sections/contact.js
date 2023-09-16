@@ -88,6 +88,7 @@ function ContactForm() {
             type="text"
             id="name"
             name="name"
+            placeholder=""
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             onFocus={() => setSubmitted(false)}
@@ -110,6 +111,7 @@ function ContactForm() {
             type="email"
             id="email"
             name="email"
+            placeholder=""
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             onFocus={() => setSubmitted(false)}
@@ -134,6 +136,7 @@ function ContactForm() {
             type="text"
             id="message"
             name="message"
+            placeholder=""
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             onFocus={() => setSubmitted(false)}

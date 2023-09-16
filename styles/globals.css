@@ -35,14 +35,17 @@
   }
 }
 
-input[type="text"]:focus ~ .input-text {
+input[type="text"]:focus ~ .input-text,
+input[type="text"]:not(:placeholder-shown) ~ .input-text {
   @apply transform bg-white dark:bg-darkmode -translate-y-6 -translate-x-1 scale-75;
 }
 
-input[type="email"]:focus ~ .input-text {
+input[type="email"]:focus ~ .input-text,
+input[type="email"]:not(:placeholder-shown) ~ .input-text {
   @apply transform bg-white dark:bg-darkmode -translate-y-6 -translate-x-3 scale-75;
 }
 
-textarea[type="text"]:focus ~ .input-text {
+textarea[type="text"]:focus ~ .input-text,
+textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
   @apply transform bg-white dark:bg-darkmode -translate-y-6 -translate-x-2 scale-75;
 }
