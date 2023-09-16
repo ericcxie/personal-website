@@ -44,7 +44,7 @@ export default function Experiences() {
               </a>
               <div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
-                  Sep. 2023 – Jan. 2024
+                  Sep. 2023 – Present
                 </time>
                 <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
                   <a href="http://www.bmo.com/">BMO Financial Group</a>
