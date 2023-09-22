@@ -94,7 +94,7 @@ function ContactForm() {
             onFocus={() => setSubmitted(false)}
             value={formik.values.name}
           />
-          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
             Name
           </span>
         </label>
@@ -117,7 +117,7 @@ function ContactForm() {
             onFocus={() => setSubmitted(false)}
             value={formik.values.email}
           />
-          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
             Email address
           </span>
         </label>
@@ -142,7 +142,7 @@ function ContactForm() {
             onFocus={() => setSubmitted(false)}
             value={formik.values.message}
           />
-          <span className="text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 py-3 mx-1 px-2 transition duration-200 input-text">
+          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 py-3 mx-1 px-2 transition duration-200 input-text">
             Message
           </span>
         </label>
