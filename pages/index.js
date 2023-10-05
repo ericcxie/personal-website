@@ -43,30 +43,20 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <SEO darkMode={darkMode} />
-      {loading ? (
-        <div className="flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode">
-          <HashLoader
-            color="#7491B3"
-            size={100}
-            loading={loading}
-            className="text-center overscroll-none"
-          />
-        </div>
-      ) : (
-        <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode transition-colors duration-300">
-          <NavBar
-            darkMode={darkMode}
-            setDarkMode={setDarkMode}
-            onClick={toggleDarkMode}
-          />
-          <Landing />
-          <Projects />
-          <Experiences />
-          <About />
-          <Contact />
-          <Footer />
-        </main>
-      )}
+
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode transition-colors duration-300">
+        <NavBar
+          darkMode={darkMode}
+          setDarkMode={setDarkMode}
+          onClick={toggleDarkMode}
+        />
+        <Landing />
+        <Projects />
+        <Experiences />
+        <About />
+        <Contact />
+        <Footer />
+      </main>
     </div>
   );
 }
