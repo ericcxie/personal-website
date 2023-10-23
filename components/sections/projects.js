@@ -56,7 +56,7 @@ export default function Projects() {
             <Link href="https://github.com/ericcxie/OptiWealth">
               <Image
                 src={optiwealth}
-                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover scale-105"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover md:scale-105"
               />
             </Link>
             <div className="px-8 pr-2 py-6 mb-1">
@@ -119,7 +119,7 @@ export default function Projects() {
             <Link href="https://github.com/ericcxie/CollaboraCart">
               <Image
                 src={collaboracart}
-                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover scale-105"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover md:scale-105"
               />
             </Link>
             <div className="px-8 py-6 mb-1">
@@ -180,7 +180,7 @@ export default function Projects() {
             <Link href="/demo/pomoduo-timer.mp4">
               <Image
                 src={pomoduo}
-                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover scale-105"
+                className="sm:hidden xl:inline h-48 2xl:h-60 w-full rounded-t-lg object-cover md:scale-105"
               />
             </Link>
             <div className="px-8 py-6 mb-1">
