@@ -19,10 +19,9 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import amafind from "../../public/img/amafind.png";
-import pomoduo from "../../public/img/pomoduo.jpg";
-import collaboracart from "../../public/img/collaboracart.jpg";
-import optiwealth from "../../public/img/optiwealth.jpg";
+import pomoduo from "../../public/img/projects/pomoduo.jpg";
+import collaboracart from "../../public/img/projects/collaboracart.jpg";
+import optiwealth from "../../public/img/projects/optiwealth.jpg";
 
 export default function Projects() {
   useEffect(() => {
