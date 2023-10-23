@@ -97,7 +97,7 @@ export default function Projects() {
                 <div className="flex flex-col-reverse">
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
                     Typescript // React.js // Python // Flask // PostgreSQL //
-                    Tailwind CSS
+                    Firebase
                   </p>
                 </div>
               </div>
