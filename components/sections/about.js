@@ -109,7 +109,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Firebase
+                Flask
               </li>
             </ul>
             <ul className="flex flex-col">
@@ -143,7 +143,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Flask
+                Firebase
               </li>
             </ul>
             <ul className="flex flex-col">
