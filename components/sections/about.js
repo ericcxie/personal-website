@@ -109,7 +109,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                SQL
+                Firebase
               </li>
             </ul>
             <ul className="flex flex-col">
@@ -143,7 +143,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Node.js
+                Flask
               </li>
             </ul>
             <ul className="flex flex-col">
@@ -161,7 +161,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                MongoDB
+                PostgreSQL
               </li>
               <li className="inline-flex items-center">
                 <svg

@@ -56,18 +56,17 @@ export default function Experiences() {
                   Toronto, ON
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-200 max-w-2xl">
-                  📊 Digital Core AI
+                  🧠 Digital Core AI
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
-                  Working as a software engineer to automate document processing
-                  and content management for loan funding processes using AI/ML.
+                  Working as a software engineer on the Digital Core AI Team to
+                  modernize document processing within retail lending.
                 </p>
                 <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
                   <span className="font-gilroybold text-gray-600 dark:text-gray-100">
                     Tools:
                   </span>{" "}
-                  Python, React.js, Amazon Web Services (AWS), PostgreSQL,
-                  Flask, Next.js, Redux
+                  Python, React.js, Amazon Web Services (AWS), SQL, Flask, Redux
                 </p>
               </div>
             </div>
