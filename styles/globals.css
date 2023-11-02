@@ -49,3 +49,7 @@ textarea[type="text"]:focus ~ .input-text,
 textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
   @apply transform bg-white py-0 dark:bg-darkmode -translate-y-3 -translate-x-2 scale-75;
 }
+
+.experience-card:last-child {
+  margin-bottom: 0 !important;
+}
