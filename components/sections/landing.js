@@ -52,7 +52,6 @@ export default function Landing() {
             className="ml-1 mt-3 font-gilroylight md:mt-4 text-pf-dark dark:text-pf-light text-2xl md:text-3xl"
           >
             <TypeAnimation
-              // Same String at the start will only be typed once, initially
               sequence={[
                 2400,
                 "I'm a Software Developer",
@@ -60,10 +59,10 @@ export default function Landing() {
                 "I'm a UWaterloo Student",
                 1000,
               ]}
-              speed={35} // Custom Speed from 1-99 - Default Speed: 40
+              speed={35}
               style={{ fontSize: "1em" }}
-              wrapper="div" // Animation will be rendered as a <span>
-              repeat={3} // Repeat this Animation Sequence infinitely
+              wrapper="div"
+              repeat={Infinity}
             />
           </div>
         </div>
