@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "gradient-70": "linear-gradient(70deg, var(--tw-gradient-stops))",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         gilroy: ["GilroyMedium", "sans-serif"],

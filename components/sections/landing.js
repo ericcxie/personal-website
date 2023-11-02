@@ -55,7 +55,7 @@ export default function Landing() {
               // Same String at the start will only be typed once, initially
               sequence={[
                 2400,
-                "I'm a Software Engineer",
+                "I'm a Software Developer",
                 1200,
                 "I'm a UWaterloo Student",
                 1000,
