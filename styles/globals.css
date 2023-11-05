@@ -65,11 +65,11 @@ textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
 
 /* Preloader */
 .loader__container {
-  --dot-size: 15px;
+  --dot-size: 20px;
   --bs-white-rgb: 255, 255, 255;
   position: absolute;
   inset: 0;
-  background-color: rgb(var(--bs-white-rgb), 0.5);
+  background-color: transparent;
   backdrop-filter: blur(0.25rem);
   z-index: 10;
   display: flex;
@@ -84,7 +84,7 @@ textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
   aspect-ratio: 1 / 1;
   border-radius: calc(var(--dot-size) / 2);
   background-color: var(--bs-primary);
-  animation: slide 1.5s infinite;
+  animation: slide 1.5s 1;
 }
 
 @keyframes slide {
