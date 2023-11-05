@@ -46,7 +46,7 @@ export default function Home() {
       {loading ? (
         <div className="flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode">
           <HashLoader
-            color="#7491B3"
+            color={darkMode ? "#7873f5" : "#7491B3"}
             size={100}
             loading={loading}
             className="text-center overscroll-none"

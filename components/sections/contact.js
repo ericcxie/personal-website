@@ -75,108 +75,104 @@ function ContactForm() {
   });
 
   return (
-    <form
-      name="contact"
-      onSubmit={formik.handleSubmit}
-      data-netlify="true"
-      className="space-y-4 bg-white xl:border dark:border-none dark:bg-darkmode md:p-6 rounded-lg relative"
-    >
-      <div>
-        <label className="font-gilroy relative">
-          <input
-            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-            type="text"
-            id="name"
-            name="name"
-            placeholder=" "
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            onFocus={() => setSubmitted(false)}
-            value={formik.values.name}
-          />
-          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
-            Name
-          </span>
-        </label>
-        {formik.errors.name && formik.touched.name && (
-          <p className="text-sm text-wild-blue-400 lg:text-base">
-            {formik.errors.name}
-          </p>
-        )}
-      </div>
-      <div>
-        <label className="font-gilroy relative">
-          <input
-            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-            type="email"
-            id="email"
-            name="email"
-            placeholder=" "
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            onFocus={() => setSubmitted(false)}
-            value={formik.values.email}
-          />
-          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
-            Email address
-          </span>
-        </label>
-        {formik.errors.email && formik.touched.email && (
-          <p className="text-sm text-wild-blue-400 lg:text-base">
-            {formik.errors.email}
-          </p>
-        )}
-      </div>
-
-      <div>
-        <label className="font-gilroy relative">
-          <textarea
-            className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-500 border-gray-200 p-3 text-sm focus:outline-none"
-            rows="8"
-            type="text"
-            id="message"
-            name="message"
-            placeholder=" "
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            onFocus={() => setSubmitted(false)}
-            value={formik.values.message}
-          />
-          <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 py-3 mx-1 px-2 transition duration-200 input-text">
-            Message
-          </span>
-        </label>
-        {formik.errors.message && formik.touched.message && (
-          <p className="text-sm text-wild-blue-400 lg:text-base">
-            {formik.errors.message}
-          </p>
-        )}
-        {submitted && (
-          <p className="text-sm text-wild-blue-400 dark:text-wild-blue-400 lg:text-base">
-            Success! I will get back to you soon.
-          </p>
-        )}
-      </div>
-
-      <div className="mt-2">
-        <div className="relative group mt-2">
-          <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7928CA] to-[#FF0080] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-          <button
-            type="submit"
-            className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
-          >
-            <span className="text-light-font font-gilroy dark:text-pf-light">
-              Say Hi.
+    <div className="rounded-3xl p-px bg-gradient-to-b from-blue-300 to-pink-300 dark:from-blue-800 dark:to-purple-800">
+      <form
+        name="contact"
+        onSubmit={formik.handleSubmit}
+        data-netlify="true"
+        className="space-y-4 bg-white dark:bg-darkmode md:p-6 rounded-[calc(1.5rem-1px)] relative"
+      >
+        <div>
+          <label className="font-gilroy relative">
+            <input
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              type="text"
+              id="name"
+              name="name"
+              placeholder=" "
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              onFocus={() => setSubmitted(false)}
+              value={formik.values.name}
+            />
+            <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+              Name
             </span>
-          </button>
+          </label>
+          {formik.errors.name && formik.touched.name && (
+            <p className="text-sm text-wild-blue-400 lg:text-base">
+              {formik.errors.name}
+            </p>
+          )}
         </div>
-      </div>
+        <div>
+          <label className="font-gilroy relative">
+            <input
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              type="email"
+              id="email"
+              name="email"
+              placeholder=" "
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              onFocus={() => setSubmitted(false)}
+              value={formik.values.email}
+            />
+            <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 -top-1 mx-1 px-2 transition duration-200 input-text">
+              Email address
+            </span>
+          </label>
+          {formik.errors.email && formik.touched.email && (
+            <p className="text-sm text-wild-blue-400 lg:text-base">
+              {formik.errors.email}
+            </p>
+          )}
+        </div>
 
-      {/* Blurry animated shapes */}
-      <div className="-z-40 absolute hidden xl:dark:inline top-5 -left-8 w-96 h-96 bg-wild-blue-400 dark:bg-[#FF0080] rounded-full mix-blend-multiply filter blur-2xl dark:opacity-30 animate-blob"></div>
-      <div className="-z-40 absolute hidden xl:dark:inline top-0 -right-1 w-96 h-96 bg-wild-blue-500 dark:bg-[#9425BD] rounded-full mix-blend-multiply filter blur-2xl dark:opacity-30 animate-blob animation-delay-2000"></div>
-      <div className="-z-40 absolute hidden xl:dark:inline -bottom-12 -right-12 w-96 h-96 bg-wild-blue-300 dark:bg-[#C51AA3] rounded-full mix-blend-multiply filter blur-2xl dark:opacity-30 animate-blob animation-delay-4000"></div>
-      <div className="-z-40 absolute hidden xl:dark:inline -bottom-16 right-56 w-96 h-96 bg-wild-blue-500 dark:bg-[#7928CA] rounded-full mix-blend-multiply filter blur-2xl dark:opacity-30 animate-blob animation-delay-6000"></div>
-    </form>
+        <div>
+          <label className="font-gilroy relative">
+            <textarea
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              rows="8"
+              type="text"
+              id="message"
+              name="message"
+              placeholder=" "
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              onFocus={() => setSubmitted(false)}
+              value={formik.values.message}
+            />
+            <span className="cursor-text text-md text-gray-500 dark:text-pf-light text-opacity-80 absolute left-0 py-3 mx-1 px-2 transition duration-200 input-text">
+              Message
+            </span>
+          </label>
+          {formik.errors.message && formik.touched.message && (
+            <p className="text-sm text-wild-blue-400 lg:text-base">
+              {formik.errors.message}
+            </p>
+          )}
+          {submitted && (
+            <p className="text-sm text-wild-blue-400 dark:text-wild-blue-400 lg:text-base">
+              Success! I will get back to you soon.
+            </p>
+          )}
+        </div>
+
+        <div className="mt-2">
+          <div className="relative group mt-2">
+            <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7928CA] to-[#FF0080] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <button
+              type="submit"
+              className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
+            >
+              <span className="text-gray-500 font-gilroy dark:text-pf-light">
+                Say Hi.
+              </span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   );
 }
