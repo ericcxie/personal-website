@@ -75,7 +75,7 @@ function ContactForm() {
   });
 
   return (
-    <div className="rounded-3xl p-px bg-gradient-to-b from-blue-300 to-pink-300 dark:from-blue-800 dark:to-purple-800">
+    <div className="rounded-3xl p-px bg-transparent lg:bg-gradient-to-b from-blue-300 to-pink-300 dark:from-blue-800 dark:to-purple-800">
       <form
         name="contact"
         onSubmit={formik.handleSubmit}
