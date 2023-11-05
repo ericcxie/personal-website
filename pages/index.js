@@ -21,7 +21,7 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1610);
   }, []);
 
   const toggleDarkMode = () => {
@@ -45,12 +45,28 @@ export default function Home() {
       <SEO darkMode={darkMode} />
       {loading ? (
         <div className="flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode">
-          <HashLoader
-            color={darkMode ? "#7873f5" : "#7491B3"}
-            size={100}
-            loading={loading}
-            className="text-center overscroll-none"
-          />
+          <div className="loader__container">
+            <div
+              className="loader__dot"
+              style={{ animationDelay: "0.1s", backgroundColor: "#01539D" }}
+            ></div>
+            <div
+              className="loader__dot"
+              style={{ animationDelay: "0.2s", backgroundColor: "#3D5F83" }}
+            ></div>
+            <div
+              className="loader__dot"
+              style={{ animationDelay: "0.3s", backgroundColor: "#786B6A" }}
+            ></div>
+            <div
+              className="loader__dot"
+              style={{ animationDelay: "0.4s", backgroundColor: "#B47750" }}
+            ></div>
+            <div
+              className="loader__dot"
+              style={{ animationDelay: "0.5s", backgroundColor: "#EF8336" }}
+            ></div>
+          </div>
         </div>
       ) : (
         <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode transition-colors duration-300">
