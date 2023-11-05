@@ -10,6 +10,7 @@ import Footer from "../components/navigation/footer";
 import Experiences from "../components/sections/experiences";
 import SEO from "../components/SEO.js";
 import Contact from "../components/sections/contact";
+import Preloader from "../components/preloader.js";
 
 ReactGa.initialize("G-Q53PM84TNW");
 
@@ -21,7 +22,7 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2300);
   }, []);
 
   const toggleDarkMode = () => {
@@ -44,14 +45,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <SEO darkMode={darkMode} />
       {loading ? (
-        <div className="flex items-center justify-center h-screen w-screen bg-white dark:bg-darkmode">
-          <HashLoader
-            color={darkMode ? "#7873f5" : "#7491B3"}
-            size={100}
-            loading={loading}
-            className="text-center overscroll-none"
-          />
-        </div>
+        <Preloader darkMode={darkMode} />
       ) : (
         <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-darkmode transition-colors duration-300">
           <NavBar
