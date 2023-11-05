@@ -30,7 +30,7 @@ function ProjectCard({
           backgroundImage: `linear-gradient(to right, ${glowFrom}, ${glowTo})`,
         }}
       ></div>
-      <div className="dark:bg-darkmode min-h-full relative border dark:border-transparent block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 lg:hover:-translate-y-1 dark:text-white">
+      <div className="bg-white dark:bg-darkmode min-h-full relative block lg:border lg:dark:border-none overflow-hidden rounded-lg shadow lg:shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 lg:hover:-translate-y-1 dark:text-white">
         <Link href={githubLink}>
           <Image
             src={imageSrc}
@@ -76,7 +76,7 @@ function ProjectCard({
               {description}
             </p>
           </div>
-          <div className="mt-3 flex">
+          <div className="mt-3 flex pr-1">
             <div className="flex flex-col-reverse">
               <p className="text-sm font-medium text-gray-500 dark:text-gray-200">
                 {techStack}
