@@ -43,7 +43,7 @@ export default function Landing() {
               data-aos-delay="1900"
               className="text-pf-dark dark:text-[#F2F2F2] font-gilroybold tracking-tight"
             >
-              <span className="bg-[length:100%_7px] bg-no-repeat bg-[center_bottom_0.2rem] bg-gradient-to-r from-wild-blue-400 to-wild-blue-400 dark:from-blue-800 dark:to-purple-800">
+              <span className="bg-[length:100%_7px] bg-no-repeat bg-[center_bottom_0.2rem] bg-gradient-to-tr from-wild-blue-400 to-wild-blue-400 dark:from-blue-800 dark:to-purple-800">
                 Eric Xie.
               </span>
             </h1>
