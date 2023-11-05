@@ -20,7 +20,7 @@ export default function Experiences() {
       >
         Experiences
       </h1>
-      <div className="mt-3 flex flex-col justify-center items-start">
+      <div className="mt-3 flex flex-col justify-center items-start lg:pl-2">
         <ul className="relative border-l -pl-0 border-gray-200 dark:border-gray-700 font-gilroy">
           {experiences.map((experience) => (
             <ExperienceCard key={experience.id} experience={experience} />
