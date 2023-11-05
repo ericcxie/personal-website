@@ -35,19 +35,19 @@ export default function Footer() {
         </div>
         <div className="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">
           <a
-            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#B854E5]"
+            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#B854E5] duration-200"
             href="/resume.pdf"
           >
             <IoDocumentText />
           </a>
           <a
-            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#6e5494]"
+            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#6e5494] duration-200"
             href="https://github.com/ericcxie"
           >
             <AiFillGithub />
           </a>
           <a
-            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#0077b5]"
+            className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#0077b5] duration-200"
             href="https://www.linkedin.com/in/ericcxie/"
           >
             <AiFillLinkedin />

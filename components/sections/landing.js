@@ -6,6 +6,7 @@ import {
   AiFillYoutube,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import dots from "../../public/SVG/dots.svg";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
@@ -40,9 +41,11 @@ export default function Landing() {
             <h1
               data-aos="fade-up"
               data-aos-delay="1900"
-              className="text-pf-dark dark:text-[#F2F2F2] font-gilroybold underline underline-offset-3 decoration-wild-blue-400 decoration-7 tracking-tight "
+              className="text-pf-dark dark:text-[#F2F2F2] font-gilroybold tracking-tight"
             >
-              Eric Xie.
+              <span className="bg-[length:100%_7px] bg-no-repeat bg-[center_bottom_0.2rem] bg-gradient-to-r from-wild-blue-400 to-wild-blue-400 dark:from-blue-700 dark:to-purple-800">
+                Eric Xie.
+              </span>
             </h1>
           </div>
           <div
@@ -97,40 +100,22 @@ export default function Landing() {
           data-aos-delay="2200"
           className="text-2xl flex justify-start gap-1 pl-1 py-2 md:text-3xl dark:text-white md:hidden lg:hidde"
         >
-          <a
-            className="hover:text-[#b31217]"
-            href="https://www.youtube.com/@ericcxie"
-          >
-            <AiFillYoutube />
+          <a href="mailto:pexie@uwaterloo.ca">
+            <MdEmail />
           </a>
-          <a
-            className="hover:text-[#c13584]"
-            href="https://www.instagram.com/ericcxie/"
-          >
+          <a href="https://www.instagram.com/ericcxie/">
             <AiOutlineInstagram />
           </a>
-          <a
-            className="hover:text-[#0077b5]"
-            href="https://www.linkedin.com/in/ericcxie/"
-          >
+          <a href="https://www.linkedin.com/in/ericcxie/">
             <AiFillLinkedin />
           </a>
-          <a
-            className="hover:text-[#00acee]"
-            href="https://twitter.com/ericx_3"
-          >
-            <AiOutlineTwitter />
-          </a>
-          <a
-            className="hover:text-[#6e5494]"
-            href="https://github.com/ericcxie"
-          >
+          <a href="https://github.com/ericcxie">
             <AiFillGithub />
           </a>
         </div>
       </div>
       <div
-        data-aos="fade-up"
+        data-aos="fade-in"
         data-aos-once
         data-aos-delay="2100"
         className="hidden md:w-1/2 md:inline"

@@ -53,3 +53,12 @@ textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
 .experience-card:last-child {
   margin-bottom: 0 !important;
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

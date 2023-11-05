@@ -6,7 +6,9 @@ import {
   AiFillYoutube,
   AiOutlineTwitter,
   AiOutlineClose,
+  AiOutlineMail,
 } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import { CgClose } from "react-icons/cg";
 import { FiMenu } from "react-icons/fi";
 import { useState, useRef, useEffect } from "react";
@@ -168,31 +170,25 @@ export default function NavBarPage(props) {
         >
           <div className="flex gap-1 text-xl xl:text-2xl text-[#303030] dark:text-white">
             <a
-              className="hover:text-[#b31217]"
-              href="https://www.youtube.com/@ericcxie"
+              className="hover:text-[#D54B3E] transition duration-500"
+              href="mailto:pexie@uwaterloo.ca"
             >
-              <AiFillYoutube />
+              <MdEmail />
             </a>
             <a
-              className="hover:text-[#c13584]"
+              className="hover:text-[#c13584] transition duration-500"
               href="https://www.instagram.com/ericcxie/"
             >
               <AiOutlineInstagram />
             </a>
             <a
-              className="hover:text-[#0077b5]"
+              className="hover:text-[#0077b5] transition duration-500"
               href="https://www.linkedin.com/in/ericcxie/"
             >
               <AiFillLinkedin />
             </a>
             <a
-              className="hover:text-[#00acee]"
-              href="https://twitter.com/ericx_3"
-            >
-              <AiOutlineTwitter />
-            </a>
-            <a
-              className="hover:text-[#6e5494]"
+              className="hover:text-[#6e5494] transition duration-500"
               href="https://github.com/ericcxie"
             >
               <AiFillGithub />

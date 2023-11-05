@@ -40,30 +40,36 @@ export default function About() {
           className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
           <p className="mx-auto max-w-lg py-2">
-            Hello! 👋 My name is Eric and I am a{" "}
+            Hello! 👋 My name is Eric and I'm a{" "}
             <a
               href="https://uwaterloo.ca/future-students/programs/computer-engineering"
-              className="font-gilroybold hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 dark:text-pf-light transition duration-500"
+              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               {" "}
               Computer Engineering
             </a>{" "}
             student at the{" "}
-            <a className="font-gilroybold">University of Waterloo</a>. My goal
-            is to develop meaningful and seamless user experiences.
+            <a
+              href="https://uwaterloo.ca/"
+              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
+            >
+              University of Waterloo
+            </a>
+            . My goal is to develop meaningful and seamless user experiences.
           </p>
           <p className="mx-auto max-w-lg py-2">
-            Previously, I was a Software Developer at
+            Previously, I was a Software Developer Intern at
             <a
               href="https://www.brookfieldannuity.com/en/"
-              className="font-gilroybold hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] hover:text-wild-blue-400 dark:text-pf-light transition duration-500"
+              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               {" "}
               Brookfield Annuity
             </a>{" "}
             helping to develop and automate insurance bidding tools. I am
-            currently seeking <a className="font-gilroybold">
-              Summer 2024
+            currently seeking{" "}
+            <a className="font-gilroybold bg-wild-blue-100 dark:bg-transparent">
+              Spring 2024
             </a>{" "}
             Software Engineering internships!
           </p>
