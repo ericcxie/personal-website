@@ -30,7 +30,7 @@ function ProjectCard({
           backgroundImage: `linear-gradient(to right, ${glowFrom}, ${glowTo})`,
         }}
       ></div>
-      <div className="dark:bg-darkmode min-h-full relative block border dark:border-none overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 hover:-translate-y-1 dark:text-white">
+      <div className="dark:bg-darkmode min-h-full relative border dark:border-transparent block overflow-hidden rounded-lg shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 lg:hover:-translate-y-1 dark:text-white">
         <Link href={githubLink}>
           <Image
             src={imageSrc}
