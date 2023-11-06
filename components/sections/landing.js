@@ -1,21 +1,21 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineInstagram,
-  AiFillYoutube,
-  AiOutlineTwitter,
 } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import dots from "../../public/SVG/dots.svg";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 
-export default function Landing() {
+import dots from "../../public/SVG/dots.svg";
+import dotsgradient from "../../public/SVG/dots_gradient.svg";
+
+export default function Landing(props) {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
@@ -120,7 +120,11 @@ export default function Landing() {
         data-aos-delay="2100"
         className="hidden md:w-1/2 md:inline"
       >
-        <Image src={dots} alt="main-dots" />
+        {props.darkMode ? (
+          <Image src={dotsgradient} alt="main-dots" />
+        ) : (
+          <Image src={dots} alt="main-dots" />
+        )}
       </div>
     </section>
   );
