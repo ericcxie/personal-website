@@ -3,10 +3,6 @@ import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineInstagram,
-  AiFillYoutube,
-  AiOutlineTwitter,
-  AiOutlineClose,
-  AiOutlineMail,
 } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { CgClose } from "react-icons/cg";
@@ -22,7 +18,6 @@ export default function NavBarPage(props) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
   const [navbar, setNavbar] = useState(false);
-
   const [prevIsOpen, setPrevIsOpen] = useState(isOpen);
 
   useEffect(() => {
@@ -76,7 +71,7 @@ export default function NavBarPage(props) {
             window.scrollTo({ top: 0, behavior: "smooth", duration: 100 });
           }}
         >
-          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-wild-blue-400 cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#3a7bd5] dark:to-[#2997c5]">
+          <h1 className="text-2xl mb-1 xl:-mb-1 font-gilroybold text-wild-blue-400 cursor-pointer bg-clip-text dark:text-transparent dark:bg-gradient-to-tr dark:from-blue-700 dark:to-purple-700">
             Eric Xie
           </h1>
         </button>

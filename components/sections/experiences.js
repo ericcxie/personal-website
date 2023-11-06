@@ -1,4 +1,3 @@
-// Experiences.js
 import Link from "next/link";
 import Aos from "aos";
 import "aos/dist/aos.css";

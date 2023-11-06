@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { HashLoader } from "react-spinners";
 import ReactGa from "react-ga4";
 
 import Landing from "../components/sections/landing";
@@ -53,7 +52,7 @@ export default function Home() {
             setDarkMode={setDarkMode}
             onClick={toggleDarkMode}
           />
-          <Landing />
+          <Landing darkMode={darkMode} />
           <Projects />
           <Experiences />
           <About />

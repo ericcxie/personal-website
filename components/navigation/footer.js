@@ -1,12 +1,4 @@
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiOutlineInstagram,
-  AiFillYoutube,
-  AiOutlineTwitter,
-  AiOutlineClose,
-} from "react-icons/ai";
-import { HiDocumentText } from "react-icons/hi";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoDocumentText } from "react-icons/io5";
 
 export default function Footer() {
