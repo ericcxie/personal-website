@@ -20,8 +20,6 @@ export default function NavBarPage(props) {
   const [navbar, setNavbar] = useState(false);
   const [prevIsOpen, setPrevIsOpen] = useState(isOpen);
 
-  console.log(isOpen);
-
   useEffect(() => {
     setPrevIsOpen(isOpen);
   }, [isOpen]);
