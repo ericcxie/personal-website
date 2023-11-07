@@ -68,9 +68,9 @@ export default function About() {
             </a>{" "}
             helping to develop and automate insurance bidding tools. I am
             currently seeking{" "}
-            <a className="font-gilroybold bg-wild-blue-100 dark:bg-transparent">
+            <span className="font-gilroybold bg-wild-blue-100 dark:bg-transparent">
               Spring 2024
-            </a>{" "}
+            </span>{" "}
             Software Engineering internships!
           </p>
 
