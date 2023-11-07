@@ -20,6 +20,8 @@ export default function NavBarPage(props) {
   const [navbar, setNavbar] = useState(false);
   const [prevIsOpen, setPrevIsOpen] = useState(isOpen);
 
+  console.log(isOpen);
+
   useEffect(() => {
     setPrevIsOpen(isOpen);
   }, [isOpen]);
@@ -212,7 +214,7 @@ export default function NavBarPage(props) {
           <button data-aos="fade-in" data-aos-delay="900">
             <li
               onClick={() => setIsOpen(!isOpen)}
-              className="text-3xl text-wild-blue-400 dark:text-[#7aace5] mb-2"
+              className="text-3xl text-wild-blue-400 dark:text-[#7873f5] mb-2"
             >
               {isOpen ? <CgClose /> : <FiMenu />}
             </li>
