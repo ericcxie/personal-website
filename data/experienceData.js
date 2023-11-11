@@ -9,7 +9,8 @@ const experiences = [
     department: "🧠 Digital Core AI",
     description:
       "Working as a software engineer on the Digital Core AI Team to modernize document processing within retail lending.",
-    tools: "Python, React.js, Amazon Web Services (AWS), SQL, Flask, Redux",
+    tools:
+      "TypeScript, PostgreSQL, Amazon Web Services (AWS), React, Python, Flask, Redux",
     image: "/img/logos/BMO.jpeg",
   },
   {

@@ -29,18 +29,24 @@ export default function Footer() {
           <a
             className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#B854E5] duration-200"
             href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <IoDocumentText />
           </a>
           <a
             className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#6e5494] duration-200"
             href="https://github.com/ericcxie"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <AiFillGithub />
           </a>
           <a
             className="transition ease-in-out delay-100 md:hover:-translate-y-1 hover:text-[#0077b5] duration-200"
             href="https://www.linkedin.com/in/ericcxie/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             <AiFillLinkedin />
           </a>

@@ -173,18 +173,24 @@ export default function NavBarPage(props) {
             <a
               className="hover:text-[#c13584] transition duration-500"
               href="https://www.instagram.com/ericcxie/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <AiOutlineInstagram />
             </a>
             <a
               className="hover:text-[#0077b5] transition duration-500"
               href="https://www.linkedin.com/in/ericcxie/"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <AiFillLinkedin />
             </a>
             <a
               className="hover:text-[#6e5494] transition duration-500"
               href="https://github.com/ericcxie"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <AiFillGithub />
             </a>

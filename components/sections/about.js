@@ -43,6 +43,8 @@ export default function About() {
             Hello! 👋 My name is Eric and I'm a{" "}
             <a
               href="https://uwaterloo.ca/future-students/programs/computer-engineering"
+              target="_blank"
+              rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               {" "}
@@ -51,6 +53,8 @@ export default function About() {
             student at the{" "}
             <a
               href="https://uwaterloo.ca/"
+              target="_blank"
+              rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               University of Waterloo
@@ -61,6 +65,8 @@ export default function About() {
             Previously, I was a Software Developer Intern at
             <a
               href="https://www.brookfieldannuity.com/en/"
+              target="_blank"
+              rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               {" "}

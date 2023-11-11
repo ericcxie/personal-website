@@ -32,7 +32,7 @@ export default function Experiences() {
           className="relative group mt-4 md:mt-7 transition-colors duration-300"
         >
           <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-          <Link href="/resume.pdf">
+          <Link href="/resume.pdf" target="_blank" rel="noreferrer noopener">
             <button className="py-2 relative rounded-lg px-4 inline-flex items-center bg-[##e0e0e0] shadow-light-button text-light-font font-gilroy text-sm dark:hover:bg-none dark:shadow-none active:shadow-inner transition-shadow ease-in-out duration-100 dark:bg-darkmode dark:text-gray-200">
               Resume{" "}
               <svg

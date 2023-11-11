@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => {
         data-aos-delay="100"
         className="flex flex-row gap-3"
       >
-        <a href={experience.website}>
+        <a href={experience.website} target="_blank" rel="noreferrer noopener">
           <Image
             className="hidden md:inline mt-2 h-10 w-10 rounded-md"
             src={experience.image}
@@ -29,7 +29,13 @@ const ExperienceCard = ({ experience }) => {
             {experience.duration}
           </time>
           <h1 className="text-lg font-semibold text-pf-dark dark:text-white">
-            <a href={experience.website}>{experience.company}</a>
+            <a
+              href={experience.website}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {experience.company}
+            </a>
           </h1>
           <h2 className="text-md italic font-normal text-wild-blue-600 dark:text-gray-200">
             {experience.role}

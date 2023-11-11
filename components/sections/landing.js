@@ -27,8 +27,6 @@ export default function Landing(props) {
     >
       <div className="pb-28 md:pb-20">
         <div className="pl-1 cursor-default">
-          {" "}
-          {/* Home page */}
           <h2
             data-aos="fade-up"
             data-aos-once
@@ -91,7 +89,9 @@ export default function Landing(props) {
           </div>
 
           <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
-            <Link href="/resume.pdf">Resume</Link>
+            <Link href="/resume.pdf" target="_blank" rel="noreferrer noopener">
+              Resume
+            </Link>
           </button>
         </div>
         <div
