@@ -20,7 +20,7 @@ const experiences = [
     role: "Software Developer Intern",
     duration: "Jan. 2023 - Apr. 2023",
     location: "Toronto, ON",
-    department: "📈 Pension Risk Transfer (PRT) Technology",
+    department: "📈 Pension Risk Transfer (PRT)",
     description:
       "Worked as a software developer on the Business Transformation Team to streamline insurance bidding processes.",
     tools: "Python, Pandas, NumPy, Plotly, Jupyter Notebook",

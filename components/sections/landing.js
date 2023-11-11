@@ -103,13 +103,25 @@ export default function Landing(props) {
           <a href="mailto:pexie@uwaterloo.ca">
             <MdEmail />
           </a>
-          <a href="https://www.instagram.com/ericcxie/">
+          <a
+            href="https://www.instagram.com/ericcxie/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiOutlineInstagram />
           </a>
-          <a href="https://www.linkedin.com/in/ericcxie/">
+          <a
+            href="https://www.linkedin.com/in/ericcxie/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiFillLinkedin />
           </a>
-          <a href="https://github.com/ericcxie">
+          <a
+            href="https://github.com/ericcxie"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiFillGithub />
           </a>
         </div>
