@@ -74,7 +74,7 @@ export default function Landing(props) {
           className="py-1 px-1 flex justify-start gap-4 mt-5 mb-2"
         >
           <div className="relative group">
-            <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg opacity-60 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div className=" hidden blur dark:inline absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl opacity-60 md:opacity-70 md:group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <ScrollLink
               to="contact"
               spy={true}
@@ -82,13 +82,13 @@ export default function Landing(props) {
               offset={0}
               duration={700}
             >
-              <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-lg pt-2 pb-2">
+              <button className="relative font-poppins text-small bg-wild-blue-400 hover:bg-dark active:shadow-inner dark:bg-[#0d122b] text-white dark:text-gray-100 font-medium py-1.5 px-12 rounded-xl pt-2 pb-2">
                 Connect
               </button>
             </ScrollLink>
           </div>
 
-          <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-blue-500 hover:dark:to-purple-600">
+          <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-tr hover:dark:from-blue-500 hover:dark:to-purple-600 transition duration-500">
             <Link href="/resume.pdf" target="_blank" rel="noreferrer noopener">
               Resume
             </Link>

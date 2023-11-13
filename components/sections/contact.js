@@ -85,7 +85,7 @@ function ContactForm() {
         <div>
           <label className="font-gilroy relative">
             <input
-              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-xl border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
               type="text"
               id="name"
               name="name"
@@ -108,7 +108,7 @@ function ContactForm() {
         <div>
           <label className="font-gilroy relative">
             <input
-              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-xl border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
               type="email"
               id="email"
               name="email"
@@ -132,7 +132,7 @@ function ContactForm() {
         <div>
           <label className="font-gilroy relative">
             <textarea
-              className="font-gilroy w-full dark:text-white transition duration-200 rounded-lg border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
+              className="font-gilroy w-full dark:text-white transition duration-200 rounded-xl border dark:bg-darkmode dark:border-gray-600 border-gray-200 p-3 text-sm focus:outline-none"
               rows="8"
               type="text"
               id="message"
@@ -161,7 +161,7 @@ function ContactForm() {
 
         <div className="mt-2">
           <div className="relative group mt-2">
-            <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7928CA] to-[#FF0080] rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <div className="hidden dark:inline absolute -inset-0.5 bg-gradient-to-r from-[#7928CA] to-[#FF0080] rounded-xl blur opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <button
               type="submit"
               className="transition-colors duration-300 relative text-sm lg:text-md inline-flex w-full items-center justify-center rounded-xl shadow-light-button dark:shadow-none active:shadow-inner bg-white dark:bg-darkmode px-5 py-3 text-gray-600 dark:text-gray-200"
