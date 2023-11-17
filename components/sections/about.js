@@ -58,8 +58,10 @@ export default function About() {
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
               University of Waterloo
-            </a>
-            . My goal is to develop meaningful and seamless user experiences.
+            </a>{" "}
+            with a growing passion for the intersection of finance and
+            technology. I aim to create meaningful and user-centric experiences
+            through my work.
           </p>
           <p className="mx-auto max-w-lg py-2">
             Previously, I was a Software Developer Intern at
@@ -81,8 +83,16 @@ export default function About() {
           </p>
 
           <p className="mx-auto max-w-lg py-2">
-            In my free time, I enjoy listening to podcasts, playing badminton,
-            and keeping up with the latest news in tech/finance!
+            When I'm not at my desk, I enjoy listening to{" "}
+            <a
+              href="https://bit.ly/MyPodcastRotation"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              podcasts
+            </a>
+            , playing badminton, and keeping up with the latest news in
+            tech/finance!
           </p>
 
           <p className="mx-auto max-w-lg py-2">
