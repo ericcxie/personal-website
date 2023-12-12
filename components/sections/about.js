@@ -64,14 +64,13 @@ export default function About() {
             through my work.
           </p>
           <p className="mx-auto max-w-lg py-2">
-            Previously, I was a Software Developer Intern at
+            Previously, I was a Software Developer Intern at{" "}
             <a
               href="https://www.brookfieldannuity.com/en/"
               target="_blank"
               rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
-              {" "}
               Brookfield Annuity
             </a>{" "}
             helping to develop and automate insurance bidding tools. I am
