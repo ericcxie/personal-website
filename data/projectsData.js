@@ -20,7 +20,8 @@ import optiwealth from "../public/img/projects/optiwealth.jpg";
 export const projects = [
   {
     imageSrc: optiwealth,
-    projectLink: "/demo/optiwealth.mp4",
+    videoDemo: "/demo/optiwealth.mp4",
+    projectLink: "https://www.optiwealth.app/",
     githubLink: "https://github.com/ericcxie/OptiWealth",
     title: "OptiWealth",
     description:
@@ -36,7 +37,8 @@ export const projects = [
   },
   {
     imageSrc: collaboracart,
-    projectLink: "/demo/CollaboraCart.mp4",
+    videoDemo: "/demo/CollaboraCart.mp4",
+    projectLink: "https://devpost.com/software/collaboracart",
     githubLink: "https://github.com/ericcxie/CollaboraCart",
     title: "CollaboraCart",
     description:
@@ -51,6 +53,7 @@ export const projects = [
   },
   {
     imageSrc: pomoduo,
+    videoDemo: "/demo/pomoduo-timer.mp4",
     projectLink: "/demo/pomoduo-timer.mp4",
     githubLink: "https://github.com/ericcxie/pomoduo-timer",
     title: "PomoDuo Timer",

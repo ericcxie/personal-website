@@ -4,6 +4,7 @@ import Link from "next/link";
 
 function ProjectCard({
   imageSrc,
+  videoDemo,
   projectLink,
   githubLink,
   title,
@@ -31,7 +32,7 @@ function ProjectCard({
         }}
       ></div>
       <div className="bg-white dark:bg-darkmode min-h-full relative block lg:border lg:dark:border-none overflow-hidden rounded-lg shadow lg:shadow-light-button dark:shadow-none active:shadow-inner hover:border-b-0 hover:shadow-lg transition ease-in-out delay-100 lg:hover:-translate-y-1 dark:text-white">
-        <Link href={projectLink} target="_blank" rel="noreferrer noopener">
+        <Link href={videoDemo} target="_blank" rel="noreferrer noopener">
           <Image
             src={imageSrc}
             className="sm:hidden xl:inline h-44 md:h-48 2xl:h-60 w-full rounded-t-lg object-cover md:scale-105"
