@@ -20,7 +20,7 @@ import optiwealth from "../public/img/projects/optiwealth.jpg";
 export const projects = [
   {
     imageSrc: optiwealth,
-    projectLink: "https://github.com/ericcxie/OptiWealth",
+    projectLink: "/demo/optiwealth.mp4",
     githubLink: "https://github.com/ericcxie/OptiWealth",
     title: "OptiWealth",
     description:
@@ -36,7 +36,7 @@ export const projects = [
   },
   {
     imageSrc: collaboracart,
-    projectLink: "https://devpost.com/software/collaboracart",
+    projectLink: "/demo/CollaboraCart.mp4",
     githubLink: "https://github.com/ericcxie/CollaboraCart",
     title: "CollaboraCart",
     description:
