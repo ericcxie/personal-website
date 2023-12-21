@@ -4,7 +4,7 @@ const experiences = [
     company: "BMO Financial Group",
     website: "http://www.bmo.com/",
     role: "Software Engineer Intern",
-    duration: "Sep. 2023 – Present",
+    duration: "Sep. 2023 – Dec. 2023",
     location: "Toronto, ON",
     department: "🧠 Digital Core AI",
     description:

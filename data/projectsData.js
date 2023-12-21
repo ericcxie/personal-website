@@ -27,7 +27,7 @@ export const projects = [
     description:
       "An all-in-one investment management platform that allows users to monitor, analyze and rebalance their portfolios",
     techStack:
-      "Typescript // React.js // Python // Flask // PostgreSQL // Firebase // Vercel // Railway",
+      "Typescript // React.js // Python // Flask // PostgreSQL // Firebase",
     colorFrom: "#100E5E",
     colorVia: "#103CB6",
     colorTo: "#156CC3",
