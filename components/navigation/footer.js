@@ -22,7 +22,7 @@ export default function Footer() {
             </p>
           </a>
           <p className="text-sm font-gilroy text-gray-600 dark:text-gray-300 ">
-            © 2023 Eric Xie.
+            © {new Date().getFullYear()} Eric Xie.
           </p>
         </div>
         <div className="flex -mx-2 text-gray-700 text-2xl gap-2 dark:text-white">
