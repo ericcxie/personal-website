@@ -1,6 +1,18 @@
 const experiences = [
   {
     id: 1,
+    company: "Hack the North",
+    website: "https://hackthenorth.com/",
+    role: "Frontend Developer",
+    duration: "Mar. 2024 - Present",
+    location: "Waterloo, ON",
+    department: "🌱 Building platforms for Canada's largest hackathon",
+    description: "",
+    tools: "React, TypeScript, GraphQL, Tailwind CSS",
+    image: "/img/logos/hackthenorth.jpeg",
+  },
+  {
+    id: 2,
     company: "BMO Financial Group",
     website: "http://www.bmo.com/",
     role: "Software Engineer Intern",
@@ -14,7 +26,7 @@ const experiences = [
     image: "/img/logos/BMO.jpeg",
   },
   {
-    id: 2,
+    id: 3,
     company: "Brookfield Annuity",
     website: "https://www.brookfieldannuity.com/en/",
     role: "Software Developer Intern",
