@@ -8,7 +8,7 @@ const experiences = [
     location: "Waterloo, ON",
     department: "🌱 Building platforms for Canada's largest hackathon",
     description: "",
-    tools: "React, TypeScript, GraphQL, Tailwind CSS",
+    tools: "React, TypeScript, GraphQL",
     image: "/img/logos/hackthenorth.jpeg",
   },
   {
