@@ -64,19 +64,19 @@ export default function About() {
             through my work.
           </p>
           <p className="mx-auto max-w-lg py-2">
-            Previously, I was a Software Developer Intern at{" "}
+            Previously, I was a Software Engineer Intern at{" "}
             <a
-              href="https://www.brookfieldannuity.com/en/"
+              href="https://www.bmo.com/en-ca/main/personal/"
               target="_blank"
               rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
             >
-              Brookfield Annuity
+              Bank of Montreal (BMO)
             </a>{" "}
-            helping to develop and automate insurance bidding tools. I am
-            currently seeking{" "}
+            helping to streamline loan approval processes. I am currently
+            seeking{" "}
             <span className="font-gilroybold bg-wild-blue-100 dark:bg-transparent">
-              Spring 2024
+              2024
             </span>{" "}
             Software Engineering internships!
           </p>
@@ -164,7 +164,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Firebase
+                GraphQL
               </li>
             </ul>
             <ul className="flex flex-col">
